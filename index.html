@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEO Exam Prep — Horticulture Extension Officer Mock Tests</title>
+    <meta name="description"
+        content="Comprehensive mock test platform for Himachal Pradesh HEO (Horticulture Extension Officer) exam. Practice horticulture, reasoning, GK, and more.">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div class="bg-decoration"></div>
+
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="app-logo">
+                <div class="app-logo-icon">🌿</div>
+                <h1 class="app-title">HEO Exam Prep</h1>
+            </div>
+            <p class="app-subtitle">Horticulture Extension Officer — Mock Test</p>
+            <div class="app-badge">
+                <span class="pulse-dot"></span>
+                <span id="dailyTestBadge">Today's Tests Available</span>
+            </div>
+        </header>
+
+        <!-- ==========================================
+         HOME SCREEN
+         ========================================== -->
+        <div id="homeScreen" class="home-screen">
+            <!-- Stats Bar -->
+            <div class="stats-bar">
+                <div class="stat-card">
+                    <div class="stat-value" id="totalQuestions">320+</div>
+                    <div class="stat-label">Total Questions</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="totalTests">30</div>
+                    <div class="stat-label">Mock Tests</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="testsAttempted">0</div>
+                    <div class="stat-label">Attempted</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="avgScore">—</div>
+                    <div class="stat-label">Avg Score</div>
+                </div>
+            </div>
+
+            <!-- Navigation Tabs -->
+            <nav class="nav-tabs">
+                <button class="nav-tab active" data-tab="all" onclick="filterTests('all')">📋 All Tests</button>
+                <button class="nav-tab" data-tab="horticulture" onclick="filterTests('horticulture')">🌱
+                    Horticulture</button>
+                <button class="nav-tab" data-tab="general" onclick="filterTests('general')">📚 General</button>
+                <button class="nav-tab" data-tab="overall" onclick="filterTests('overall')">🏆 Overall</button>
+                <button class="nav-tab" data-tab="daily" onclick="filterTests('daily')">📅 Daily</button>
+            </nav>
+
+            <!-- Test Cards -->
+            <div id="testGrid" class="test-grid">
+                <!-- Populated by JS -->
+            </div>
+        </div>
+
+        <!-- ==========================================
+         QUIZ SCREEN
+         ========================================== -->
+        <div id="quizScreen" class="quiz-screen">
+            <!-- Top Bar -->
+            <div class="quiz-topbar">
+                <div class="quiz-info">
+                    <span class="quiz-test-name" id="quizTestName"></span>
+                    <span class="quiz-progress" id="quizProgress">1/50</span>
+                </div>
+                <div class="quiz-timer" id="quizTimer">
+                    ⏱️ <span id="timerDisplay">60:00</span>
+                </div>
+            </div>
+
+            <!-- Progress Bar -->
+            <div class="quiz-progress-bar">
+                <div class="quiz-progress-fill" id="progressFill" style="width: 0%"></div>
+            </div>
+
+            <!-- Question Card -->
+            <div class="question-card" id="questionCard">
+                <div>
+                    <span class="question-number" id="questionNumber">Q. 1</span>
+                    <span class="question-topic" id="questionTopic">Pomology</span>
+                </div>
+                <p class="question-text" id="questionText"></p>
+                <div class="options-grid" id="optionsGrid"></div>
+                <div class="explanation-box" id="explanationBox">
+                    <strong>💡 Explanation:</strong> <span id="explanationText"></span>
+                </div>
+            </div>
+
+            <!-- Navigation -->
+            <div class="quiz-nav">
+                <button class="quiz-nav-btn" onclick="prevQuestion()">← Previous</button>
+                <button class="quiz-nav-btn danger" onclick="confirmSubmit()">Submit Test</button>
+                <button class="quiz-nav-btn primary" onclick="nextQuestion()">Next →</button>
+            </div>
+
+            <!-- Question Navigator -->
+            <div class="question-navigator" id="questionNavigator"></div>
+        </div>
+
+        <!-- ==========================================
+         RESULTS SCREEN
+         ========================================== -->
+        <div id="resultsScreen" class="results-screen">
+            <div class="results-hero">
+                <div class="results-score-circle" id="scoreCircle">
+                    <span class="results-percentage" id="scorePercent">0%</span>
+                    <span class="results-fraction" id="scoreFraction">0/0</span>
+                </div>
+                <h2 class="results-status" id="resultStatus">Test Complete!</h2>
+                <p class="results-message" id="resultMessage"></p>
+            </div>
+
+            <div class="results-breakdown">
+                <div class="breakdown-card">
+                    <div class="breakdown-value correct" id="correctCount">0</div>
+                    <div class="breakdown-label">Correct</div>
+                </div>
+                <div class="breakdown-card">
+                    <div class="breakdown-value wrong" id="wrongCount">0</div>
+                    <div class="breakdown-label">Wrong</div>
+                </div>
+                <div class="breakdown-card">
+                    <div class="breakdown-value skipped" id="skippedCount">0</div>
+                    <div class="breakdown-label">Skipped</div>
+                </div>
+                <div class="breakdown-card">
+                    <div class="breakdown-value time" id="timeTaken">00:00</div>
+                    <div class="breakdown-label">Time Taken</div>
+                </div>
+            </div>
+
+            <!-- Topic-wise breakdown -->
+            <div class="section-title"><span class="icon">📊</span> Topic-wise Performance</div>
+            <div id="topicBreakdown" class="results-breakdown" style="margin-bottom: 24px;"></div>
+
+            <div class="results-actions">
+                <button class="quiz-nav-btn" onclick="reviewAnswers()">📝 Review Answers</button>
+                <button class="quiz-nav-btn primary" onclick="goHome()">🏠 Back to Tests</button>
+            </div>
+        </div>
+
+        <!-- ==========================================
+         REVIEW SCREEN
+         ========================================== -->
+        <div id="reviewScreen" class="quiz-screen">
+            <div class="quiz-topbar">
+                <div class="quiz-info">
+                    <span class="quiz-test-name">📝 Review Mode</span>
+                    <span class="quiz-progress" id="reviewProgress">1/50</span>
+                </div>
+                <button class="quiz-nav-btn" onclick="goResults()" style="margin:0">← Back to Results</button>
+            </div>
+            <div class="quiz-progress-bar">
+                <div class="quiz-progress-fill" id="reviewProgressFill" style="width: 0%"></div>
+            </div>
+            <div class="question-card" id="reviewQuestionCard">
+                <div>
+                    <span class="question-number" id="reviewQuestionNumber">Q. 1</span>
+                    <span class="question-topic" id="reviewQuestionTopic"></span>
+                </div>
+                <p class="question-text" id="reviewQuestionText"></p>
+                <div class="options-grid" id="reviewOptionsGrid"></div>
+                <div class="explanation-box visible" id="reviewExplanationBox">
+                    <strong>💡 Explanation:</strong> <span id="reviewExplanationText"></span>
+                </div>
+            </div>
+            <div class="quiz-nav">
+                <button class="quiz-nav-btn" onclick="prevReview()">← Previous</button>
+                <button class="quiz-nav-btn" onclick="goResults()">Back to Results</button>
+                <button class="quiz-nav-btn primary" onclick="nextReview()">Next →</button>
+            </div>
+            <div class="question-navigator" id="reviewNavigator"></div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer
+        style="text-align:center; padding:32px 0 24px; color:#567a62; font-size:0.85rem; position:relative; z-index:1;">
+        <p>Made with ❤️ by <span style="color:#4ade80; font-weight:600;">Anshul Singh</span></p>
+        <p style="margin-top:4px; font-size:0.75rem; color:#3a5a44;">HEO Exam Prep — Horticulture Extension Officer Mock
+            Test Platform</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

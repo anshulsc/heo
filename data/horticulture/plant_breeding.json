@@ -1,0 +1,752 @@
+[
+    {
+        "id": "BRD_001",
+        "question": "Pure line selection is used in:",
+        "options": [
+            "Cross-pollinated crops",
+            "Self-pollinated crops",
+            "Vegetatively propagated crops",
+            "All of the above"
+        ],
+        "answer": 1,
+        "explanation": "Pure line selection is used in self-pollinated crops. A pure line is progeny of a single homozygous plant obtained by continued self-pollination.",
+        "difficulty": "medium",
+        "topic": "plant_breeding",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "BRD_002",
+        "question": "Heterosis refers to:",
+        "options": [
+            "Inbreeding depression",
+            "Superiority of F1 hybrid over parents",
+            "Mutation",
+            "Polyploidy"
+        ],
+        "answer": 1,
+        "explanation": "Heterosis (hybrid vigor) is the superiority of the F1 hybrid over the better parent (heterobeltiosis) or mid-parent value for yield and other traits.",
+        "difficulty": "medium",
+        "topic": "plant_breeding",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "BRD_003",
+        "question": "Colchicine is used in plant breeding for:",
+        "options": [
+            "Inducing mutations",
+            "Inducing polyploidy",
+            "Breaking dormancy",
+            "Promoting flowering"
+        ],
+        "answer": 1,
+        "explanation": "Colchicine (from Colchicum autumnale) inhibits spindle formation during cell division, resulting in chromosome doubling (polyploidy). It is used to create tetraploids.",
+        "difficulty": "hard",
+        "topic": "plant_breeding",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "BRD_004",
+        "question": "Back cross method is used for:",
+        "options": [
+            "Creating new species",
+            "Transferring a specific gene to an existing variety",
+            "Inducing mutations",
+            "Population improvement"
+        ],
+        "answer": 1,
+        "explanation": "Back cross breeding is used to transfer one or a few desirable genes (e.g., disease resistance) from a donor parent to an otherwise well-adapted recurrent parent.",
+        "difficulty": "hard",
+        "topic": "plant_breeding",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "BRD_005",
+        "question": "The centre of origin concept was given by:",
+        "options": [
+            "Mendel",
+            "N.I. Vavilov",
+            "Darwin",
+            "De Vries"
+        ],
+        "answer": 1,
+        "explanation": "N.I. Vavilov (1926) proposed the concept of centres of origin of cultivated plants. He identified 8 centres of origin worldwide.",
+        "difficulty": "medium",
+        "topic": "plant_breeding",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "BRD_006",
+        "question": "Which breeding method is commonly used for improvement of cross-pollinated crops?",
+        "options": [
+            "Pure line selection",
+            "Mass selection",
+            "Pedigree method",
+            "Recurrent selection"
+        ],
+        "answer": 3,
+        "explanation": "Recurrent selection is used for population improvement in cross-pollinated crops by increasing the frequency of desirable genes through repeated cycles of selection and intercrossing.",
+        "difficulty": "hard",
+        "topic": "plant_breeding",
+        "source": "AFO"
+    },
+    {
+        "id": "BRD_007",
+        "question": "Mutation breeding was first used practically in:",
+        "options": [
+            "Wheat",
+            "Rice",
+            "Cotton",
+            "Barley"
+        ],
+        "answer": 2,
+        "explanation": "Mutation breeding was first practically applied in cotton. Physical mutagens (X-rays, gamma rays) and chemical mutagens (EMS) are used to create variability.",
+        "difficulty": "hard",
+        "topic": "plant_breeding",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "BRD_008",
+        "question": "Self-incompatibility is used in hybrid seed production of:",
+        "options": [
+            "Tomato",
+            "Cabbage and cauliflower",
+            "Potato",
+            "Pea"
+        ],
+        "answer": 1,
+        "explanation": "Self-incompatibility (sporophytic type) in Brassica crops (cabbage, cauliflower) is exploited for F1 hybrid seed production without costly hand emasculation.",
+        "difficulty": "hard",
+        "topic": "plant_breeding",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "BRD_009",
+        "question": "Emasculation refers to:",
+        "options": [
+            "Removal of pistils",
+            "Removal of stamens/anthers",
+            "Removal of petals",
+            "Removal of sepals"
+        ],
+        "answer": 1,
+        "explanation": "Emasculation is the removal of anthers (stamens) from bisexual flowers before pollen shed to prevent self-pollination in hybridization programs.",
+        "difficulty": "easy",
+        "topic": "plant_breeding",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "BRD_010",
+        "question": "The chemical mutagen commonly used is:",
+        "options": [
+            "Gamma rays",
+            "EMS (Ethyl Methane Sulphonate)",
+            "UV rays",
+            "X-rays"
+        ],
+        "answer": 1,
+        "explanation": "EMS is the most commonly used chemical mutagen in plant breeding. It causes point mutations by alkylating guanine bases in DNA.",
+        "difficulty": "hard",
+        "topic": "plant_breeding",
+        "source": "AFO"
+    },
+    {
+        "id": "BRD_011",
+        "question": "Somatic hybridization involves:",
+        "options": [
+            "Sexual crossing",
+            "Fusion of protoplasts from two species",
+            "Grafting",
+            "Budding"
+        ],
+        "answer": 1,
+        "explanation": "Somatic hybridization involves fusion of protoplasts (cells without cell walls) from two different species using PEG or electrofusion to create interspecific hybrids.",
+        "difficulty": "hard",
+        "topic": "plant_breeding",
+        "source": "AFO"
+    },
+    {
+        "id": "BRD_012",
+        "question": "The Pedigree method of breeding involves:",
+        "options": [
+            "Random selection only",
+            "Selection based on individual plant performance across generations",
+            "Backcrossing",
+            "Clonal selection"
+        ],
+        "answer": 1,
+        "explanation": "Pedigree method involves selection of individual plants in segregating populations (F2-F6) with complete record of parent-progeny relationships.",
+        "difficulty": "medium",
+        "topic": "plant_breeding",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "BRD_013",
+        "question": "Gene bank for conservation of plant genetic resources preserves:",
+        "options": [
+            "Only seeds",
+            "Seeds, pollen, tissue, and DNA",
+            "Only live plants",
+            "Only herbarium specimens"
+        ],
+        "answer": 1,
+        "explanation": "Gene banks conserve genetic diversity through seeds (orthodox), pollen, in vitro tissue cultures (recalcitrant seeds), field gene banks, cryopreservation, and DNA banks.",
+        "difficulty": "medium",
+        "topic": "plant_breeding",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "BRD_014",
+        "question": "Clonal selection is used for improvement of:",
+        "options": [
+            "Self-pollinated crops",
+            "Cross-pollinated crops",
+            "Vegetatively propagated crops",
+            "Annual crops"
+        ],
+        "answer": 2,
+        "explanation": "Clonal selection is used for improvement of vegetatively propagated crops (sugarcane, potato, fruit trees) by selecting superior clones from a variable population.",
+        "difficulty": "medium",
+        "topic": "plant_breeding",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "BRD_015",
+        "question": "Green Revolution in India was achieved through:",
+        "options": [
+            "Organic farming",
+            "High yielding varieties of wheat and rice",
+            "Traditional varieties",
+            "Mixed cropping"
+        ],
+        "answer": 1,
+        "explanation": "Green Revolution (1960s-70s) was achieved through high yielding, semi-dwarf varieties of wheat (Sonalika, Kalyan Sona) and rice (IR-8, Jaya) developed by N.E. Borlaug and M.S. Swaminathan.",
+        "difficulty": "easy",
+        "topic": "plant_breeding",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "BRD_016",
+        "question": "PPV&FR Act in India relates to:",
+        "options": [
+            "Pesticide regulation",
+            "Protection of Plant Varieties and Farmers' Rights",
+            "Post-harvest processing",
+            "Pollution control"
+        ],
+        "answer": 1,
+        "explanation": "The PPV&FR Act 2001 provides intellectual property rights to plant breeders and recognizes farmers' rights as cultivators and conservers of plant genetic resources.",
+        "difficulty": "medium",
+        "topic": "plant_breeding",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "BRD_017",
+        "question": "Diallel cross is used for:",
+        "options": [
+            "Testing seed viability",
+            "Estimating combining ability",
+            "Increasing seed production",
+            "Controlling diseases"
+        ],
+        "answer": 1,
+        "explanation": "Diallel cross (all possible crosses among a set of parents) is used to estimate general combining ability (GCA) and specific combining ability (SCA) of parents.",
+        "difficulty": "hard",
+        "topic": "plant_breeding",
+        "source": "AFO"
+    },
+    {
+        "id": "BRD_018",
+        "question": "Norman Borlaug is known as:",
+        "options": [
+            "Father of Genetics",
+            "Father of Green Revolution",
+            "Father of Plant Pathology",
+            "Father of Botany"
+        ],
+        "answer": 1,
+        "explanation": "Norman E. Borlaug is called the 'Father of Green Revolution' for developing high-yielding, disease-resistant dwarf wheat varieties. He received the Nobel Peace Prize in 1970.",
+        "difficulty": "easy",
+        "topic": "plant_breeding",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "BRD_019",
+        "question": "Bt crops contain gene from:",
+        "options": [
+            "Escherichia coli",
+            "Bacillus thuringiensis",
+            "Agrobacterium tumefaciens",
+            "Rhizobium"
+        ],
+        "answer": 1,
+        "explanation": "Bt crops contain cry genes from Bacillus thuringiensis soil bacterium. The Bt protein is toxic to specific insect pests (Lepidoptera, Coleoptera).",
+        "difficulty": "medium",
+        "topic": "plant_breeding",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "BRD_020",
+        "question": "Apomixis in horticulture is important because:",
+        "options": [
+            "It requires pollination",
+            "It produces seeds asexually, maintaining hybrid vigor",
+            "It reduces fruit size",
+            "It delays maturity"
+        ],
+        "answer": 1,
+        "explanation": "Apomixis produces seeds without fertilization, creating maternal clones. This is important for maintaining hybrid vigor and producing uniform rootstock seedlings in citrus and mango.",
+        "difficulty": "hard",
+        "topic": "plant_breeding",
+        "source": "AFO"
+    },
+    {
+        "id": "BRD_021",
+        "question": "Hybridization in horticultural crops involves:",
+        "options": [
+            "Self pollination",
+            "Crossing two genetically different parents",
+            "Vegetative propagation",
+            "Mutation"
+        ],
+        "answer": 1,
+        "explanation": "Hybridization is the crossing of two genetically different parents to combine desirable traits and produce superior offspring.",
+        "difficulty": "easy",
+        "topic": "plant_breeding",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "BRD_022",
+        "question": "Polyploidy can be induced by:",
+        "options": [
+            "Colchicine",
+            "IAA",
+            "GA3",
+            "Ethylene"
+        ],
+        "answer": 0,
+        "explanation": "Colchicine inhibits spindle fiber formation during cell division, resulting in chromosome doubling (polyploidy). Used to create seedless watermelon.",
+        "difficulty": "hard",
+        "topic": "plant_breeding",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "BRD_023",
+        "question": "Self-incompatibility is found in:",
+        "options": [
+            "Tomato",
+            "Cabbage",
+            "Pea",
+            "Wheat"
+        ],
+        "answer": 1,
+        "explanation": "Self-incompatibility (SI) in cabbage/brassicas prevents self-fertilization and maintains cross-pollination, ensuring genetic diversity.",
+        "difficulty": "hard",
+        "topic": "plant_breeding",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "BRD_024",
+        "question": "Pure line selection is suitable for:",
+        "options": [
+            "Cross-pollinated crops",
+            "Self-pollinated crops",
+            "Vegetatively propagated crops",
+            "Apomictic crops"
+        ],
+        "answer": 1,
+        "explanation": "Pure line selection involves selecting superior homozygous lines from self-pollinated crops like tomato, pea, and wheat.",
+        "difficulty": "medium",
+        "topic": "plant_breeding",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "BRD_025",
+        "question": "Mutation breeding uses:",
+        "options": [
+            "Hybridization",
+            "Physical/chemical mutagens",
+            "Polyploidy",
+            "Selection"
+        ],
+        "answer": 1,
+        "explanation": "Mutation breeding uses physical (X-rays, gamma rays) or chemical (EMS, MMS) mutagens to create genetic variability for selection.",
+        "difficulty": "medium",
+        "topic": "plant_breeding",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "BRD_026",
+        "question": "Heterosis or hybrid vigor is maximum in:",
+        "options": [
+            "F1 generation",
+            "F2 generation",
+            "F3 generation",
+            "Parental generation"
+        ],
+        "answer": 0,
+        "explanation": "Heterosis (hybrid vigor) is maximum in F1 and declines in subsequent generations due to segregation and loss of heterozygosity.",
+        "difficulty": "medium",
+        "topic": "plant_breeding",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "BRD_027",
+        "question": "Marker Assisted Selection (MAS) uses:",
+        "options": [
+            "Visual selection only",
+            "DNA markers linked to desired genes",
+            "Chemical mutagens",
+            "Polyploidy"
+        ],
+        "answer": 1,
+        "explanation": "MAS uses molecular markers (SSR, SNP) linked to desired traits for indirect selection, speeding up breeding programs.",
+        "difficulty": "hard",
+        "topic": "plant_breeding",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "BRD_028",
+        "question": "Backcross breeding is used to:",
+        "options": [
+            "Create new species",
+            "Transfer one or few genes to otherwise good variety",
+            "Induce mutations",
+            "Develop open-pollinated varieties"
+        ],
+        "answer": 1,
+        "explanation": "Backcross breeding transfers specific genes (e.g., disease resistance) from donor to recurrent parent while retaining its desirable traits.",
+        "difficulty": "hard",
+        "topic": "plant_breeding",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "BRD_029",
+        "question": "Clonal selection is practiced in:",
+        "options": [
+            "Self-pollinated crops",
+            "Cross-pollinated crops",
+            "Vegetatively propagated crops",
+            "Annual crops only"
+        ],
+        "answer": 2,
+        "explanation": "Clonal selection identifies and multiplies superior clones from vegetatively propagated crops like sugarcane, potato, fruits.",
+        "difficulty": "medium",
+        "topic": "plant_breeding",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "BRD_030",
+        "question": "Male sterility in plants means:",
+        "options": [
+            "No female flowers",
+            "Non-functional pollen",
+            "No seeds",
+            "Seedless fruits"
+        ],
+        "answer": 1,
+        "explanation": "Male sterility results in non-functional/aborted pollen, used extensively for hybrid seed production without manual emasculation.",
+        "difficulty": "medium",
+        "topic": "plant_breeding",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "BRD_031",
+        "question": "Somaclonal variation arises from:",
+        "options": [
+            "Sexual reproduction",
+            "Tissue culture",
+            "Grafting",
+            "Layering"
+        ],
+        "answer": 1,
+        "explanation": "Somaclonal variation is genetic variation in plants regenerated from tissue culture, useful as a source of novel traits.",
+        "difficulty": "hard",
+        "topic": "plant_breeding",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "BRD_032",
+        "question": "Emasculation in hybridization means:",
+        "options": [
+            "Removal of petals",
+            "Removal of anthers before dehiscence",
+            "Removal of stigma",
+            "Pollination"
+        ],
+        "answer": 1,
+        "explanation": "Emasculation is removal of anthers/stamens from flower buds before pollen shed to prevent self-pollination for controlled crossing.",
+        "difficulty": "medium",
+        "topic": "plant_breeding",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "BRD_033",
+        "question": "Genetic engineering involves:",
+        "options": [
+            "Traditional crossing",
+            "Direct transfer of genes between organisms",
+            "Selection only",
+            "Polyploidy"
+        ],
+        "answer": 1,
+        "explanation": "Genetic engineering (rDNA technology) involves direct transfer/insertion of specific genes across species barriers using vectors.",
+        "difficulty": "medium",
+        "topic": "plant_breeding",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "BRD_034",
+        "question": "Semi-dwarf wheat varieties were developed by:",
+        "options": [
+            "Dr. B.P. Pal",
+            "Dr. M.S. Swaminathan and Norman Borlaug",
+            "Gregor Mendel",
+            "Dr. Y.S. Parmar"
+        ],
+        "answer": 1,
+        "explanation": "Green Revolution wheat varieties using Norin-10 dwarfing genes were developed by Borlaug, adapted for India by Swaminathan.",
+        "difficulty": "medium",
+        "topic": "plant_breeding",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "BRD_035",
+        "question": "Pedigree method of breeding involves:",
+        "options": [
+            "Mass selection",
+            "Maintaining records of ancestry of selected plants",
+            "Backcrossing",
+            "Mutation"
+        ],
+        "answer": 1,
+        "explanation": "Pedigree method maintains detailed genealogical records of individual plant selections from F2 onwards in segregating populations.",
+        "difficulty": "hard",
+        "topic": "plant_breeding",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "BRD_036",
+        "question": "Quantitative traits are controlled by:",
+        "options": [
+            "Single gene",
+            "Multiple genes (polygenes)",
+            "Cytoplasmic factors only",
+            "Environmental factors only"
+        ],
+        "answer": 1,
+        "explanation": "Quantitative traits (yield, fruit size) are controlled by multiple genes with small cumulative effects and environmental influence.",
+        "difficulty": "hard",
+        "topic": "plant_breeding",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "BRD_037",
+        "question": "DUS testing stands for:",
+        "options": [
+            "Durability, Uniformity, Stability",
+            "Distinctness, Uniformity, Stability",
+            "Disease, Utilization, Storage",
+            "Development, Usage, Sale"
+        ],
+        "answer": 1,
+        "explanation": "DUS (Distinctness, Uniformity, Stability) testing is mandatory for registration and protection of new plant varieties under PPV&FR Act 2001.",
+        "difficulty": "medium",
+        "topic": "plant_breeding",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "BRD_038",
+        "question": "Triploid banana varieties are:",
+        "options": [
+            "Fertile and seeded",
+            "Sterile and seedless",
+            "Self-pollinated",
+            "Wind pollinated"
+        ],
+        "answer": 1,
+        "explanation": "Commercial banana cultivars are triploids (3n=33), sterile and seedless due to unbalanced chromosome complements during meiosis.",
+        "difficulty": "hard",
+        "topic": "plant_breeding",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "BRD_039",
+        "question": "Wide hybridization refers to:",
+        "options": [
+            "Crossing within same variety",
+            "Crossing between different species or genera",
+            "Mass selection",
+            "Mutation breeding"
+        ],
+        "answer": 1,
+        "explanation": "Wide/distant hybridization crosses different species/genera to transfer novel genes (e.g., disease resistance from wild relatives).",
+        "difficulty": "hard",
+        "topic": "plant_breeding",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "BRD_040",
+        "question": "CRISPR-Cas9 is used in:",
+        "options": [
+            "Tissue culture",
+            "Gene/genome editing",
+            "Polyploidy induction",
+            "Hybrid seed production"
+        ],
+        "answer": 1,
+        "explanation": "CRISPR-Cas9 is a precise genome editing tool allowing targeted modification of specific genes for crop improvement.",
+        "difficulty": "hard",
+        "topic": "plant_breeding",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "BRD_041",
+        "question": "Seed certification ensures:",
+        "options": [
+            "High market price",
+            "Genetic and physical purity of seeds",
+            "Pest resistance",
+            "Drought tolerance"
+        ],
+        "answer": 1,
+        "explanation": "Seed certification is a legally controlled quality assurance system ensuring genetic identity, purity, and germination standards.",
+        "difficulty": "medium",
+        "topic": "plant_breeding",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "BRD_042",
+        "question": "The Protection of Plant Varieties and Farmers' Rights Act was passed in India in:",
+        "options": [
+            "1966",
+            "1983",
+            "2001",
+            "2010"
+        ],
+        "answer": 2,
+        "explanation": "PPV&FR Act 2001 provides IPR protection for plant varieties and protects farmers' rights to save, use, and sell farm-saved seeds.",
+        "difficulty": "medium",
+        "topic": "plant_breeding",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "BRD_043",
+        "question": "Inbreeding depression occurs due to:",
+        "options": [
+            "Increased heterozygosity",
+            "Increased homozygosity",
+            "Polyploidy",
+            "Mutation"
+        ],
+        "answer": 1,
+        "explanation": "Inbreeding depression is reduction in vigor due to increased homozygosity, exposing deleterious recessive alleles.",
+        "difficulty": "hard",
+        "topic": "plant_breeding",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "BRD_044",
+        "question": "Diallel cross is used to study:",
+        "options": [
+            "Cytoplasmic inheritance",
+            "General and specific combining ability",
+            "Linkage mapping",
+            "Mutation frequency"
+        ],
+        "answer": 1,
+        "explanation": "Diallel cross (all possible crosses among parents) estimates GCA and SCA for identifying best parents and hybrid combinations.",
+        "difficulty": "hard",
+        "topic": "plant_breeding",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "BRD_045",
+        "question": "Recurrent selection is mainly used for:",
+        "options": [
+            "Self-pollinated crops",
+            "Cross-pollinated crops",
+            "Vegetatively propagated crops",
+            "All crops equally"
+        ],
+        "answer": 1,
+        "explanation": "Recurrent selection is a cyclical breeding method used in cross-pollinated crops to gradually increase frequency of favorable alleles.",
+        "difficulty": "hard",
+        "topic": "plant_breeding",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "BRD_046",
+        "question": "Synthetic variety in crops is:",
+        "options": [
+            "An F1 hybrid",
+            "A variety maintained by open pollination of selected inbred lines",
+            "A mutation",
+            "A clone"
+        ],
+        "answer": 1,
+        "explanation": "Synthetic variety is produced by intercrossing several selected lines and maintained through open pollination in subsequent generations.",
+        "difficulty": "hard",
+        "topic": "plant_breeding",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "BRD_047",
+        "question": "Green Revolution in India was primarily associated with:",
+        "options": [
+            "Horticulture",
+            "Wheat and rice",
+            "Pulses",
+            "Oilseeds"
+        ],
+        "answer": 1,
+        "explanation": "Green Revolution (1960s-70s) focused on high-yielding wheat (Kalyan Sona, Sonalika) and rice (IR8, Jaya) varieties in India.",
+        "difficulty": "easy",
+        "topic": "plant_breeding",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "BRD_048",
+        "question": "Biotechnology in plant breeding includes:",
+        "options": [
+            "Tissue culture",
+            "Molecular markers",
+            "Genetic engineering",
+            "All of the above"
+        ],
+        "answer": 3,
+        "explanation": "Plant biotechnology encompasses tissue culture, molecular markers (MAS), genetic engineering, and genomics for crop improvement.",
+        "difficulty": "easy",
+        "topic": "plant_breeding",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "BRD_049",
+        "question": "Vavilov's centres of origin identified:",
+        "options": [
+            "5 centres",
+            "8 centres",
+            "12 centres",
+            "20 centres"
+        ],
+        "answer": 1,
+        "explanation": "N.I. Vavilov identified 8 primary centres of origin of cultivated plants based on diversity analysis across the world.",
+        "difficulty": "hard",
+        "topic": "plant_breeding",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "BRD_050",
+        "question": "Ideotype breeding aims at:",
+        "options": [
+            "Creating ideal plant type for specific conditions",
+            "Random selection",
+            "Wide hybridization",
+            "Mutation breeding"
+        ],
+        "answer": 0,
+        "explanation": "Ideotype breeding designs and develops the ideal plant architecture (height, branching, leaf angle) for maximum yield potential.",
+        "difficulty": "hard",
+        "topic": "plant_breeding",
+        "source": "ICAR_JRF"
+    }
+]

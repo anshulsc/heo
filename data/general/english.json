@@ -1,0 +1,227 @@
+[
+    {
+        "id": "ENG_001",
+        "question": "Choose the correct synonym of 'Eloquent':",
+        "options": [
+            "Silent",
+            "Fluent",
+            "Vague",
+            "Hostile"
+        ],
+        "answer": 1,
+        "explanation": "'Eloquent' means fluent or persuasive in speaking or writing. Synonym: Fluent, Articulate.",
+        "difficulty": "medium",
+        "topic": "english",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "ENG_002",
+        "question": "Select the correct passive voice of: 'The teacher teaches the students.'",
+        "options": [
+            "The students are being taught by the teacher.",
+            "The students are taught by the teacher.",
+            "The students were taught by the teacher.",
+            "The students have been taught by the teacher."
+        ],
+        "answer": 1,
+        "explanation": "Simple present active → Simple present passive: Subject + is/are + V3. 'The students are taught by the teacher.'",
+        "difficulty": "medium",
+        "topic": "english",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "ENG_003",
+        "question": "Choose the correct antonym of 'Benevolent':",
+        "options": [
+            "Kind",
+            "Generous",
+            "Malevolent",
+            "Charitable"
+        ],
+        "answer": 2,
+        "explanation": "'Benevolent' means well-meaning, kind. Its antonym is 'Malevolent' (having ill will, malicious).",
+        "difficulty": "medium",
+        "topic": "english",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "ENG_004",
+        "question": "Fill in the blank: 'He has been working here _____ 2015.'",
+        "options": [
+            "since",
+            "for",
+            "from",
+            "by"
+        ],
+        "answer": 0,
+        "explanation": "'Since' is used with a specific point in time (2015, Monday, January). 'For' is used with a period of time (5 years, 3 hours).",
+        "difficulty": "easy",
+        "topic": "english",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "ENG_005",
+        "question": "The meaning of the idiom 'To burn the midnight oil' is:",
+        "options": [
+            "To waste resources",
+            "To study or work late into the night",
+            "To set fire",
+            "To cook at night"
+        ],
+        "answer": 1,
+        "explanation": "'To burn the midnight oil' means to work or study hard late into the night.",
+        "difficulty": "medium",
+        "topic": "english",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "ENG_006",
+        "question": "Choose the correctly spelt word:",
+        "options": [
+            "Accomodation",
+            "Accommodation",
+            "Accommadation",
+            "Acomodation"
+        ],
+        "answer": 1,
+        "explanation": "The correct spelling is 'Accommodation' — double 'c', double 'm'.",
+        "difficulty": "easy",
+        "topic": "english",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "ENG_007",
+        "question": "Choose the correct indirect speech: He said, 'I am going to Delhi.'",
+        "options": [
+            "He said that he is going to Delhi.",
+            "He said that he was going to Delhi.",
+            "He said that I was going to Delhi.",
+            "He said that he had been going to Delhi."
+        ],
+        "answer": 1,
+        "explanation": "Direct → Indirect: 'am going' changes to 'was going' (present continuous → past continuous), 'I' → 'he'.",
+        "difficulty": "medium",
+        "topic": "english",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "ENG_008",
+        "question": "The word 'Ambiguous' means:",
+        "options": [
+            "Clear",
+            "Having more than one meaning",
+            "Honest",
+            "Abundant"
+        ],
+        "answer": 1,
+        "explanation": "'Ambiguous' means open to more than one interpretation; unclear or inexact.",
+        "difficulty": "medium",
+        "topic": "english",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "ENG_009",
+        "question": "Choose the correct article: '___ Himalaya is the highest mountain range.'",
+        "options": [
+            "A",
+            "An",
+            "The",
+            "No article needed"
+        ],
+        "answer": 2,
+        "explanation": "'The' is used before mountain ranges (The Himalayas, The Alps, The Andes).",
+        "difficulty": "easy",
+        "topic": "english",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "ENG_010",
+        "question": "One word substitution for 'A person who loves mankind':",
+        "options": [
+            "Misanthrope",
+            "Philanthropist",
+            "Atheist",
+            "Introvert"
+        ],
+        "answer": 1,
+        "explanation": "A 'Philanthropist' is a person who loves and actively works for the welfare of mankind. A 'Misanthrope' is the opposite.",
+        "difficulty": "medium",
+        "topic": "english",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "ENG_011",
+        "question": "Choose the correct preposition: 'She is good ___ mathematics.'",
+        "options": [
+            "in",
+            "at",
+            "on",
+            "with"
+        ],
+        "answer": 1,
+        "explanation": "The correct phrase is 'good at' a subject or skill. 'Good at mathematics/singing/cooking.'",
+        "difficulty": "easy",
+        "topic": "english",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "ENG_012",
+        "question": "The plural of 'phenomenon' is:",
+        "options": [
+            "Phenomenons",
+            "Phenomena",
+            "Phenomenas",
+            "Phenomeni"
+        ],
+        "answer": 1,
+        "explanation": "'Phenomenon' (Greek origin) → plural: 'Phenomena'. Similar: criterion/criteria, datum/data.",
+        "difficulty": "medium",
+        "topic": "english",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "ENG_013",
+        "question": "Identify the type of sentence: 'What a beautiful sunset!'",
+        "options": [
+            "Interrogative",
+            "Imperative",
+            "Exclamatory",
+            "Declarative"
+        ],
+        "answer": 2,
+        "explanation": "An exclamatory sentence expresses strong emotion and ends with an exclamation mark. 'What a..!' and 'How..!' are exclamatory patterns.",
+        "difficulty": "easy",
+        "topic": "english",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "ENG_014",
+        "question": "The meaning of the phrase 'Once in a blue moon' is:",
+        "options": [
+            "Every month",
+            "Very rarely",
+            "During full moon",
+            "At night"
+        ],
+        "answer": 1,
+        "explanation": "'Once in a blue moon' means very rarely, almost never. A blue moon is an uncommon astronomical event.",
+        "difficulty": "easy",
+        "topic": "english",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "ENG_015",
+        "question": "Choose the correct sentence:",
+        "options": [
+            "He don't know the answer.",
+            "He doesn't knows the answer.",
+            "He doesn't know the answer.",
+            "He do not knows the answer."
+        ],
+        "answer": 2,
+        "explanation": "With third person singular (he/she/it), use 'doesn't' + base form of verb (know, not knows).",
+        "difficulty": "easy",
+        "topic": "english",
+        "source": "TGT_HP"
+    }
+]

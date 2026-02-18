@@ -1,0 +1,902 @@
+[
+    {
+        "id": "GH_001",
+        "question": "Which spice is known as the 'Queen of Spices'?",
+        "options": [
+            "Black pepper",
+            "Cardamom",
+            "Cinnamon",
+            "Clove"
+        ],
+        "answer": 1,
+        "explanation": "Cardamom (Elettaria cardamomum) is called the 'Queen of Spices'. Black pepper is the 'King of Spices'.",
+        "difficulty": "easy",
+        "topic": "general_horticulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "GH_002",
+        "question": "Saffron (Kesar) is mainly grown in which Indian state?",
+        "options": [
+            "Himachal Pradesh",
+            "Jammu & Kashmir",
+            "Uttarakhand",
+            "Rajasthan"
+        ],
+        "answer": 1,
+        "explanation": "Saffron is mainly cultivated in Pampore (Pulwama district) of Jammu & Kashmir. India produces about 5-6 tonnes annually.",
+        "difficulty": "easy",
+        "topic": "general_horticulture",
+        "source": "HAU_HP"
+    },
+    {
+        "id": "GH_003",
+        "question": "Which medicinal plant is known as 'Holy Basil'?",
+        "options": [
+            "Ashwagandha",
+            "Tulsi (Ocimum sanctum)",
+            "Aloe vera",
+            "Neem"
+        ],
+        "answer": 1,
+        "explanation": "Tulsi (Ocimum sanctum/O. tenuiflorum) is known as Holy Basil. It contains eugenol and is used in traditional medicine for its anti-inflammatory, antimicrobial properties.",
+        "difficulty": "easy",
+        "topic": "general_horticulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "GH_004",
+        "question": "Green manuring is primarily done to:",
+        "options": [
+            "Control weeds",
+            "Improve soil fertility and organic matter",
+            "Control pests",
+            "Reduce irrigation"
+        ],
+        "answer": 1,
+        "explanation": "Green manuring involves growing and incorporating leguminous crops (Dhaincha, Sunhemp) into the soil to improve organic matter, nitrogen content, and soil structure.",
+        "difficulty": "easy",
+        "topic": "general_horticulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "GH_005",
+        "question": "Vermicompost is prepared using:",
+        "options": [
+            "Bacteria",
+            "Fungi",
+            "Earthworms",
+            "Algae"
+        ],
+        "answer": 2,
+        "explanation": "Vermicompost is prepared by using earthworms (Eisenia fetida, Eudrilus eugeniae) to decompose organic waste into nutrient-rich compost.",
+        "difficulty": "easy",
+        "topic": "general_horticulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "GH_006",
+        "question": "Drip irrigation was developed in:",
+        "options": [
+            "India",
+            "Israel",
+            "USA",
+            "Japan"
+        ],
+        "answer": 1,
+        "explanation": "Drip (trickle) irrigation was developed in Israel by Simcha Blass in the 1960s. It delivers water directly to the root zone, achieving 90-95% efficiency.",
+        "difficulty": "medium",
+        "topic": "general_horticulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "GH_007",
+        "question": "Integrated Pest Management (IPM) involves:",
+        "options": [
+            "Chemical control only",
+            "Biological control only",
+            "Combination of cultural, biological, chemical, and physical methods",
+            "Organic farming only"
+        ],
+        "answer": 2,
+        "explanation": "IPM is a holistic approach combining cultural, biological, mechanical, and selective chemical methods to manage pests below economic threshold levels with minimal environmental impact.",
+        "difficulty": "medium",
+        "topic": "general_horticulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "GH_008",
+        "question": "Which nutrient is essential for chlorophyll formation?",
+        "options": [
+            "Calcium",
+            "Magnesium",
+            "Potassium",
+            "Phosphorus"
+        ],
+        "answer": 1,
+        "explanation": "Magnesium is the central atom in the chlorophyll molecule. Its deficiency causes interveinal chlorosis in older leaves first (mobile nutrient).",
+        "difficulty": "medium",
+        "topic": "general_horticulture",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "GH_009",
+        "question": "INM (Integrated Nutrient Management) aims at:",
+        "options": [
+            "Using only chemical fertilizers",
+            "Balanced use of organic, inorganic, and biological nutrient sources",
+            "Using only organic manures",
+            "Reducing all fertilizer use"
+        ],
+        "answer": 1,
+        "explanation": "INM involves balanced and judicious use of chemical fertilizers, organic manures (FYM, compost), biofertilizers, and green manures for sustainable soil fertility.",
+        "difficulty": "medium",
+        "topic": "general_horticulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "GH_010",
+        "question": "Which mushroom is commonly cultivated in India?",
+        "options": [
+            "Shiitake only",
+            "Button mushroom (Agaricus bisporus)",
+            "Truffle",
+            "Morel only"
+        ],
+        "answer": 1,
+        "explanation": "Button mushroom (Agaricus bisporus) accounts for about 73% of India's mushroom production. Oyster mushroom (Pleurotus) is the second most cultivated type.",
+        "difficulty": "medium",
+        "topic": "general_horticulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "GH_011",
+        "question": "The 'Father of Indian Horticulture' is:",
+        "options": [
+            "M.S. Swaminathan",
+            "M.H. Marigowda",
+            "N.E. Borlaug",
+            "B.P. Pal"
+        ],
+        "answer": 1,
+        "explanation": "Dr. M.H. Marigowda is known as the 'Father of Indian Horticulture' for his pioneering work in developing horticulture in India, especially in Karnataka.",
+        "difficulty": "medium",
+        "topic": "general_horticulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "GH_012",
+        "question": "National Horticulture Mission (NHM) was launched in:",
+        "options": [
+            "2000-01",
+            "2005-06",
+            "2010-11",
+            "2014-15"
+        ],
+        "answer": 1,
+        "explanation": "NHM was launched in 2005-06 as a centrally sponsored scheme for holistic development of horticulture sector. Now subsumed under MIDH (Mission for Integrated Development of Horticulture).",
+        "difficulty": "medium",
+        "topic": "general_horticulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "GH_013",
+        "question": "Which is the highest tea-producing state in India?",
+        "options": [
+            "Kerala",
+            "Tamil Nadu",
+            "Assam",
+            "West Bengal"
+        ],
+        "answer": 2,
+        "explanation": "Assam is India's largest tea-producing state, accounting for over 50% of India's tea production. Assam tea is known for its strong, malty flavor.",
+        "difficulty": "easy",
+        "topic": "general_horticulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "GH_014",
+        "question": "Organic farming certification in India is governed by:",
+        "options": [
+            "ICAR",
+            "NPOP (National Programme for Organic Production)",
+            "FSSAI",
+            "APEDA only"
+        ],
+        "answer": 1,
+        "explanation": "NPOP (under the Ministry of Commerce) governs organic farming certification in India, with APEDA as the implementing agency for exports.",
+        "difficulty": "hard",
+        "topic": "general_horticulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "GH_015",
+        "question": "Which biofertilizer is used for nitrogen fixation in legumes?",
+        "options": [
+            "Azotobacter",
+            "Rhizobium",
+            "Azospirillum",
+            "PSB"
+        ],
+        "answer": 1,
+        "explanation": "Rhizobium forms root nodules in leguminous plants and fixes atmospheric nitrogen through symbiotic relationship, providing 50-300 kg N/ha/year.",
+        "difficulty": "easy",
+        "topic": "general_horticulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "GH_016",
+        "question": "Protected cultivation includes:",
+        "options": [
+            "Open field cultivation",
+            "Greenhouse, polyhouse, shade net cultivation",
+            "Shifting cultivation",
+            "Dryland farming"
+        ],
+        "answer": 1,
+        "explanation": "Protected cultivation includes growing crops under controlled/modified environments using greenhouses, polyhouses, shade nets, mulches, and low tunnels for quality production year-round.",
+        "difficulty": "easy",
+        "topic": "general_horticulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "GH_017",
+        "question": "Mycorrhiza is a beneficial association between:",
+        "options": [
+            "Fungi and roots",
+            "Bacteria and leaves",
+            "Algae and stems",
+            "Virus and roots"
+        ],
+        "answer": 0,
+        "explanation": "Mycorrhiza is a symbiotic association between soil fungi and plant roots. VAM (Vesicular Arbuscular Mycorrhiza) helps in phosphorus uptake and drought resistance.",
+        "difficulty": "medium",
+        "topic": "general_horticulture",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "GH_018",
+        "question": "Which is the national research institute for horticulture in India?",
+        "options": [
+            "CPRI Shimla",
+            "IIHR Bangalore",
+            "IARI New Delhi",
+            "YSPUHF Nauni"
+        ],
+        "answer": 1,
+        "explanation": "IIHR (Indian Institute of Horticultural Research), Bengaluru, established in 1967, is the premier national institute for horticultural research under ICAR.",
+        "difficulty": "medium",
+        "topic": "general_horticulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "GH_019",
+        "question": "Precision farming involves:",
+        "options": [
+            "Traditional farming practices",
+            "Site-specific crop management using technology (GPS, sensors, drones)",
+            "Organic farming only",
+            "Dry farming"
+        ],
+        "answer": 1,
+        "explanation": "Precision farming uses modern technology (GPS, GIS, remote sensing, drones, sensors) for site-specific management of inputs like water, fertilizers, and pesticides to optimize yields and reduce waste.",
+        "difficulty": "medium",
+        "topic": "general_horticulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "GH_020",
+        "question": "The horticulture university of Himachal Pradesh is:",
+        "options": [
+            "CSK HPKV Palampur",
+            "YSP University of Horticulture and Forestry, Nauni",
+            "HPAU Hamirpur",
+            "IIT Mandi"
+        ],
+        "answer": 1,
+        "explanation": "Dr. Yashwant Singh Parmar University of Horticulture and Forestry (YSPUHF), Nauni, Solan, established in 1985, is HP's agriculture/horticulture university.",
+        "difficulty": "easy",
+        "topic": "general_horticulture",
+        "source": "HAU_HP"
+    },
+    {
+        "id": "GH_021",
+        "question": "What percentage of India's GDP comes from horticulture?",
+        "options": [
+            "About 2%",
+            "About 5.5%",
+            "About 15%",
+            "About 25%"
+        ],
+        "answer": 1,
+        "explanation": "Horticulture contributes about 5-6% to India's GDP and about 33% to the total agricultural GDP. India is the 2nd largest producer of fruits and vegetables globally.",
+        "difficulty": "medium",
+        "topic": "general_horticulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "GH_022",
+        "question": "Which micronutrient deficiency causes chlorosis between veins in young leaves?",
+        "options": [
+            "Zinc",
+            "Iron",
+            "Manganese",
+            "Copper"
+        ],
+        "answer": 1,
+        "explanation": "Iron deficiency causes interveinal chlorosis in young/new leaves because iron is immobile in the plant. Veins remain green while interveinal areas turn yellow/white.",
+        "difficulty": "hard",
+        "topic": "general_horticulture",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "GH_023",
+        "question": "MIDH stands for:",
+        "options": [
+            "Ministry of Irrigation and Development of Horticulture",
+            "Mission for Integrated Development of Horticulture",
+            "Market Integration for Development of Horticulture",
+            "Multi-sector Investment in Development of Horticulture"
+        ],
+        "answer": 1,
+        "explanation": "MIDH (Mission for Integrated Development of Horticulture) is a centrally sponsored scheme that subsumed NHM, HMNEH, NHB, CDB, and CCIB for holistic horticulture development.",
+        "difficulty": "medium",
+        "topic": "general_horticulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "GH_024",
+        "question": "Which growth regulator is known as 'stress hormone'?",
+        "options": [
+            "Auxin",
+            "Gibberellin",
+            "ABA (Abscisic Acid)",
+            "Cytokinin"
+        ],
+        "answer": 2,
+        "explanation": "ABA (Abscisic acid) is called the 'stress hormone' because its levels increase under stress conditions (drought, salinity), causing stomatal closure and dormancy.",
+        "difficulty": "medium",
+        "topic": "general_horticulture",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "GH_025",
+        "question": "Which is the most critical nutrient in plant nutrition?",
+        "options": [
+            "Nitrogen",
+            "Phosphorus",
+            "Potassium",
+            "Calcium"
+        ],
+        "answer": 0,
+        "explanation": "Nitrogen is the most critical nutrient for plant growth. It is a constituent of proteins, enzymes, nucleic acids, and chlorophyll. Deficiency causes stunted growth and yellowing.",
+        "difficulty": "easy",
+        "topic": "general_horticulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "GH_026",
+        "question": "What is kitchen gardening?",
+        "options": [
+            "Large-scale commercial farming",
+            "Growing vegetables/herbs near home for family consumption",
+            "Floriculture",
+            "Landscaping"
+        ],
+        "answer": 1,
+        "explanation": "Kitchen gardening (vegetable gardening/home gardening) is growing vegetables, herbs, and fruits near the house for daily family use, ensuring fresh, pesticide-free produce.",
+        "difficulty": "easy",
+        "topic": "general_horticulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "GH_027",
+        "question": "The instrument used for soil pH measurement is:",
+        "options": [
+            "Tensiometer",
+            "pH meter",
+            "Lysimeter",
+            "Hydrometer"
+        ],
+        "answer": 1,
+        "explanation": "A pH meter electronically measures the hydrogen ion concentration in soil solution. Soil pH affects nutrient availability to plants (optimal: 6.0-7.0 for most crops).",
+        "difficulty": "easy",
+        "topic": "general_horticulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "GH_028",
+        "question": "Bordeaux mixture is a:",
+        "options": [
+            "Insecticide",
+            "Fungicide (copper sulphate + lime)",
+            "Herbicide",
+            "Nematicide"
+        ],
+        "answer": 1,
+        "explanation": "Bordeaux mixture (CuSO4 + Ca(OH)2 + water, typically 1:1:100) is a copper-based contact fungicide used against downy mildew, blights, and cankers in fruit/vegetable crops.",
+        "difficulty": "medium",
+        "topic": "general_horticulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "GH_029",
+        "question": "Which plant hormone delays leaf senescence?",
+        "options": [
+            "Ethylene",
+            "ABA",
+            "Cytokinin",
+            "Auxin"
+        ],
+        "answer": 2,
+        "explanation": "Cytokinins delay leaf senescence (anti-senescence effect) by maintaining chloroplast integrity, protein content, and photosynthetic activity in leaves.",
+        "difficulty": "hard",
+        "topic": "general_horticulture",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "GH_030",
+        "question": "GAP stands for:",
+        "options": [
+            "General Agriculture Policy",
+            "Good Agricultural Practices",
+            "Global Agriculture Programme",
+            "Green Agriculture Plan"
+        ],
+        "answer": 1,
+        "explanation": "GAP (Good Agricultural Practices) is a set of principles for on-farm production and post-production processes to ensure safe, quality food while protecting the environment.",
+        "difficulty": "medium",
+        "topic": "general_horticulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "GH_031",
+        "question": "The father of Indian Horticulture is:",
+        "options": [
+            "Dr. M.H. Marigowda",
+            "Dr. B.P. Pal",
+            "Dr. M.S. Swaminathan",
+            "Dr. Y.S. Parmar"
+        ],
+        "answer": 0,
+        "explanation": "Dr. M.H. Marigowda is known as the Father of Indian Horticulture for his pioneering work in fruit and vegetable science.",
+        "difficulty": "easy",
+        "topic": "general_horticulture",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "GH_032",
+        "question": "NHB (National Horticulture Board) was established in:",
+        "options": [
+            "1975",
+            "1984",
+            "1992",
+            "2001"
+        ],
+        "answer": 1,
+        "explanation": "NHB was established in 1984 under the Ministry of Agriculture to promote integrated development of horticulture in India.",
+        "difficulty": "medium",
+        "topic": "general_horticulture",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "GH_033",
+        "question": "MIDH stands for:",
+        "options": [
+            "Ministry of Indian Development of Horticulture",
+            "Mission for Integrated Development of Horticulture",
+            "Management of Indian Date Horticulture",
+            "Modern Indian Developments in Horticulture"
+        ],
+        "answer": 1,
+        "explanation": "MIDH is a centrally sponsored scheme for holistic growth of horticulture sector covering fruits, vegetables, flowers, spices, etc.",
+        "difficulty": "medium",
+        "topic": "general_horticulture",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "GH_034",
+        "question": "Drip irrigation was first developed in:",
+        "options": [
+            "India",
+            "USA",
+            "Israel",
+            "Japan"
+        ],
+        "answer": 2,
+        "explanation": "Modern drip irrigation was developed in Israel by Simcha Blass in the 1960s. It saves 30-70% water compared to flood irrigation.",
+        "difficulty": "medium",
+        "topic": "general_horticulture",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "GH_035",
+        "question": "Fertigation means:",
+        "options": [
+            "Foliar spray of fertilizers",
+            "Application of fertilizers through irrigation water",
+            "Soil application of fertilizers",
+            "Seed treatment with fertilizers"
+        ],
+        "answer": 1,
+        "explanation": "Fertigation applies soluble fertilizers through drip/micro-sprinkler irrigation for precise nutrient delivery to root zone.",
+        "difficulty": "easy",
+        "topic": "general_horticulture",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "GH_036",
+        "question": "Integrated Pest Management (IPM) involves:",
+        "options": [
+            "Only chemical control",
+            "Only biological control",
+            "Combination of cultural, biological, chemical and mechanical methods",
+            "Only resistant varieties"
+        ],
+        "answer": 2,
+        "explanation": "IPM integrates multiple pest management strategies to minimize pesticide use while keeping pest below economic threshold level.",
+        "difficulty": "easy",
+        "topic": "general_horticulture",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "GH_037",
+        "question": "IIHR (Indian Institute of Horticultural Research) is located at:",
+        "options": [
+            "New Delhi",
+            "Bangalore",
+            "Lucknow",
+            "Pune"
+        ],
+        "answer": 1,
+        "explanation": "IIHR is located at Hesaraghatta, Bangalore, Karnataka. It is a premier ICAR institute for horticultural research since 1967.",
+        "difficulty": "easy",
+        "topic": "general_horticulture",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "GH_038",
+        "question": "Organic farming excludes use of:",
+        "options": [
+            "Compost",
+            "Vermicompost",
+            "Synthetic chemicals and GMOs",
+            "Neem-based pesticides"
+        ],
+        "answer": 2,
+        "explanation": "Organic farming avoids synthetic fertilizers, pesticides, and GMOs, relying on natural inputs, crop rotation, and biological methods.",
+        "difficulty": "easy",
+        "topic": "general_horticulture",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "GH_039",
+        "question": "Vermicompost is prepared using:",
+        "options": [
+            "Bacteria",
+            "Earthworms",
+            "Fungi",
+            "Blue-green algae"
+        ],
+        "answer": 1,
+        "explanation": "Vermicompost is produced using earthworms (Eisenia fetida) to decompose organic waste into nutrient-rich humus-like material.",
+        "difficulty": "easy",
+        "topic": "general_horticulture",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "GH_040",
+        "question": "The most important micronutrient deficiency in alkaline soils is:",
+        "options": [
+            "Nitrogen",
+            "Iron (Fe)",
+            "Potassium",
+            "Phosphorus"
+        ],
+        "answer": 1,
+        "explanation": "Iron deficiency (chlorosis) is common in alkaline/calcareous soils (pH>7.5) as Fe becomes insoluble at high pH.",
+        "difficulty": "hard",
+        "topic": "general_horticulture",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "GH_041",
+        "question": "Mulching is done to:",
+        "options": [
+            "Conserve soil moisture and suppress weeds",
+            "Increase pest population",
+            "Reduce soil fertility",
+            "Promote waterlogging"
+        ],
+        "answer": 0,
+        "explanation": "Mulching conserves soil moisture, suppresses weeds, moderates soil temperature, and prevents soil erosion.",
+        "difficulty": "easy",
+        "topic": "general_horticulture",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "GH_042",
+        "question": "GAP stands for:",
+        "options": [
+            "Growth and Production",
+            "Good Agricultural Practices",
+            "General Agriculture Policy",
+            "Global Agri Partnership"
+        ],
+        "answer": 1,
+        "explanation": "GAP (Good Agricultural Practices) are standards for sustainable production ensuring food safety and environmental protection.",
+        "difficulty": "easy",
+        "topic": "general_horticulture",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "GH_043",
+        "question": "The critical nutrient required for fruit setting is:",
+        "options": [
+            "Nitrogen",
+            "Boron",
+            "Iron",
+            "Manganese"
+        ],
+        "answer": 1,
+        "explanation": "Boron is critical for pollen germination, pollen tube growth, and fruit/seed setting in horticultural crops.",
+        "difficulty": "hard",
+        "topic": "general_horticulture",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "GH_044",
+        "question": "Precision farming uses:",
+        "options": [
+            "Traditional methods only",
+            "GPS, GIS, remote sensing technologies",
+            "Flood irrigation",
+            "Broadcast fertilizer application"
+        ],
+        "answer": 1,
+        "explanation": "Precision farming uses GPS, GIS, variable rate technology, and remote sensing for site-specific crop management.",
+        "difficulty": "medium",
+        "topic": "general_horticulture",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "GH_045",
+        "question": "Alternate bearing in fruit crops means:",
+        "options": [
+            "Bearing fruits on alternate branches",
+            "Heavy crop one year, light crop next year",
+            "Fruiting only on new wood",
+            "Biennial flowering"
+        ],
+        "answer": 1,
+        "explanation": "Alternate/biennial bearing is heavy yield one year (on year) followed by poor yield next year (off year), common in mango and apple.",
+        "difficulty": "medium",
+        "topic": "general_horticulture",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "GH_046",
+        "question": "High density planting advantage includes:",
+        "options": [
+            "More trees per unit area and early returns",
+            "Less yield per unit area",
+            "More disease",
+            "Higher labour cost only"
+        ],
+        "answer": 0,
+        "explanation": "HDP accommodates more trees/ha using dwarfing rootstocks and training, giving higher yield per unit area and early returns.",
+        "difficulty": "medium",
+        "topic": "general_horticulture",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "GH_047",
+        "question": "Canopy management in fruit crops involves:",
+        "options": [
+            "Pruning, training, and growth regulator use",
+            "Only irrigation",
+            "Fertilizer application",
+            "Harvesting"
+        ],
+        "answer": 0,
+        "explanation": "Canopy management includes pruning, training systems (espalier, spindle bush), and PGRs for optimal light interception and yield.",
+        "difficulty": "medium",
+        "topic": "general_horticulture",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "GH_048",
+        "question": "Which soil type is best for most horticultural crops?",
+        "options": [
+            "Heavy clay",
+            "Sandy loam",
+            "Pure sand",
+            "Rocky soil"
+        ],
+        "answer": 1,
+        "explanation": "Sandy loam soil with good drainage, aeration, and water-holding capacity is ideal for most horticultural crops.",
+        "difficulty": "easy",
+        "topic": "general_horticulture",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "GH_049",
+        "question": "Bio-fertilizers include:",
+        "options": [
+            "Urea",
+            "Rhizobium, Azotobacter, PSB",
+            "Potash",
+            "DAP"
+        ],
+        "answer": 1,
+        "explanation": "Bio-fertilizers like Rhizobium (N-fixing), Azotobacter (free-living N-fixer), and PSB (phosphate solubilizing bacteria) enhance nutrient availability.",
+        "difficulty": "medium",
+        "topic": "general_horticulture",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "GH_050",
+        "question": "The optimum pH for most fruit crops is:",
+        "options": [
+            "4.0-4.5",
+            "5.5-7.0",
+            "8.0-9.0",
+            "3.0-4.0"
+        ],
+        "answer": 1,
+        "explanation": "Most fruit crops prefer slightly acidic to neutral pH (5.5-7.0) for optimal nutrient availability and root growth.",
+        "difficulty": "medium",
+        "topic": "general_horticulture",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "GH_051",
+        "question": "Herbicide used for weed control in orchards is:",
+        "options": [
+            "Malathion",
+            "Glyphosate",
+            "Carbendazim",
+            "Neem oil"
+        ],
+        "answer": 1,
+        "explanation": "Glyphosate is a non-selective systemic herbicide widely used for weed management in established orchards and plantations.",
+        "difficulty": "medium",
+        "topic": "general_horticulture",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "GH_052",
+        "question": "Plasticulture in horticulture refers to:",
+        "options": [
+            "Use of plastic in agriculture",
+            "Clay pot culture",
+            "Tissue culture",
+            "Hydroponics"
+        ],
+        "answer": 0,
+        "explanation": "Plasticulture involves use of plastic in mulching, drip irrigation, greenhouse covers, tunnels, and shade nets in horticulture.",
+        "difficulty": "easy",
+        "topic": "general_horticulture",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "GH_053",
+        "question": "Rejuvenation of old orchards involves:",
+        "options": [
+            "Complete removal",
+            "Severe pruning and top-working",
+            "Only fertilizer application",
+            "Irrigation only"
+        ],
+        "answer": 1,
+        "explanation": "Rejuvenation of senile orchards involves severe/heading back pruning and top-working (grafting new varieties) on old framework.",
+        "difficulty": "medium",
+        "topic": "general_horticulture",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "GH_054",
+        "question": "India is the largest producer of:",
+        "options": [
+            "Apple",
+            "Mango",
+            "Grape",
+            "Cherry"
+        ],
+        "answer": 1,
+        "explanation": "India is the world's largest producer of mango, banana, papaya, and pomegranate, and second largest in total fruit production.",
+        "difficulty": "easy",
+        "topic": "general_horticulture",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "GH_055",
+        "question": "Greenhouse effect in polyhouses is due to:",
+        "options": [
+            "CO2 absorption",
+            "Trapping of long-wave radiation by plastic/glass",
+            "Increased oxygen",
+            "Wind protection only"
+        ],
+        "answer": 1,
+        "explanation": "Polyhouse plastic allows short-wave solar radiation in but traps outgoing long-wave (heat) radiation, raising internal temperature.",
+        "difficulty": "medium",
+        "topic": "general_horticulture",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "GH_056",
+        "question": "The most important nutrient for vegetative growth is:",
+        "options": [
+            "Phosphorus",
+            "Potassium",
+            "Nitrogen",
+            "Calcium"
+        ],
+        "answer": 2,
+        "explanation": "Nitrogen promotes vegetative growth, leaf area expansion, and chlorophyll synthesis. Excess nitrogen delays fruiting.",
+        "difficulty": "easy",
+        "topic": "general_horticulture",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "GH_057",
+        "question": "Crop rotation benefit in vegetable production includes:",
+        "options": [
+            "Soil fertility improvement and pest break",
+            "Higher single-crop yield",
+            "Less diversity",
+            "More pest buildup"
+        ],
+        "answer": 0,
+        "explanation": "Crop rotation breaks pest/disease cycles, improves soil fertility, and manages soil-borne pathogens in vegetable cultivation.",
+        "difficulty": "easy",
+        "topic": "general_horticulture",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "GH_058",
+        "question": "Kitchen garden is also called:",
+        "options": [
+            "Botanical garden",
+            "Nutrition garden",
+            "Landscape garden",
+            "Rock garden"
+        ],
+        "answer": 1,
+        "explanation": "Kitchen/nutrition garden grows vegetables, fruits, and herbs for household consumption, ensuring nutritional security.",
+        "difficulty": "easy",
+        "topic": "general_horticulture",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "GH_059",
+        "question": "Water use efficiency is highest in:",
+        "options": [
+            "Flood irrigation",
+            "Sprinkler irrigation",
+            "Drip irrigation",
+            "Surface irrigation"
+        ],
+        "answer": 2,
+        "explanation": "Drip irrigation has 90-95% water use efficiency compared to 30-45% in flood irrigation, delivering water directly to root zone.",
+        "difficulty": "medium",
+        "topic": "general_horticulture",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "GH_060",
+        "question": "Soil solarization controls:",
+        "options": [
+            "Soil-borne diseases and weeds",
+            "Aerial diseases",
+            "Fruit rots",
+            "Stem borers"
+        ],
+        "answer": 0,
+        "explanation": "Soil solarization uses transparent plastic sheeting during summer to heat soil to 45-55°C, killing pathogens, nematodes, and weed seeds.",
+        "difficulty": "medium",
+        "topic": "general_horticulture",
+        "source": "HPSSC_HEO_2020"
+    }
+]

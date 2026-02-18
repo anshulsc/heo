@@ -1,0 +1,752 @@
+[
+    {
+        "id": "PROP_001",
+        "question": "Which is the most common method of vegetative propagation in fruit crops?",
+        "options": [
+            "Seed propagation",
+            "Grafting and budding",
+            "Tissue culture",
+            "Air layering only"
+        ],
+        "answer": 1,
+        "explanation": "Grafting and budding are the most widely used methods of vegetative propagation in fruit crops to maintain true-to-type varieties.",
+        "difficulty": "easy",
+        "topic": "plant_propagation",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "PROP_002",
+        "question": "Tongue grafting is also known as:",
+        "options": [
+            "Side grafting",
+            "Whip and tongue grafting",
+            "Approach grafting",
+            "Cleft grafting"
+        ],
+        "answer": 1,
+        "explanation": "Whip and tongue grafting involves matching oblique cuts on both scion and rootstock with interlocking tongues for better cambial contact.",
+        "difficulty": "medium",
+        "topic": "plant_propagation",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "PROP_003",
+        "question": "IBA (Indole Butyric Acid) is used in plant propagation for:",
+        "options": [
+            "Seed germination",
+            "Root initiation in cuttings",
+            "Fruit thinning",
+            "Breaking dormancy"
+        ],
+        "answer": 1,
+        "explanation": "IBA is the most effective auxin for promoting adventitious root formation in stem cuttings. It is more stable and less toxic than IAA.",
+        "difficulty": "medium",
+        "topic": "plant_propagation",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "PROP_004",
+        "question": "Air layering is commonly used for propagation of:",
+        "options": [
+            "Apple",
+            "Litchi",
+            "Banana",
+            "Papaya"
+        ],
+        "answer": 1,
+        "explanation": "Air layering (gooti/marcottage) is the primary method of commercial propagation of litchi. A ring of bark is removed and covered with moist sphagnum moss.",
+        "difficulty": "medium",
+        "topic": "plant_propagation",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "PROP_005",
+        "question": "T-budding is also called:",
+        "options": [
+            "Patch budding",
+            "Shield budding",
+            "Ring budding",
+            "Chip budding"
+        ],
+        "answer": 1,
+        "explanation": "T-budding (shield budding) involves making a T-shaped cut on the rootstock bark and inserting a shield-shaped bud piece under the bark flaps.",
+        "difficulty": "medium",
+        "topic": "plant_propagation",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "PROP_006",
+        "question": "Stooling is a method of:",
+        "options": [
+            "Seed propagation",
+            "Layering",
+            "Grafting",
+            "Budding"
+        ],
+        "answer": 1,
+        "explanation": "Stooling (mound layering) involves severely cutting back the mother plant and earthing up the base of new shoots to induce rooting. Used for apple rootstocks.",
+        "difficulty": "hard",
+        "topic": "plant_propagation",
+        "source": "HAU_HP"
+    },
+    {
+        "id": "PROP_007",
+        "question": "The cambium is important in grafting because:",
+        "options": [
+            "It stores food",
+            "It forms the graft union through callus formation",
+            "It absorbs water",
+            "It produces flowers"
+        ],
+        "answer": 1,
+        "explanation": "Cambium produces callus tissue at the graft junction, forming vascular connections between scion and rootstock essential for the graft union success.",
+        "difficulty": "medium",
+        "topic": "plant_propagation",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "PROP_008",
+        "question": "Which chemical is used for breaking seed dormancy?",
+        "options": [
+            "Calcium carbide",
+            "GA3 (Gibberellic acid)",
+            "Ethylene",
+            "NAA"
+        ],
+        "answer": 1,
+        "explanation": "GA3 at 100-500 ppm is used to break physiological seed dormancy by promoting the synthesis of hydrolytic enzymes that mobilize stored food reserves.",
+        "difficulty": "medium",
+        "topic": "plant_propagation",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "PROP_009",
+        "question": "Hardwood cuttings are taken during:",
+        "options": [
+            "Active growth season",
+            "Dormant season (winter)",
+            "Flowering season",
+            "Fruiting season"
+        ],
+        "answer": 1,
+        "explanation": "Hardwood cuttings are taken from mature, dormant wood during winter (December-January) when carbohydrate reserves are high and auxin levels favor rooting.",
+        "difficulty": "medium",
+        "topic": "plant_propagation",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "PROP_010",
+        "question": "Micropropagation refers to:",
+        "options": [
+            "Macroscopic propagation",
+            "Propagation using tissue culture",
+            "Seed propagation",
+            "Propagation by runners"
+        ],
+        "answer": 1,
+        "explanation": "Micropropagation is in vitro vegetative propagation using plant tissue culture techniques. It produces large numbers of genetically identical, disease-free plants rapidly.",
+        "difficulty": "easy",
+        "topic": "plant_propagation",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "PROP_011",
+        "question": "Virus-free plants are obtained through:",
+        "options": [
+            "Seed propagation only",
+            "Meristem tip culture",
+            "Grafting",
+            "Layering"
+        ],
+        "answer": 1,
+        "explanation": "Meristem tip culture (0.1-0.5 mm shoot tip) produces virus-free plants because the actively dividing meristematic cells are usually free of virus particles.",
+        "difficulty": "hard",
+        "topic": "plant_propagation",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "PROP_012",
+        "question": "In wedge grafting, the scion is prepared by:",
+        "options": [
+            "Making a T-cut",
+            "Cutting into a wedge/V-shape",
+            "Making a ring",
+            "Removing bark only"
+        ],
+        "answer": 1,
+        "explanation": "In wedge (cleft) grafting, the base of the scion is cut into a V-shape (wedge) and inserted into a cleft made in the rootstock.",
+        "difficulty": "easy",
+        "topic": "plant_propagation",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "PROP_013",
+        "question": "Stratification of seeds involves:",
+        "options": [
+            "Soaking in hot water",
+            "Treating with moist, cool conditions to break dormancy",
+            "Drying in sun",
+            "Acid treatment"
+        ],
+        "answer": 1,
+        "explanation": "Stratification (chilling) involves keeping seeds in moist sand at 2-7°C for several weeks to break physiological dormancy, especially in temperate fruit seeds.",
+        "difficulty": "hard",
+        "topic": "plant_propagation",
+        "source": "HAU_HP"
+    },
+    {
+        "id": "PROP_014",
+        "question": "The purpose of rootstock in grafting is:",
+        "options": [
+            "To provide flowers",
+            "To provide root system and influence vigor/adaptability",
+            "To produce fruits",
+            "To provide leaves only"
+        ],
+        "answer": 1,
+        "explanation": "Rootstock provides the root system and influences tree vigor, size, disease resistance, cold tolerance, and adaptability to soil conditions.",
+        "difficulty": "easy",
+        "topic": "plant_propagation",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "PROP_015",
+        "question": "Scarification of seed coat is done to:",
+        "options": [
+            "Increase seed size",
+            "Overcome physical dormancy (hard seed coat)",
+            "Add nutrients",
+            "Reduce moisture"
+        ],
+        "answer": 1,
+        "explanation": "Scarification (mechanical or acid treatment) breaks the hard, impermeable seed coat allowing water and gas exchange for germination.",
+        "difficulty": "medium",
+        "topic": "plant_propagation",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "PROP_016",
+        "question": "Stone grafting in mango is done during:",
+        "options": [
+            "January-February",
+            "July-August (monsoon)",
+            "October-November",
+            "April-May"
+        ],
+        "answer": 1,
+        "explanation": "Stone grafting (epicotyl/softwood grafting) in mango is done during July-August using 10-15 day old seedlings, achieving 80-90% success rate.",
+        "difficulty": "hard",
+        "topic": "plant_propagation",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "PROP_017",
+        "question": "Nurse grafting is used when:",
+        "options": [
+            "Rootstock is vigorous",
+            "Scion and rootstock are incompatible",
+            "Seeds are abundant",
+            "For annual plants"
+        ],
+        "answer": 1,
+        "explanation": "Nurse grafting uses an intermediate (inter-stem) piece compatible with both scion and rootstock to overcome graft incompatibility problems.",
+        "difficulty": "hard",
+        "topic": "plant_propagation",
+        "source": "HAU_HP"
+    },
+    {
+        "id": "PROP_018",
+        "question": "The MS medium used in tissue culture was developed by:",
+        "options": [
+            "Haberlandt",
+            "Murashige and Skoog",
+            "Knudson",
+            "White"
+        ],
+        "answer": 1,
+        "explanation": "MS (Murashige and Skoog) medium, developed in 1962, is the most widely used tissue culture medium containing macro/micro nutrients, vitamins, and sucrose.",
+        "difficulty": "hard",
+        "topic": "plant_propagation",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "PROP_019",
+        "question": "Suckers are used for propagation of:",
+        "options": [
+            "Apple",
+            "Banana",
+            "Mango",
+            "Citrus"
+        ],
+        "answer": 1,
+        "explanation": "Banana is commercially propagated through suckers (sword suckers preferred, 1.5-2 kg weight) arising from the underground corm.",
+        "difficulty": "easy",
+        "topic": "plant_propagation",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "PROP_020",
+        "question": "Graft incompatibility is primarily due to:",
+        "options": [
+            "Temperature differences",
+            "Taxonomic/genetic distance and biochemical barriers",
+            "Soil type",
+            "Irrigation differences"
+        ],
+        "answer": 1,
+        "explanation": "Graft incompatibility occurs due to genetic differences, biochemical barriers (phenolic compounds), anatomical mismatches, or virus presence between scion and rootstock.",
+        "difficulty": "hard",
+        "topic": "plant_propagation",
+        "source": "HAU_HP"
+    },
+    {
+        "id": "PROP_021",
+        "question": "T-budding is most commonly used for propagation of:",
+        "options": [
+            "Mango",
+            "Rose",
+            "Citrus",
+            "Both B and C"
+        ],
+        "answer": 3,
+        "explanation": "T-budding (shield budding) is widely used for rose and citrus propagation. A T-shaped cut is made on rootstock bark.",
+        "difficulty": "medium",
+        "topic": "plant_propagation",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "PROP_022",
+        "question": "Mango is commercially propagated by:",
+        "options": [
+            "Seeds",
+            "Veneer grafting",
+            "Air layering",
+            "Cutting"
+        ],
+        "answer": 1,
+        "explanation": "Mango is commercially propagated by veneer grafting (side grafting) in most states. Inarching was the traditional method.",
+        "difficulty": "medium",
+        "topic": "plant_propagation",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "PROP_023",
+        "question": "Stool layering is used for propagation of:",
+        "options": [
+            "Apple rootstocks",
+            "Mango",
+            "Citrus",
+            "Papaya"
+        ],
+        "answer": 0,
+        "explanation": "Stool layering (mound layering) is used for clonal apple rootstocks (M9, MM106, MM111). Shoots are earthed up for rooting.",
+        "difficulty": "hard",
+        "topic": "plant_propagation",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "PROP_024",
+        "question": "The rooting hormone most commonly used in plant propagation is:",
+        "options": [
+            "GA3",
+            "IBA (Indole Butyric Acid)",
+            "Ethylene",
+            "Cytokinin"
+        ],
+        "answer": 1,
+        "explanation": "IBA is the most widely used auxin for inducing root formation in cuttings and layers due to its stability and effectiveness.",
+        "difficulty": "medium",
+        "topic": "plant_propagation",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "PROP_025",
+        "question": "Tissue culture technique for mass propagation of plants is called:",
+        "options": [
+            "Hybridization",
+            "Micropropagation",
+            "Macropropagation",
+            "Polyploidy"
+        ],
+        "answer": 1,
+        "explanation": "Micropropagation is in-vitro clonal propagation using small plant parts (explants) on nutrient media under aseptic conditions.",
+        "difficulty": "easy",
+        "topic": "plant_propagation",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "PROP_026",
+        "question": "In grafting, the upper portion (variety) is called:",
+        "options": [
+            "Stock",
+            "Scion",
+            "Interstock",
+            "Rootpiece"
+        ],
+        "answer": 1,
+        "explanation": "Scion is the upper portion bearing desired variety characteristics. Stock (rootstock) is the lower root-bearing portion.",
+        "difficulty": "easy",
+        "topic": "plant_propagation",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "PROP_027",
+        "question": "Litchi is commercially propagated by:",
+        "options": [
+            "Seed",
+            "Air layering (goottee)",
+            "Budding",
+            "Grafting"
+        ],
+        "answer": 1,
+        "explanation": "Litchi is commercially propagated by air layering (goottee/marcottage). June-July (monsoon) is the best time for layering.",
+        "difficulty": "medium",
+        "topic": "plant_propagation",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "PROP_028",
+        "question": "Hardwood cuttings are used for propagation of:",
+        "options": [
+            "Grape",
+            "Rose",
+            "Pomegranate",
+            "All of these"
+        ],
+        "answer": 3,
+        "explanation": "Hardwood cuttings (dormant mature wood) are used for grape, pomegranate, fig, mulberry, and rose propagation.",
+        "difficulty": "medium",
+        "topic": "plant_propagation",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "PROP_029",
+        "question": "Apomixis is:",
+        "options": [
+            "Sexual reproduction",
+            "Asexual seed formation without fertilization",
+            "Cross pollination",
+            "Self pollination"
+        ],
+        "answer": 1,
+        "explanation": "Apomixis is asexual reproduction through seeds without fertilization. Common in citrus (nucellar embryony) and mango.",
+        "difficulty": "hard",
+        "topic": "plant_propagation",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "PROP_030",
+        "question": "The medium used in tissue culture is:",
+        "options": [
+            "Soil",
+            "MS (Murashige & Skoog) medium",
+            "Compost",
+            "Sand"
+        ],
+        "answer": 1,
+        "explanation": "MS medium containing macro/micro nutrients, vitamins, sucrose, and growth regulators is the most widely used tissue culture medium.",
+        "difficulty": "medium",
+        "topic": "plant_propagation",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "PROP_031",
+        "question": "Tongue grafting is also known as:",
+        "options": [
+            "Cleft grafting",
+            "Whip and tongue grafting",
+            "Side grafting",
+            "Approach grafting"
+        ],
+        "answer": 1,
+        "explanation": "Whip and tongue grafting involves matching cuts with interlocking tongues on both scion and stock for strong union.",
+        "difficulty": "hard",
+        "topic": "plant_propagation",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "PROP_032",
+        "question": "Guava is commercially propagated by:",
+        "options": [
+            "Seeds",
+            "Air layering",
+            "Wedge grafting",
+            "Both B and C"
+        ],
+        "answer": 3,
+        "explanation": "Guava is propagated by air layering and wedge/cleft grafting. Stooling is also practiced for rootstock multiplication.",
+        "difficulty": "medium",
+        "topic": "plant_propagation",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "PROP_033",
+        "question": "Callus formation in grafting is essential for:",
+        "options": [
+            "Leaf growth",
+            "Graft union and vascular connection",
+            "Fruit setting",
+            "Root initiation"
+        ],
+        "answer": 1,
+        "explanation": "Callus (parenchymatous tissue) bridges the graft union, followed by cambial differentiation for vascular continuity between scion and stock.",
+        "difficulty": "hard",
+        "topic": "plant_propagation",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "PROP_034",
+        "question": "Papaya is propagated through:",
+        "options": [
+            "Cuttings",
+            "Seeds",
+            "Grafting",
+            "Layering"
+        ],
+        "answer": 1,
+        "explanation": "Papaya (Carica papaya) is commercially propagated through seeds. About 200-250g seeds are needed per hectare.",
+        "difficulty": "easy",
+        "topic": "plant_propagation",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "PROP_035",
+        "question": "Chip budding differs from T-budding in:",
+        "options": [
+            "It does not require bark slipping",
+            "It uses a leaf bud",
+            "It is done in monsoon only",
+            "No cambium contact"
+        ],
+        "answer": 0,
+        "explanation": "Chip budding can be done when bark is not slipping (non-active growth), unlike T-budding which needs active cambium for bark lifting.",
+        "difficulty": "hard",
+        "topic": "plant_propagation",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "PROP_036",
+        "question": "Strawberry is propagated through:",
+        "options": [
+            "Seeds",
+            "Runners",
+            "Cuttings",
+            "Tubers"
+        ],
+        "answer": 1,
+        "explanation": "Strawberry is commercially propagated through runners (stolons) which produce daughter plants at nodes.",
+        "difficulty": "easy",
+        "topic": "plant_propagation",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "PROP_037",
+        "question": "Inarching is also called:",
+        "options": [
+            "Approach grafting",
+            "Side grafting",
+            "Saddle grafting",
+            "Bridge grafting"
+        ],
+        "answer": 0,
+        "explanation": "Inarching (approach grafting) keeps both stock and scion on their own roots until graft union forms. Traditional method for mango.",
+        "difficulty": "medium",
+        "topic": "plant_propagation",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "PROP_038",
+        "question": "Pineapple is vegetatively propagated by:",
+        "options": [
+            "Runners",
+            "Suckers, slips, and crowns",
+            "Seeds",
+            "Tubers"
+        ],
+        "answer": 1,
+        "explanation": "Pineapple is propagated using suckers (from stem axils), slips (from peduncle), and crowns (from fruit top).",
+        "difficulty": "medium",
+        "topic": "plant_propagation",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "PROP_039",
+        "question": "The phenomenon where rootstock influences scion vigor is called:",
+        "options": [
+            "Graft incompatibility",
+            "Dwarfing effect",
+            "Stock-scion interaction",
+            "Chimera"
+        ],
+        "answer": 2,
+        "explanation": "Stock-scion interaction determines tree vigor, precocity, fruit quality, and disease resistance. Dwarfing rootstocks reduce tree size.",
+        "difficulty": "hard",
+        "topic": "plant_propagation",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "PROP_040",
+        "question": "Walnut is propagated by:",
+        "options": [
+            "Tongue grafting",
+            "Epicotyl grafting",
+            "Both A and B",
+            "Air layering"
+        ],
+        "answer": 0,
+        "explanation": "Walnut is difficult to propagate; tongue grafting and patch budding are used. Hot callusing technique improves success.",
+        "difficulty": "hard",
+        "topic": "plant_propagation",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "PROP_041",
+        "question": "Banana is commercially propagated through:",
+        "options": [
+            "Seeds",
+            "Suckers and tissue culture",
+            "Cuttings",
+            "Grafting"
+        ],
+        "answer": 1,
+        "explanation": "Banana is propagated through sword suckers and tissue culture plants. TC plants ensure disease-free, uniform planting material.",
+        "difficulty": "easy",
+        "topic": "plant_propagation",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "PROP_042",
+        "question": "Virus-free plants are obtained through:",
+        "options": [
+            "Seed propagation",
+            "Meristem tip culture",
+            "Hardwood cuttings",
+            "Air layering"
+        ],
+        "answer": 1,
+        "explanation": "Meristem tip culture (0.2-0.5mm) produces virus-free plants as meristematic cells are generally free from viral particles.",
+        "difficulty": "hard",
+        "topic": "plant_propagation",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "PROP_043",
+        "question": "Pomegranate is commercially propagated by:",
+        "options": [
+            "Seeds",
+            "Hardwood cuttings",
+            "Grafting only",
+            "Air layering only"
+        ],
+        "answer": 1,
+        "explanation": "Pomegranate is commercially propagated through hardwood cuttings (25-30 cm long) taken during dormant season (Dec-Jan).",
+        "difficulty": "medium",
+        "topic": "plant_propagation",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "PROP_044",
+        "question": "Somatic embryogenesis is:",
+        "options": [
+            "Embryo from zygote",
+            "Embryo from somatic cells",
+            "Seed formation",
+            "Pollination"
+        ],
+        "answer": 1,
+        "explanation": "Somatic embryogenesis produces embryos from somatic (non-reproductive) cells through in-vitro culture for mass clonal propagation.",
+        "difficulty": "hard",
+        "topic": "plant_propagation",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "PROP_045",
+        "question": "Fig (Anjeer) is propagated by:",
+        "options": [
+            "Seeds",
+            "Hardwood cuttings",
+            "Air layering",
+            "Both B and C"
+        ],
+        "answer": 3,
+        "explanation": "Fig is propagated through hardwood cuttings (20-25 cm) and air layering. Cutting is the preferred commercial method.",
+        "difficulty": "medium",
+        "topic": "plant_propagation",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "PROP_046",
+        "question": "The best season for air layering in subtropical conditions is:",
+        "options": [
+            "December-January",
+            "March-April",
+            "June-July",
+            "October-November"
+        ],
+        "answer": 2,
+        "explanation": "June-July (monsoon onset) is ideal for air layering due to high humidity and active growth promoting rapid root formation.",
+        "difficulty": "medium",
+        "topic": "plant_propagation",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "PROP_047",
+        "question": "Kiwifruit is propagated by:",
+        "options": [
+            "Seeds",
+            "Softwood cuttings",
+            "Grafting",
+            "All of these"
+        ],
+        "answer": 3,
+        "explanation": "Kiwifruit can be propagated by seeds (breeding), softwood/hardwood cuttings, grafting, and tissue culture commercially.",
+        "difficulty": "medium",
+        "topic": "plant_propagation",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "PROP_048",
+        "question": "Polyembryony in citrus results from:",
+        "options": [
+            "Multiple pollination",
+            "Nucellar embryony",
+            "Polyploidy",
+            "Triple fusion"
+        ],
+        "answer": 1,
+        "explanation": "Nucellar embryony produces multiple embryos from nucellus tissue without fertilization, resulting in clonal rootstock seedlings.",
+        "difficulty": "hard",
+        "topic": "plant_propagation",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "PROP_049",
+        "question": "Graft incompatibility is indicated by:",
+        "options": [
+            "Overgrowth at graft union",
+            "Yellowing of leaves above union",
+            "Poor growth and eventual death",
+            "All of these"
+        ],
+        "answer": 3,
+        "explanation": "Graft incompatibility symptoms include swelling at union, poor vascular connection, yellowing, stunting, and eventual tree decline.",
+        "difficulty": "hard",
+        "topic": "plant_propagation",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "PROP_050",
+        "question": "Pecan nut is propagated by:",
+        "options": [
+            "Patch budding",
+            "T-budding",
+            "Seeds only",
+            "Layering"
+        ],
+        "answer": 0,
+        "explanation": "Pecan nut is commercially propagated by patch budding during active growth when bark slips easily on rootstock seedlings.",
+        "difficulty": "hard",
+        "topic": "plant_propagation",
+        "source": "ICAR_JRF"
+    }
+]

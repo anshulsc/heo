@@ -1,0 +1,902 @@
+[
+    {
+        "id": "PHT_001",
+        "question": "The primary objective of post-harvest technology is:",
+        "options": [
+            "Increase production",
+            "Reduce post-harvest losses",
+            "Improve soil fertility",
+            "Increase plant growth"
+        ],
+        "answer": 1,
+        "explanation": "The primary objective of PHT is to reduce post-harvest losses (which are 25-40% in India for fruits/vegetables) and maintain quality of produce.",
+        "difficulty": "easy",
+        "topic": "post_harvest",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "PHT_002",
+        "question": "Which gas is used in controlled atmosphere (CA) storage?",
+        "options": [
+            "Nitrogen and Methane",
+            "CO2 and O2 in modified proportions",
+            "Hydrogen and Helium",
+            "Ammonia and SO2"
+        ],
+        "answer": 1,
+        "explanation": "CA storage uses modified levels of CO2 (2-5%), O2 (1-3%), and N2, along with low temperature to extend storage life of fruits like apple.",
+        "difficulty": "medium",
+        "topic": "post_harvest",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "PHT_003",
+        "question": "Blanching of fruits and vegetables before processing is done to:",
+        "options": [
+            "Add color",
+            "Inactivate enzymes",
+            "Add flavor",
+            "Reduce weight"
+        ],
+        "answer": 1,
+        "explanation": "Blanching (brief heat treatment in hot water or steam) inactivates enzymes that cause browning, off-flavors, and texture changes during processing/storage.",
+        "difficulty": "medium",
+        "topic": "post_harvest",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "PHT_004",
+        "question": "KMS (Potassium metabisulphite) is used in fruit preservation as:",
+        "options": [
+            "Coloring agent",
+            "Preservative (antimicrobial + antioxidant)",
+            "Flavoring agent",
+            "Thickening agent"
+        ],
+        "answer": 1,
+        "explanation": "KMS releases SO2 which acts as antimicrobial and antioxidant, preventing microbial growth and enzymatic browning. Maximum permissible limit is 350 ppm as SO2.",
+        "difficulty": "medium",
+        "topic": "post_harvest",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "PHT_005",
+        "question": "The TSS (Total Soluble Solids) of jam should not be less than:",
+        "options": [
+            "45%",
+            "55%",
+            "68%",
+            "75%"
+        ],
+        "answer": 2,
+        "explanation": "As per FSSAI (Food Safety and Standards), jam should have a minimum of 68°Brix (68% TSS) for proper gel formation and preservation.",
+        "difficulty": "hard",
+        "topic": "post_harvest",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "PHT_006",
+        "question": "Which chemical is used for waxing of fruits?",
+        "options": [
+            "Paraffin wax",
+            "Carnauba wax",
+            "Both A and B",
+            "Sodium benzoate"
+        ],
+        "answer": 2,
+        "explanation": "Both paraffin wax and carnauba wax are used for fruit waxing/coating to reduce moisture loss, improve appearance, and extend shelf life.",
+        "difficulty": "medium",
+        "topic": "post_harvest",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "PHT_007",
+        "question": "Climacteric fruits include:",
+        "options": [
+            "Citrus, Grape, Strawberry",
+            "Mango, Banana, Apple",
+            "Litchi, Pomegranate, Pineapple",
+            "Cherry, Grapes, Watermelon"
+        ],
+        "answer": 1,
+        "explanation": "Climacteric fruits (mango, banana, apple, tomato, papaya) show a sharp rise in respiration rate (climacteric rise) during ripening. They can ripen after harvest.",
+        "difficulty": "medium",
+        "topic": "post_harvest",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "PHT_008",
+        "question": "Pectin is commercially extracted from:",
+        "options": [
+            "Banana peel",
+            "Citrus peel and apple pomace",
+            "Mango seed",
+            "Grape leaves"
+        ],
+        "answer": 1,
+        "explanation": "Commercial pectin is mainly extracted from citrus peel (lemon/lime) and apple pomace (residue after juice extraction). Pectin is used as a gelling agent in jams and jellies.",
+        "difficulty": "medium",
+        "topic": "post_harvest",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "PHT_009",
+        "question": "The minimum juice content in fruit squash should be:",
+        "options": [
+            "10%",
+            "25%",
+            "40%",
+            "50%"
+        ],
+        "answer": 1,
+        "explanation": "As per FSSAI, fruit squash should contain a minimum of 25% fruit juice, 40-50% sugar, and 1.0% acid (citric acid).",
+        "difficulty": "hard",
+        "topic": "post_harvest",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "PHT_010",
+        "question": "Which preservative is permitted in fruit juices in India?",
+        "options": [
+            "Formalin",
+            "Boric acid",
+            "Sodium benzoate",
+            "Copper sulphate"
+        ],
+        "answer": 2,
+        "explanation": "Sodium benzoate (750 ppm max) or Potassium metabisulphite (350 ppm as SO2) are permissible chemical preservatives for fruit products in India.",
+        "difficulty": "medium",
+        "topic": "post_harvest",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "PHT_011",
+        "question": "The instrument used to measure TSS (Total Soluble Solids) is:",
+        "options": [
+            "Hydrometer",
+            "Refractometer",
+            "pH meter",
+            "Thermometer"
+        ],
+        "answer": 1,
+        "explanation": "A hand refractometer (Brix meter) is used to measure TSS in °Brix. It works on the principle of refraction of light passing through the sample.",
+        "difficulty": "easy",
+        "topic": "post_harvest",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "PHT_012",
+        "question": "Calcium carbide is used for artificial ripening of which fruit?",
+        "options": [
+            "Apple",
+            "Mango and Banana",
+            "Grapes",
+            "Guava"
+        ],
+        "answer": 1,
+        "explanation": "Calcium carbide releases acetylene gas which acts similarly to ethylene, promoting ripening in mango and banana. However, its use is banned due to health hazards (arsenic/phosphorus residues).",
+        "difficulty": "medium",
+        "topic": "post_harvest",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "PHT_013",
+        "question": "Which technique involves removal of water from food under vacuum at low temperature?",
+        "options": [
+            "Sun drying",
+            "Freeze drying (Lyophilization)",
+            "Hot air drying",
+            "Spray drying"
+        ],
+        "answer": 1,
+        "explanation": "Freeze drying (lyophilization) involves freezing food and then removing water by sublimation under vacuum, preserving shape, color, flavor, and nutrients better than any other drying method.",
+        "difficulty": "hard",
+        "topic": "post_harvest",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "PHT_014",
+        "question": "The acid commonly used in fruit preservation is:",
+        "options": [
+            "Hydrochloric acid",
+            "Sulphuric acid",
+            "Citric acid",
+            "Nitric acid"
+        ],
+        "answer": 2,
+        "explanation": "Citric acid is the most commonly used acidulant in fruit preservation. It lowers pH, inhibits microbial growth, and acts as an antioxidant.",
+        "difficulty": "easy",
+        "topic": "post_harvest",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "PHT_015",
+        "question": "Irradiation of food products helps in:",
+        "options": [
+            "Increasing nutrition",
+            "Delaying ripening and reducing microbial load",
+            "Adding color",
+            "Improving taste"
+        ],
+        "answer": 1,
+        "explanation": "Food irradiation using gamma rays, electron beams, or X-rays delays ripening, reduces microbial load, controls pests, and extends shelf life without making food radioactive.",
+        "difficulty": "hard",
+        "topic": "post_harvest",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "PHT_016",
+        "question": "Jelly differs from jam primarily because jelly:",
+        "options": [
+            "Has more sugar",
+            "Is made from fruit extract/juice only (clear)",
+            "Has pieces of fruit",
+            "Uses less pectin"
+        ],
+        "answer": 1,
+        "explanation": "Jelly is made from clear fruit juice/extract (no fruit pieces), resulting in a transparent, clear product. Jam contains fruit pulp/pieces.",
+        "difficulty": "medium",
+        "topic": "post_harvest",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "PHT_017",
+        "question": "The minimum fruit content in RTS (Ready-to-Serve) beverage should be:",
+        "options": [
+            "5%",
+            "10%",
+            "25%",
+            "40%"
+        ],
+        "answer": 1,
+        "explanation": "RTS (Ready-to-Serve) beverage should contain minimum 10% fruit juice, 10% sugar, and 0.3% acid as per FSSAI standards.",
+        "difficulty": "hard",
+        "topic": "post_harvest",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "PHT_018",
+        "question": "Pre-cooling of harvested produce is important because:",
+        "options": [
+            "It adds weight",
+            "It removes field heat rapidly",
+            "It improves color",
+            "It adds sweetness"
+        ],
+        "answer": 1,
+        "explanation": "Pre-cooling rapidly removes field heat from harvested produce, reducing respiration rate, ethylene production, and microbial growth, thereby extending shelf life.",
+        "difficulty": "medium",
+        "topic": "post_harvest",
+        "source": "HAU_HP"
+    },
+    {
+        "id": "PHT_019",
+        "question": "Canning involves processing food in:",
+        "options": [
+            "Salt solution",
+            "Hermetically sealed containers at high temperature",
+            "Sugar syrup only",
+            "Vinegar"
+        ],
+        "answer": 1,
+        "explanation": "Canning involves packing food in hermetically sealed containers and processing at 100°C (for acidic foods) or 121°C under pressure (for low-acid foods) to destroy microorganisms.",
+        "difficulty": "medium",
+        "topic": "post_harvest",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "PHT_020",
+        "question": "Enzymatic browning in cut fruits can be prevented by:",
+        "options": [
+            "Exposing to air",
+            "Dipping in citric acid/ascorbic acid solution",
+            "Increasing temperature",
+            "Adding salt"
+        ],
+        "answer": 1,
+        "explanation": "Citric acid and ascorbic acid (Vitamin C) prevent enzymatic browning by lowering pH and acting as antioxidants, inhibiting polyphenol oxidase (PPO) enzyme activity.",
+        "difficulty": "medium",
+        "topic": "post_harvest",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "PHT_021",
+        "question": "The FPO Act deals with:",
+        "options": [
+            "Fresh fruit marketing",
+            "Fruit and vegetable processing and quality standards",
+            "Fertilizer use",
+            "Pesticide regulation"
+        ],
+        "answer": 1,
+        "explanation": "The Fruit Products Order (FPO) 1955 (now replaced by FSSAI) prescribed quality standards and hygiene conditions for manufacturing fruit and vegetable products in India.",
+        "difficulty": "medium",
+        "topic": "post_harvest",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "PHT_022",
+        "question": "MAP (Modified Atmosphere Packaging) involves:",
+        "options": [
+            "Vacuum packing only",
+            "Modifying the gas composition inside the package",
+            "Adding chemicals to packages",
+            "Freezing the package"
+        ],
+        "answer": 1,
+        "explanation": "MAP involves altering the atmospheric composition (O2, CO2, N2) inside the package to slow respiration, delay ripening, and extend shelf life of fresh produce.",
+        "difficulty": "hard",
+        "topic": "post_harvest",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "PHT_023",
+        "question": "The sugar concentration in murabba should be:",
+        "options": [
+            "40%",
+            "55%",
+            "68% or above",
+            "80%"
+        ],
+        "answer": 2,
+        "explanation": "Murabba (preserved whole fruit in sugar syrup) should have a minimum of 68°Brix sugar concentration for proper preservation and quality.",
+        "difficulty": "hard",
+        "topic": "post_harvest",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "PHT_024",
+        "question": "Ethylene absorbent used in fruit storage rooms is:",
+        "options": [
+            "Sodium chloride",
+            "Potassium permanganate (KMnO4)",
+            "Calcium chloride",
+            "Sodium hydroxide"
+        ],
+        "answer": 1,
+        "explanation": "KMnO4 oxidizes ethylene to CO2 and water. It is used as ethylene absorbent in storage rooms and packages to delay ripening of climacteric fruits.",
+        "difficulty": "hard",
+        "topic": "post_harvest",
+        "source": "HAU_HP"
+    },
+    {
+        "id": "PHT_025",
+        "question": "Osmotic dehydration involves:",
+        "options": [
+            "Drying in sun",
+            "Immersing fruit pieces in concentrated sugar/salt solution",
+            "Freeze drying",
+            "Spray drying"
+        ],
+        "answer": 1,
+        "explanation": "Osmotic dehydration involves immersing fruit/vegetable pieces in concentrated sugar (50-70°Brix) or salt solution, removing water by osmosis while infusing solute.",
+        "difficulty": "hard",
+        "topic": "post_harvest",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "PHT_026",
+        "question": "Vinegar contains approximately what percent acetic acid?",
+        "options": [
+            "1-2%",
+            "4-8%",
+            "15-20%",
+            "30-40%"
+        ],
+        "answer": 1,
+        "explanation": "Vinegar is a solution of acetic acid (typically 4-8%) produced by alcoholic and acetic acid fermentation of sugar-rich substrates.",
+        "difficulty": "medium",
+        "topic": "post_harvest",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "PHT_027",
+        "question": "Hot water treatment of mango at 52°C for 5 minutes is done for:",
+        "options": [
+            "Ripening",
+            "Control of anthracnose and fruit fly",
+            "Improving color",
+            "Adding flavor"
+        ],
+        "answer": 1,
+        "explanation": "Hot water treatment at 52±2°C for 5 minutes controls post-harvest diseases like anthracnose and also kills fruit fly larvae in mango.",
+        "difficulty": "hard",
+        "topic": "post_harvest",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "PHT_028",
+        "question": "The minimum fruit content in fruit jam should be:",
+        "options": [
+            "25%",
+            "35%",
+            "45%",
+            "55%"
+        ],
+        "answer": 2,
+        "explanation": "As per FSSAI regulations, fruit jam should contain a minimum of 45% fruit (by weight) along with 68°Brix TSS.",
+        "difficulty": "hard",
+        "topic": "post_harvest",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "PHT_029",
+        "question": "Chilling injury in tropical fruits occurs at:",
+        "options": [
+            "Below 0°C",
+            "Below 10-13°C",
+            "Below 20°C",
+            "Below 30°C"
+        ],
+        "answer": 1,
+        "explanation": "Tropical fruits like mango, banana, papaya suffer chilling injury when stored below 10-13°C, showing pitting, browning, and failure to ripen normally.",
+        "difficulty": "hard",
+        "topic": "post_harvest",
+        "source": "HAU_HP"
+    },
+    {
+        "id": "PHT_030",
+        "question": "Dehydration ratio of vegetables is generally:",
+        "options": [
+            "2:1",
+            "5:1 to 10:1",
+            "20:1",
+            "50:1"
+        ],
+        "answer": 1,
+        "explanation": "Dehydration ratio of vegetables is typically 5:1 to 10:1, meaning 5-10 kg of fresh vegetables yield 1 kg of dried product. Final moisture content should be 4-6%.",
+        "difficulty": "medium",
+        "topic": "post_harvest",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "PHT_031",
+        "question": "Controlled Atmosphere (CA) storage involves:",
+        "options": [
+            "Increasing O2 and decreasing CO2",
+            "Decreasing O2 and increasing CO2",
+            "Normal atmosphere",
+            "Vacuum storage"
+        ],
+        "answer": 1,
+        "explanation": "CA storage reduces O2 (1-5%) and increases CO2 (1-5%) to slow respiration and extend storage life of fruits like apple.",
+        "difficulty": "medium",
+        "topic": "post_harvest",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "PHT_032",
+        "question": "Chilling injury in banana occurs below:",
+        "options": [
+            "0°C",
+            "5°C",
+            "13°C",
+            "20°C"
+        ],
+        "answer": 2,
+        "explanation": "Banana is chilling-sensitive; storage below 13°C causes chilling injury with skin blackening with pitting and poor ripening.",
+        "difficulty": "hard",
+        "topic": "post_harvest",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "PHT_033",
+        "question": "The fruit ripening hormone is:",
+        "options": [
+            "Auxin",
+            "Gibberellin",
+            "Ethylene",
+            "Cytokinin"
+        ],
+        "answer": 2,
+        "explanation": "Ethylene (C2H4) is the natural ripening hormone. Climacteric fruits show a burst of ethylene production during ripening.",
+        "difficulty": "easy",
+        "topic": "post_harvest",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "PHT_034",
+        "question": "1-MCP (1-Methylcyclopropene) acts as:",
+        "options": [
+            "Ethylene promoter",
+            "Ethylene inhibitor",
+            "Growth promoter",
+            "Fungicide"
+        ],
+        "answer": 1,
+        "explanation": "1-MCP blocks ethylene receptors, delaying ripening, softening, and senescence. Used commercially for apple storage.",
+        "difficulty": "hard",
+        "topic": "post_harvest",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "PHT_035",
+        "question": "Modified Atmosphere Packaging (MAP) differs from CA in:",
+        "options": [
+            "Gas composition is actively controlled",
+            "Gas composition passively changes due to produce respiration",
+            "Temperature is different",
+            "Humidity is controlled"
+        ],
+        "answer": 1,
+        "explanation": "In MAP, atmosphere modifies passively through film permeability and produce respiration, unlike CA where gases are actively managed.",
+        "difficulty": "hard",
+        "topic": "post_harvest",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "PHT_036",
+        "question": "Pre-cooling of fruits immediately after harvest is done to:",
+        "options": [
+            "Increase sweetness",
+            "Remove field heat rapidly",
+            "Add colour",
+            "Increase weight"
+        ],
+        "answer": 1,
+        "explanation": "Pre-cooling removes field heat quickly to reduce respiration and metabolic activity, extending shelf life significantly.",
+        "difficulty": "medium",
+        "topic": "post_harvest",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "PHT_037",
+        "question": "TSS (Total Soluble Solids) of fruits is measured by:",
+        "options": [
+            "pH meter",
+            "Refractometer",
+            "Thermometer",
+            "Hygrometer"
+        ],
+        "answer": 1,
+        "explanation": "Refractometer (hand/digital) measures TSS in °Brix, indicating sugar content, used as maturity and quality index.",
+        "difficulty": "medium",
+        "topic": "post_harvest",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "PHT_038",
+        "question": "Zero Energy Cool Chamber (ZECC) works on the principle of:",
+        "options": [
+            "Mechanical refrigeration",
+            "Evaporative cooling",
+            "Gas compression",
+            "Solar energy"
+        ],
+        "answer": 1,
+        "explanation": "ZECC uses evaporative cooling (wet sand between double brick walls) to reduce temperature by 10-15°C without electricity.",
+        "difficulty": "medium",
+        "topic": "post_harvest",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "PHT_039",
+        "question": "Waxing of fruits is done to:",
+        "options": [
+            "Increase weight",
+            "Reduce moisture loss and improve appearance",
+            "Change taste",
+            "Kill insects"
+        ],
+        "answer": 1,
+        "explanation": "Edible wax coating reduces transpiration, gives shine, and extends shelf life of fruits like apple, citrus, and capsicum.",
+        "difficulty": "medium",
+        "topic": "post_harvest",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "PHT_040",
+        "question": "Climacteric fruits include:",
+        "options": [
+            "Citrus, grape, pineapple",
+            "Mango, banana, apple",
+            "Strawberry, watermelon, cherry",
+            "Pomegranate, litchi, grapes"
+        ],
+        "answer": 1,
+        "explanation": "Climacteric fruits (mango, banana, apple, papaya) show a respiratory rise during ripening. Non-climacteric fruits do not.",
+        "difficulty": "medium",
+        "topic": "post_harvest",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "PHT_041",
+        "question": "Hot water treatment of mango at 52°C for 5 minutes controls:",
+        "options": [
+            "Fruit fly",
+            "Anthracnose and stem-end rot",
+            "Bacterial canker",
+            "Powdery mildew"
+        ],
+        "answer": 1,
+        "explanation": "Hot water treatment controls post-harvest fungal diseases (anthracnose by Colletotrichum, stem-end rot) in mango.",
+        "difficulty": "hard",
+        "topic": "post_harvest",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "PHT_042",
+        "question": "The ideal storage temperature for apple is:",
+        "options": [
+            "5-10°C",
+            "0 to -1°C",
+            "15-20°C",
+            "-5 to -10°C"
+        ],
+        "answer": 1,
+        "explanation": "Apple is stored at -1 to 0°C with 90-95% RH in CA storage (2% O2, 2-3% CO2) for 6-9 months.",
+        "difficulty": "medium",
+        "topic": "post_harvest",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "PHT_043",
+        "question": "Blanching before dehydration of vegetables is done to:",
+        "options": [
+            "Increase colour",
+            "Inactivate enzymes",
+            "Add flavour",
+            "Reduce weight"
+        ],
+        "answer": 1,
+        "explanation": "Blanching (brief heat treatment) inactivates oxidative enzymes (peroxidase, polyphenol oxidase) preventing browning and off-flavors.",
+        "difficulty": "medium",
+        "topic": "post_harvest",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "PHT_044",
+        "question": "KMS (Potassium Metabisulphite) is used as:",
+        "options": [
+            "Fertilizer",
+            "Preservative in fruit products",
+            "Ripening agent",
+            "Growth regulator"
+        ],
+        "answer": 1,
+        "explanation": "KMS releases SO2 which acts as antimicrobial and antioxidant preservative in squashes, jams, and fruit juices (max 350 ppm SO2).",
+        "difficulty": "medium",
+        "topic": "post_harvest",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "PHT_045",
+        "question": "As per FSSAI, the minimum fruit content in fruit jam is:",
+        "options": [
+            "25%",
+            "35%",
+            "45%",
+            "55%"
+        ],
+        "answer": 2,
+        "explanation": "FSSAI standards require minimum 45% fruit content in jam and minimum 68°Brix final TSS. Pectin and acid are added for setting.",
+        "difficulty": "hard",
+        "topic": "post_harvest",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "PHT_046",
+        "question": "Irradiation of fruits is done using:",
+        "options": [
+            "UV light",
+            "Gamma rays (Cobalt-60)",
+            "X-rays only",
+            "Microwaves"
+        ],
+        "answer": 1,
+        "explanation": "Gamma irradiation (Cobalt-60) controls insects, delays ripening, and extends shelf life. Used for mango, onion, potato.",
+        "difficulty": "hard",
+        "topic": "post_harvest",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "PHT_047",
+        "question": "Pectin content is highest in:",
+        "options": [
+            "Ripe fruits",
+            "Unripe fruits",
+            "Overripe fruits",
+            "Dry fruits"
+        ],
+        "answer": 1,
+        "explanation": "Pectin content is highest in slightly under-ripe fruits. During ripening, pectin is converted to pectic acid making fruit soft.",
+        "difficulty": "medium",
+        "topic": "post_harvest",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "PHT_048",
+        "question": "Osmotic dehydration involves:",
+        "options": [
+            "Sun drying",
+            "Immersion in concentrated sugar/salt solution",
+            "Freeze drying",
+            "Spray drying"
+        ],
+        "answer": 1,
+        "explanation": "Osmotic dehydration partially removes water by immersing fruit pieces in concentrated sugar (60-70°Brix) or salt solution.",
+        "difficulty": "hard",
+        "topic": "post_harvest",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "PHT_049",
+        "question": "The minimum TSS for making fruit squash according to FPO is:",
+        "options": [
+            "15%",
+            "25%",
+            "40%",
+            "50%"
+        ],
+        "answer": 1,
+        "explanation": "Fruit squash requires minimum 25% fruit juice and 40°Brix TSS as per FPO. It is diluted before consumption.",
+        "difficulty": "hard",
+        "topic": "post_harvest",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "PHT_050",
+        "question": "Vacuum packaging extends shelf life by:",
+        "options": [
+            "Adding oxygen",
+            "Removing oxygen to reduce oxidation",
+            "Adding preservatives",
+            "Increasing moisture"
+        ],
+        "answer": 1,
+        "explanation": "Vacuum packaging removes air/oxygen, reducing aerobic microbial growth and oxidative deterioration of food products.",
+        "difficulty": "medium",
+        "topic": "post_harvest",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "PHT_051",
+        "question": "The Sugar:Acid ratio is used as a maturity index for:",
+        "options": [
+            "Mango",
+            "Citrus",
+            "Apple",
+            "Banana"
+        ],
+        "answer": 1,
+        "explanation": "Sugar:Acid ratio (TSS/acidity) is an important maturity and quality index for citrus fruits (orange, mandarin, lime).",
+        "difficulty": "medium",
+        "topic": "post_harvest",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "PHT_052",
+        "question": "Canning preserves food by:",
+        "options": [
+            "Dehydration",
+            "Heat sterilization in sealed containers",
+            "Chemical preservation",
+            "Freezing"
+        ],
+        "answer": 1,
+        "explanation": "Canning involves sealing food in airtight containers and heating to destroy microorganisms and enzymes for long-term preservation.",
+        "difficulty": "easy",
+        "topic": "post_harvest",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "PHT_053",
+        "question": "Apple scald during storage is controlled by:",
+        "options": [
+            "High temperature storage",
+            "Diphenylamine (DPA) treatment",
+            "Ethylene application",
+            "Excess watering"
+        ],
+        "answer": 1,
+        "explanation": "Superficial scald (browning of skin) in apple during cold storage is controlled by DPA dip (2000 ppm) before storage.",
+        "difficulty": "hard",
+        "topic": "post_harvest",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "PHT_054",
+        "question": "Post-harvest losses in fruits and vegetables in India are approximately:",
+        "options": [
+            "5-10%",
+            "15-20%",
+            "25-30%",
+            "40-50%"
+        ],
+        "answer": 2,
+        "explanation": "India loses approximately 25-30% of horticultural produce post-harvest due to poor handling, storage, and transportation infrastructure.",
+        "difficulty": "medium",
+        "topic": "post_harvest",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "PHT_055",
+        "question": "Calcium chloride dip is given to apples for:",
+        "options": [
+            "Improving colour",
+            "Maintaining firmness and reducing disorders",
+            "Increasing sugar",
+            "Ripening"
+        ],
+        "answer": 1,
+        "explanation": "CaCl2 dip (2-4%) maintains cell wall integrity, reduces bitter pit, and improves storage quality of apples.",
+        "difficulty": "hard",
+        "topic": "post_harvest",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "PHT_056",
+        "question": "The principle of jam making is:",
+        "options": [
+            "Dehydration",
+            "Preservation by sugar (high concentration)",
+            "Fermentation",
+            "Acidification only"
+        ],
+        "answer": 1,
+        "explanation": "Jam is preserved by high sugar concentration (68°Brix) which creates osmotic stress preventing microbial growth, plus pectin gel.",
+        "difficulty": "medium",
+        "topic": "post_harvest",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "PHT_057",
+        "question": "Ethylene absorbent used during fruit storage is:",
+        "options": [
+            "Calcium carbide",
+            "KMnO4 (Potassium permanganate)",
+            "Sodium chloride",
+            "Boric acid"
+        ],
+        "answer": 1,
+        "explanation": "KMnO4 oxidizes ethylene to CO2 and water, used as ethylene scrubber/absorbent during storage and transport of fruits.",
+        "difficulty": "hard",
+        "topic": "post_harvest",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "PHT_058",
+        "question": "Freeze drying (lyophilization) involves:",
+        "options": [
+            "Drying at high temperature",
+            "Freezing then sublimation under vacuum",
+            "Solar drying",
+            "Hot air drying"
+        ],
+        "answer": 1,
+        "explanation": "Freeze drying freezes product then removes ice by sublimation under vacuum, producing high-quality dehydrated products.",
+        "difficulty": "hard",
+        "topic": "post_harvest",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "PHT_059",
+        "question": "Maturity index for mango is based on:",
+        "options": [
+            "Shoulder development and specific gravity",
+            "Only colour",
+            "Only size",
+            "Seed size"
+        ],
+        "answer": 0,
+        "explanation": "Mango maturity is judged by shoulder development (fullness), specific gravity (<1.0 floats in water), and beak filling.",
+        "difficulty": "medium",
+        "topic": "post_harvest",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "PHT_060",
+        "question": "RTS (Ready to Serve) beverage must contain minimum fruit juice of:",
+        "options": [
+            "5%",
+            "10%",
+            "25%",
+            "50%"
+        ],
+        "answer": 1,
+        "explanation": "RTS beverages require minimum 10% fruit juice and 10°Brix TSS. They are consumed directly without dilution.",
+        "difficulty": "hard",
+        "topic": "post_harvest",
+        "source": "HPSSC_HEO_2020"
+    }
+]

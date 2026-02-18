@@ -1,0 +1,227 @@
+[
+    {
+        "id": "POL_001",
+        "question": "भारतीय संविधान के किस अनुच्छेद में मौलिक अधिकार दिए गए हैं?",
+        "options": [
+            "अनुच्छेद 1-11",
+            "अनुच्छेद 12-35",
+            "अनुच्छेद 36-51",
+            "अनुच्छेद 52-78"
+        ],
+        "answer": 1,
+        "explanation": "भाग III (अनुच्छेद 12-35) में 6 मौलिक अधिकार दिए गए हैं: समानता, स्वतंत्रता, शोषण के विरुद्ध, धार्मिक स्वतंत्रता, सांस्कृतिक व शैक्षिक, संवैधानिक उपचार।",
+        "difficulty": "medium",
+        "topic": "political_science",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "POL_002",
+        "question": "Who is known as the 'Father of the Indian Constitution'?",
+        "options": [
+            "Mahatma Gandhi",
+            "Jawaharlal Nehru",
+            "Dr. B.R. Ambedkar",
+            "Sardar Patel"
+        ],
+        "answer": 2,
+        "explanation": "Dr. B.R. Ambedkar is known as the Father of the Indian Constitution. He was the Chairman of the Drafting Committee of the Constituent Assembly.",
+        "difficulty": "easy",
+        "topic": "political_science",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "POL_003",
+        "question": "संसद के दो सदन कौन से हैं?",
+        "options": [
+            "लोकसभा और राज्यसभा",
+            "लोकसभा और विधानसभा",
+            "राज्यसभा और विधान परिषद",
+            "लोकसभा और विधान परिषद"
+        ],
+        "answer": 0,
+        "explanation": "भारतीय संसद दो सदनों से मिलकर बनी है: लोकसभा (निचला सदन, 545 सदस्य) और राज्यसभा (ऊपरी सदन, 250 सदस्य)।",
+        "difficulty": "easy",
+        "topic": "political_science",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "POL_004",
+        "question": "The Preamble to the Indian Constitution declares India as:",
+        "options": [
+            "A Sovereign Democratic Republic",
+            "A Sovereign Socialist Secular Democratic Republic",
+            "A Federal Democratic Republic",
+            "A Union of States"
+        ],
+        "answer": 1,
+        "explanation": "After the 42nd Amendment (1976), the Preamble reads: 'Sovereign Socialist Secular Democratic Republic'. 'Socialist' and 'Secular' were added.",
+        "difficulty": "medium",
+        "topic": "political_science",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "POL_005",
+        "question": "भारत के राष्ट्रपति का चुनाव कौन करता है?",
+        "options": [
+            "जनता सीधे",
+            "संसद के दोनों सदन",
+            "निर्वाचक मंडल (Electoral College)",
+            "प्रधानमंत्री"
+        ],
+        "answer": 2,
+        "explanation": "राष्ट्रपति का चुनाव निर्वाचक मंडल द्वारा होता है जिसमें संसद के दोनों सदनों और राज्य विधानसभाओं के निर्वाचित सदस्य शामिल होते हैं।",
+        "difficulty": "medium",
+        "topic": "political_science",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "POL_006",
+        "question": "Which Article of the Constitution deals with 'Right to Education'?",
+        "options": [
+            "Article 19",
+            "Article 21",
+            "Article 21A",
+            "Article 32"
+        ],
+        "answer": 2,
+        "explanation": "Article 21A (added by 86th Amendment, 2002) provides free and compulsory education to all children between 6-14 years as a fundamental right.",
+        "difficulty": "medium",
+        "topic": "political_science",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "POL_007",
+        "question": "भारत में पंचायती राज प्रणाली किस संविधान संशोधन से आई?",
+        "options": [
+            "42वाँ संशोधन",
+            "44वाँ संशोधन",
+            "73वाँ संशोधन",
+            "86वाँ संशोधन"
+        ],
+        "answer": 2,
+        "explanation": "73वाँ संविधान संशोधन (1992) ने पंचायती राज संस्थाओं को संवैधानिक दर्जा दिया। 74वाँ संशोधन नगरपालिकाओं के लिए था।",
+        "difficulty": "hard",
+        "topic": "political_science",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "POL_008",
+        "question": "The concept of 'Directive Principles of State Policy' is borrowed from:",
+        "options": [
+            "USA Constitution",
+            "UK Constitution",
+            "Irish Constitution",
+            "French Constitution"
+        ],
+        "answer": 2,
+        "explanation": "DPSPs (Part IV, Articles 36-51) are borrowed from the Irish Constitution. They are guidelines for the state but not enforceable in court.",
+        "difficulty": "hard",
+        "topic": "political_science",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "POL_009",
+        "question": "लोकसभा के सदस्यों का कार्यकाल कितने वर्ष का होता है?",
+        "options": [
+            "4 वर्ष",
+            "5 वर्ष",
+            "6 वर्ष",
+            "कोई निश्चित कार्यकाल नहीं"
+        ],
+        "answer": 1,
+        "explanation": "लोकसभा का सामान्य कार्यकाल 5 वर्ष का होता है, किंतु इसे समय से पहले भंग किया जा सकता है।",
+        "difficulty": "easy",
+        "topic": "political_science",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "POL_010",
+        "question": "Which is the highest court of India?",
+        "options": [
+            "High Court",
+            "District Court",
+            "Supreme Court",
+            "Session Court"
+        ],
+        "answer": 2,
+        "explanation": "The Supreme Court of India (established under Article 124) is the apex judicial authority. It has original, appellate, and advisory jurisdictions.",
+        "difficulty": "easy",
+        "topic": "political_science",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "POL_011",
+        "question": "Article 370 of the Indian Constitution was related to:",
+        "options": [
+            "Emergency provisions",
+            "Special status of Jammu & Kashmir",
+            "Election Commission",
+            "Finance Commission"
+        ],
+        "answer": 1,
+        "explanation": "Article 370 granted special autonomous status to Jammu & Kashmir. It was effectively abrogated on August 5, 2019.",
+        "difficulty": "medium",
+        "topic": "political_science",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "POL_012",
+        "question": "मौलिक कर्तव्यों को किस संविधान संशोधन में जोड़ा गया?",
+        "options": [
+            "42वाँ संशोधन (1976)",
+            "44वाँ संशोधन (1978)",
+            "52वाँ संशोधन (1985)",
+            "61वाँ संशोधन (1989)"
+        ],
+        "answer": 0,
+        "explanation": "42वाँ संविधान संशोधन (1976) द्वारा भाग IV-A (अनुच्छेद 51A) में 10 मौलिक कर्तव्य जोड़े गए। 86वें संशोधन में 11वाँ जोड़ा गया।",
+        "difficulty": "hard",
+        "topic": "political_science",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "POL_013",
+        "question": "The first General Elections in India were held in:",
+        "options": [
+            "1947",
+            "1950",
+            "1951-52",
+            "1955"
+        ],
+        "answer": 2,
+        "explanation": "India's first general elections were held from October 1951 to February 1952. The Indian National Congress won and Nehru became the first elected PM.",
+        "difficulty": "medium",
+        "topic": "political_science",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "POL_014",
+        "question": "भारतीय संविधान कब लागू हुआ?",
+        "options": [
+            "15 अगस्त 1947",
+            "26 नवंबर 1949",
+            "26 जनवरी 1950",
+            "1 जनवरी 1950"
+        ],
+        "answer": 2,
+        "explanation": "भारतीय संविधान 26 जनवरी 1950 को लागू हुआ, इसी दिन गणतंत्र दिवस मनाया जाता है। 26 नवंबर 1949 को इसे अपनाया गया था।",
+        "difficulty": "easy",
+        "topic": "political_science",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "POL_015",
+        "question": "The total number of Schedules in the Indian Constitution is:",
+        "options": [
+            "8",
+            "10",
+            "12",
+            "22"
+        ],
+        "answer": 2,
+        "explanation": "The Indian Constitution originally had 8 Schedules, currently has 12 Schedules dealing with various constitutional provisions.",
+        "difficulty": "medium",
+        "topic": "political_science",
+        "source": "TGT_HP"
+    }
+]

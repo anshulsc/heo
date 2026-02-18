@@ -1,0 +1,227 @@
+[
+    {
+        "id": "CA_001",
+        "question": "Chandrayaan-3 successfully landed on the Moon on:",
+        "options": [
+            "23 August 2023",
+            "15 August 2023",
+            "26 January 2024",
+            "5 June 2023"
+        ],
+        "answer": 0,
+        "explanation": "Chandrayaan-3 successfully landed on the Moon's south pole on 23 August 2023, making India the 4th country to land on the Moon and 1st to land near the south pole.",
+        "difficulty": "easy",
+        "topic": "current_affairs",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "CA_002",
+        "question": "Who was awarded the Bharat Ratna in 2024?",
+        "options": [
+            "L.K. Advani only",
+            "Karpoori Thakur (posthumous) only",
+            "Both L.K. Advani and Karpoori Thakur",
+            "P.V. Narasimha Rao, Chaudhary Charan Singh, and M.S. Swaminathan"
+        ],
+        "answer": 3,
+        "explanation": "In 2024, Bharat Ratna was awarded to P.V. Narasimha Rao, Chaudhary Charan Singh, M.S. Swaminathan (posthumous), L.K. Advani, and Karpoori Thakur (posthumous).",
+        "difficulty": "hard",
+        "topic": "current_affairs",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "CA_003",
+        "question": "The G20 Summit 2023 was held in which Indian city?",
+        "options": [
+            "Mumbai",
+            "New Delhi",
+            "Bengaluru",
+            "Chennai"
+        ],
+        "answer": 1,
+        "explanation": "The G20 Leaders' Summit 2023 was held in New Delhi on September 9-10, 2023 under India's presidency. Theme: 'One Earth, One Family, One Future'.",
+        "difficulty": "easy",
+        "topic": "current_affairs",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "CA_004",
+        "question": "Aditya-L1 mission is related to:",
+        "options": [
+            "Mars exploration",
+            "Study of the Sun",
+            "Moon landing",
+            "Deep space exploration"
+        ],
+        "answer": 1,
+        "explanation": "Aditya-L1, launched on 2 September 2023, is India's first space-based solar observatory mission. It studies the Sun from Lagrange Point 1 (L1).",
+        "difficulty": "easy",
+        "topic": "current_affairs",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "CA_005",
+        "question": "Which Indian received the Nobel Prize in Economics 2024 (shared)?",
+        "options": [
+            "Amartya Sen",
+            "Raghuram Rajan",
+            "Daron Acemoglu",
+            "Abhijit Banerjee"
+        ],
+        "answer": 2,
+        "explanation": "The 2024 Nobel Prize in Economics was awarded to Daron Acemoglu, Simon Johnson, and James A. Robinson for research on how institutions shape prosperity.",
+        "difficulty": "hard",
+        "topic": "current_affairs",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "CA_006",
+        "question": "One Nation One Election proposal was examined by which committee?",
+        "options": [
+            "Finance Commission",
+            "Ram Nath Kovind Committee",
+            "NITI Aayog",
+            "Law Commission"
+        ],
+        "answer": 1,
+        "explanation": "Former President Ram Nath Kovind headed the High-Level Committee on 'One Nation, One Election' which submitted its report in March 2024.",
+        "difficulty": "medium",
+        "topic": "current_affairs",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "CA_007",
+        "question": "CAA (Citizenship Amendment Act) was implemented with effect from:",
+        "options": [
+            "December 2019",
+            "March 11, 2024",
+            "January 2023",
+            "August 2024"
+        ],
+        "answer": 1,
+        "explanation": "The CAA rules were notified on March 11, 2024, making the 2019 act operational. It provides citizenship to persecuted minorities from Pakistan, Bangladesh, and Afghanistan.",
+        "difficulty": "medium",
+        "topic": "current_affairs",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "CA_008",
+        "question": "Who is the current Chief Minister of Himachal Pradesh (as of 2025)?",
+        "options": [
+            "Jai Ram Thakur",
+            "Sukhvinder Singh Sukhu",
+            "Virbhadra Singh",
+            "Prem Kumar Dhumal"
+        ],
+        "answer": 1,
+        "explanation": "Sukhvinder Singh Sukhu became the CM of Himachal Pradesh in December 2022 after Congress won the state elections.",
+        "difficulty": "easy",
+        "topic": "current_affairs",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "CA_009",
+        "question": "The 2024 Paris Olympics — India's total medal tally was:",
+        "options": [
+            "3 medals",
+            "5 medals",
+            "6 medals",
+            "7 medals"
+        ],
+        "answer": 2,
+        "explanation": "India won 6 medals at the 2024 Paris Olympics: 1 silver (Neeraj Chopra, javelin) and 5 bronze in shooting, hockey, and wrestling.",
+        "difficulty": "medium",
+        "topic": "current_affairs",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "CA_010",
+        "question": "What is the new criminal law replacing IPC (Indian Penal Code)?",
+        "options": [
+            "Bharatiya Dand Vidhi",
+            "Bharatiya Nyaya Sanhita (BNS)",
+            "Indian Criminal Code",
+            "Bharatiya Suraksha Sanhita"
+        ],
+        "answer": 1,
+        "explanation": "Three new criminal laws replaced the colonial-era codes from July 1, 2024: BNS (replaces IPC), BNSS (replaces CrPC), and BSA (replaces Indian Evidence Act).",
+        "difficulty": "medium",
+        "topic": "current_affairs",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "CA_011",
+        "question": "Gaganyaan mission is India's:",
+        "options": [
+            "Mars mission",
+            "First human spaceflight programme",
+            "Satellite launching mission",
+            "Deep space mission"
+        ],
+        "answer": 1,
+        "explanation": "Gaganyaan is ISRO's first crewed orbital spaceflight programme, aiming to send Indian astronauts (Gagannauts) to low Earth orbit for 3 days.",
+        "difficulty": "easy",
+        "topic": "current_affairs",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "CA_012",
+        "question": "Digital India initiative includes which of the following?",
+        "options": [
+            "UPI, DigiLocker, Aadhaar",
+            "Only Aadhaar",
+            "Only UPI",
+            "Only DigiLocker"
+        ],
+        "answer": 0,
+        "explanation": "Digital India encompasses multiple platforms including UPI (Unified Payments Interface), DigiLocker, Aadhaar, e-Governance, BharatNet, and other digital infrastructure.",
+        "difficulty": "easy",
+        "topic": "current_affairs",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "CA_013",
+        "question": "The Semiconductor Mission launched by India aims to:",
+        "options": [
+            "Reduce import of food grains",
+            "Establish semiconductor manufacturing in India",
+            "Launch new satellites",
+            "Build nuclear reactors"
+        ],
+        "answer": 1,
+        "explanation": "India Semiconductor Mission (ISM) aims to make India a global hub for semiconductor and display manufacturing with an investment outlay of ₹76,000 crore.",
+        "difficulty": "medium",
+        "topic": "current_affairs",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "CA_014",
+        "question": "Which international organisation did India join as a member in 2024 related to nuclear energy?",
+        "options": [
+            "NATO",
+            "AUKUS",
+            "BRICS New Development Bank expansion",
+            "ITER"
+        ],
+        "answer": 2,
+        "explanation": "In 2024, BRICS expanded with new members including Egypt, Ethiopia, Iran, Saudi Arabia, and UAE joining the bloc. India remained a founding BRICS member.",
+        "difficulty": "medium",
+        "topic": "current_affairs",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "CA_015",
+        "question": "Atal Setu in Mumbai, inaugurated in 2024, is:",
+        "options": [
+            "India's tallest bridge",
+            "India's longest sea bridge",
+            "India's first cable-stayed bridge",
+            "India's widest highway"
+        ],
+        "answer": 1,
+        "explanation": "Atal Bihari Vajpayee Mumbai Trans Harbour Link (Atal Setu), opened in January 2024, is India's longest sea bridge at 21.8 km, connecting Mumbai to Navi Mumbai.",
+        "difficulty": "medium",
+        "topic": "current_affairs",
+        "source": "TGT_HP"
+    }
+]

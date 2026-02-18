@@ -1,0 +1,1652 @@
+[
+    {
+        "id": "OLE_001",
+        "question": "Tomato belongs to the family:",
+        "options": [
+            "Cucurbitaceae",
+            "Cruciferae",
+            "Solanaceae",
+            "Leguminosae"
+        ],
+        "answer": 2,
+        "explanation": "Tomato (Solanum lycopersicum) belongs to family Solanaceae (Nightshade family).",
+        "difficulty": "easy",
+        "topic": "olericulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "OLE_002",
+        "question": "Which vegetable is known as the 'Queen of vegetables'?",
+        "options": [
+            "Potato",
+            "Brinjal",
+            "Tomato",
+            "Onion"
+        ],
+        "answer": 1,
+        "explanation": "Brinjal (Solanum melongena) is known as the 'Queen of vegetables'. It is also called eggplant or aubergine.",
+        "difficulty": "easy",
+        "topic": "olericulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "OLE_003",
+        "question": "The botanical name of potato is:",
+        "options": [
+            "Solanum tuberosum",
+            "Solanum melongena",
+            "Solanum lycopersicum",
+            "Capsicum annuum"
+        ],
+        "answer": 0,
+        "explanation": "Potato (Solanum tuberosum) belongs to family Solanaceae and is propagated vegetatively through tubers.",
+        "difficulty": "easy",
+        "topic": "olericulture",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "OLE_004",
+        "question": "Which gas is used for artificial ripening of tomato?",
+        "options": [
+            "CO2",
+            "Ethylene",
+            "Nitrogen",
+            "Oxygen"
+        ],
+        "answer": 1,
+        "explanation": "Ethylene gas (ethephon/ethrel) is used for uniform artificial ripening of tomatoes at 100-500 ppm concentration.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "OLE_005",
+        "question": "Late blight of potato is caused by:",
+        "options": [
+            "Alternaria solani",
+            "Phytophthora infestans",
+            "Fusarium sp.",
+            "Rhizoctonia solani"
+        ],
+        "answer": 1,
+        "explanation": "Late blight caused by Phytophthora infestans is the most devastating disease of potato. It caused the Irish Potato Famine (1845-49).",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "OLE_006",
+        "question": "Lycopene pigment is found in:",
+        "options": [
+            "Carrot",
+            "Tomato",
+            "Spinach",
+            "Cabbage"
+        ],
+        "answer": 1,
+        "explanation": "Lycopene is the red pigment (carotenoid) found in ripe tomatoes. It is a powerful antioxidant.",
+        "difficulty": "easy",
+        "topic": "olericulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "OLE_007",
+        "question": "Which vegetable is the richest source of beta-carotene (Vitamin A)?",
+        "options": [
+            "Potato",
+            "Carrot",
+            "Onion",
+            "Radish"
+        ],
+        "answer": 1,
+        "explanation": "Carrot (Daucus carota) is the richest vegetable source of beta-carotene, which is converted to Vitamin A in the body.",
+        "difficulty": "easy",
+        "topic": "olericulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "OLE_008",
+        "question": "The edible part of cauliflower is:",
+        "options": [
+            "Modified leaves",
+            "Inflorescence/curd",
+            "Root tuber",
+            "Stem"
+        ],
+        "answer": 1,
+        "explanation": "The edible part of cauliflower is the curd, which is a compact mass of undeveloped flower buds (immature inflorescence).",
+        "difficulty": "easy",
+        "topic": "olericulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "OLE_009",
+        "question": "Pusa Ruby is a variety of:",
+        "options": [
+            "Brinjal",
+            "Chilli",
+            "Tomato",
+            "Okra"
+        ],
+        "answer": 2,
+        "explanation": "Pusa Ruby is a popular open-pollinated, indeterminate tomato variety developed by IARI, suitable for both fresh market and processing.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "OLE_010",
+        "question": "Damping off disease in vegetable nurseries is controlled by:",
+        "options": [
+            "Seed treatment with Thiram/Captan",
+            "Foliar spray of urea",
+            "Excess irrigation",
+            "Nitrogen application"
+        ],
+        "answer": 0,
+        "explanation": "Damping off (caused by Pythium, Rhizoctonia, Fusarium) is controlled by seed treatment with fungicides like Thiram or Captan at 2-3 g/kg seed.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "OLE_011",
+        "question": "Which hormone is responsible for bolting in onion?",
+        "options": [
+            "Auxin",
+            "Gibberellin",
+            "Ethylene",
+            "Cytokinin"
+        ],
+        "answer": 1,
+        "explanation": "Gibberellin promotes bolting (premature flowering) in onion. Low temperature exposure followed by long day conditions also induces bolting.",
+        "difficulty": "hard",
+        "topic": "olericulture",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "OLE_012",
+        "question": "Male sterility in onion is used for:",
+        "options": [
+            "Disease resistance",
+            "Hybrid seed production",
+            "Increasing seed size",
+            "Drought tolerance"
+        ],
+        "answer": 1,
+        "explanation": "Cytoplasmic male sterility (CMS) in onion is widely used for commercial F1 hybrid seed production, eliminating the need for hand emasculation.",
+        "difficulty": "hard",
+        "topic": "olericulture",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "OLE_013",
+        "question": "Which vegetable is a good source of iron?",
+        "options": [
+            "Potato",
+            "Spinach",
+            "Cucumber",
+            "Bottle gourd"
+        ],
+        "answer": 1,
+        "explanation": "Spinach (Spinacia oleracea) is an excellent source of iron (2.7 mg/100g) and other minerals like calcium and potassium.",
+        "difficulty": "easy",
+        "topic": "olericulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "OLE_014",
+        "question": "The chromosome number of potato is:",
+        "options": [
+            "2n = 24",
+            "2n = 48",
+            "2n = 36",
+            "2n = 12"
+        ],
+        "answer": 1,
+        "explanation": "Cultivated potato is a tetraploid (2n = 4x = 48, basic number x = 12).",
+        "difficulty": "hard",
+        "topic": "olericulture",
+        "source": "AFO"
+    },
+    {
+        "id": "OLE_015",
+        "question": "Heterosis breeding is most commercially exploited in:",
+        "options": [
+            "Potato",
+            "Tomato",
+            "Onion",
+            "Garlic"
+        ],
+        "answer": 1,
+        "explanation": "Tomato is one of the most commercially exploited vegetable crops for heterosis (hybrid vigor) breeding due to its natural self-pollination and ease of hybridization.",
+        "difficulty": "hard",
+        "topic": "olericulture",
+        "source": "AFO"
+    },
+    {
+        "id": "OLE_016",
+        "question": "Which cucurbit is monoecious?",
+        "options": [
+            "Cucumber",
+            "Pointed gourd",
+            "Ivy gourd",
+            "Kakrol"
+        ],
+        "answer": 0,
+        "explanation": "Cucumber (Cucumis sativus) is typically monoecious (male and female flowers on the same plant). Pointed gourd and ivy gourd are dioecious.",
+        "difficulty": "hard",
+        "topic": "olericulture",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "OLE_017",
+        "question": "Onion bulb formation requires:",
+        "options": [
+            "Short day conditions",
+            "Long day conditions",
+            "Day neutral conditions",
+            "Continuous darkness"
+        ],
+        "answer": 1,
+        "explanation": "Onion bulb formation is promoted by long day conditions (>12 hours photoperiod). Indian varieties are short-day to intermediate-day types.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "OLE_018",
+        "question": "Which element is essential for root formation in vegetable crops?",
+        "options": [
+            "Nitrogen",
+            "Phosphorus",
+            "Potassium",
+            "Sulphur"
+        ],
+        "answer": 1,
+        "explanation": "Phosphorus is essential for root development, energy transfer (ATP), and cell division in root tips of vegetable crops.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "OLE_019",
+        "question": "White rust of crucifers is caused by:",
+        "options": [
+            "Albugo candida",
+            "Peronospora parasitica",
+            "Alternaria brassicae",
+            "Plasmodiophora brassicae"
+        ],
+        "answer": 0,
+        "explanation": "White rust of crucifers (cauliflower, cabbage, mustard) is caused by the oomycete Albugo candida, producing white blisters on leaves.",
+        "difficulty": "hard",
+        "topic": "olericulture",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "OLE_020",
+        "question": "Which of the following is a cole crop?",
+        "options": [
+            "Tomato",
+            "Pea",
+            "Cauliflower",
+            "Okra"
+        ],
+        "answer": 2,
+        "explanation": "Cauliflower is a cole crop (Brassica oleracea var. botrytis). Cole crops include cabbage, cauliflower, broccoli, knol-khol, and Brussels sprouts.",
+        "difficulty": "easy",
+        "topic": "olericulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "OLE_021",
+        "question": "The pungency in chilli is due to:",
+        "options": [
+            "Lycopene",
+            "Capsaicin",
+            "Allicin",
+            "Piperine"
+        ],
+        "answer": 1,
+        "explanation": "Capsaicin (C₁₈H₂₇NO₃) is the alkaloid responsible for pungency in chilli peppers, concentrated in the placenta tissue.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "OLE_022",
+        "question": "Potato is propagated commercially through:",
+        "options": [
+            "Seeds",
+            "Tubers",
+            "Stem cuttings",
+            "Root cuttings"
+        ],
+        "answer": 1,
+        "explanation": "Potato is commercially propagated through seed tubers (vegetative propagation). True potato seeds (TPS) are used only in breeding programs.",
+        "difficulty": "easy",
+        "topic": "olericulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "OLE_023",
+        "question": "Which vegetable crop requires vernalization for flowering?",
+        "options": [
+            "Tomato",
+            "Okra",
+            "Carrot",
+            "Cucumber"
+        ],
+        "answer": 2,
+        "explanation": "Carrot (biennial) requires vernalization (exposure to low temperature 4-10°C for 4-6 weeks) for flower stalk emergence and seed production.",
+        "difficulty": "hard",
+        "topic": "olericulture",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "OLE_024",
+        "question": "Bacterial wilt of solanaceous vegetables is caused by:",
+        "options": [
+            "Xanthomonas sp.",
+            "Ralstonia solanacearum",
+            "Erwinia sp.",
+            "Pseudomonas sp."
+        ],
+        "answer": 1,
+        "explanation": "Bacterial wilt is caused by Ralstonia solanacearum (formerly Pseudomonas solanacearum). It affects tomato, brinjal, chilli and potato.",
+        "difficulty": "hard",
+        "topic": "olericulture",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "OLE_025",
+        "question": "Which vegetable is dioecious in nature?",
+        "options": [
+            "Cucumber",
+            "Bottle gourd",
+            "Pointed gourd",
+            "Pumpkin"
+        ],
+        "answer": 2,
+        "explanation": "Pointed gourd (Trichosanthes dioica) is a dioecious vegetable with separate male and female plants.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "OLE_026",
+        "question": "Greening of potato tubers is due to:",
+        "options": [
+            "Carotene formation",
+            "Chlorophyll formation",
+            "Solanine formation",
+            "B and C both"
+        ],
+        "answer": 3,
+        "explanation": "Greening of potato tubers exposed to light involves both chlorophyll formation (green color) and solanine (glycoalkaloid) accumulation, making them toxic.",
+        "difficulty": "hard",
+        "topic": "olericulture",
+        "source": "HAU_HP"
+    },
+    {
+        "id": "OLE_027",
+        "question": "Which growth regulator promotes femaleness in cucurbits?",
+        "options": [
+            "GA3",
+            "Ethephon",
+            "NAA",
+            "BAP"
+        ],
+        "answer": 1,
+        "explanation": "Ethephon (2-chloroethylphosphonic acid) promotes female flower production in cucurbits like cucumber and muskmelon at 100-250 ppm.",
+        "difficulty": "hard",
+        "topic": "olericulture",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "OLE_028",
+        "question": "Pusa Jwala is a popular variety of:",
+        "options": [
+            "Brinjal",
+            "Tomato",
+            "Chilli",
+            "Capsicum"
+        ],
+        "answer": 2,
+        "explanation": "Pusa Jwala is a popular chilli variety developed by IARI, known for its pungency and suitability for both green and dry chilli production.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "OLE_029",
+        "question": "The edible part of radish is:",
+        "options": [
+            "Modified root",
+            "Modified stem",
+            "Leaf",
+            "Flower"
+        ],
+        "answer": 0,
+        "explanation": "The edible part of radish (Raphanus sativus) is the swollen modified tap root (hypocotyl + tap root).",
+        "difficulty": "easy",
+        "topic": "olericulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "OLE_030",
+        "question": "Downy mildew of cucurbits is caused by:",
+        "options": [
+            "Erysiphe sp.",
+            "Pseudoperonospora cubensis",
+            "Albugo candida",
+            "Sphaerotheca fuliginea"
+        ],
+        "answer": 1,
+        "explanation": "Downy mildew of cucurbits is caused by Pseudoperonospora cubensis, showing angular water-soaked lesions on lower leaf surface.",
+        "difficulty": "hard",
+        "topic": "olericulture",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "OLE_031",
+        "question": "Bhindi (Okra) belongs to which family?",
+        "options": [
+            "Solanaceae",
+            "Malvaceae",
+            "Cucurbitaceae",
+            "Leguminosae"
+        ],
+        "answer": 1,
+        "explanation": "Okra (Abelmoschus esculentus) belongs to family Malvaceae. Its edible part is the immature fruit (pod).",
+        "difficulty": "easy",
+        "topic": "olericulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "OLE_032",
+        "question": "Which type of seed is used in watermelon hybrid seed production?",
+        "options": [
+            "Tetraploid × Diploid",
+            "Diploid × Tetraploid",
+            "Triploid × Diploid",
+            "Diploid × Diploid"
+        ],
+        "answer": 0,
+        "explanation": "Seedless watermelon hybrids are produced by crossing tetraploid (4x) female × diploid (2x) male. The resulting triploid seeds produce seedless fruits.",
+        "difficulty": "hard",
+        "topic": "olericulture",
+        "source": "AFO"
+    },
+    {
+        "id": "OLE_033",
+        "question": "The pungency in garlic is due to:",
+        "options": [
+            "Capsaicin",
+            "Allicin",
+            "Piperine",
+            "Sinigrin"
+        ],
+        "answer": 1,
+        "explanation": "Allicin (diallyl thiosulphinate) is the sulphur-containing compound responsible for the pungent smell and taste of garlic.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "OLE_034",
+        "question": "Which vegetable is known as the 'King of Vegetables'?",
+        "options": [
+            "Tomato",
+            "Potato",
+            "Cabbage",
+            "Pea"
+        ],
+        "answer": 1,
+        "explanation": "Potato (Solanum tuberosum) is called the 'King of Vegetables' due to its global importance as a staple food crop.",
+        "difficulty": "easy",
+        "topic": "olericulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "OLE_035",
+        "question": "Kufri Jyoti is a variety of:",
+        "options": [
+            "Tomato",
+            "Potato",
+            "Brinjal",
+            "Sweet potato"
+        ],
+        "answer": 1,
+        "explanation": "Kufri Jyoti is a popular medium-maturing potato variety developed by CPRI Shimla, widely grown in north Indian plains and hills.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "HAU_HP"
+    },
+    {
+        "id": "OLE_036",
+        "question": "Whiptail disease in cauliflower is caused by deficiency of:",
+        "options": [
+            "Boron",
+            "Molybdenum",
+            "Zinc",
+            "Iron"
+        ],
+        "answer": 1,
+        "explanation": "Whiptail in cauliflower is caused by molybdenum deficiency. Leaves become narrow, distorted, and fail to form a proper curd.",
+        "difficulty": "hard",
+        "topic": "olericulture",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "OLE_037",
+        "question": "The centre of origin of potato is:",
+        "options": [
+            "India",
+            "Peru (South America)",
+            "China",
+            "Africa"
+        ],
+        "answer": 1,
+        "explanation": "Potato originated in the Andes region of South America (Peru-Bolivia). It was introduced to India by the Portuguese in the 17th century.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "OLE_038",
+        "question": "Hollow heart in potato is a:",
+        "options": [
+            "Bacterial disease",
+            "Fungal disease",
+            "Physiological disorder",
+            "Viral disease"
+        ],
+        "answer": 2,
+        "explanation": "Hollow heart in potato is a physiological disorder caused by rapid tuber growth due to uneven moisture supply or excessive nitrogen after stress.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "HAU_HP"
+    },
+    {
+        "id": "OLE_039",
+        "question": "Which insect pest causes fruit borer problem in tomato?",
+        "options": [
+            "Aphid",
+            "Whitefly",
+            "Helicoverpa armigera",
+            "Jassid"
+        ],
+        "answer": 2,
+        "explanation": "Helicoverpa armigera (American bollworm/tomato fruit borer) is the most serious insect pest of tomato, boring into fruits and causing rotting.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "OLE_040",
+        "question": "Which vegetable contains maximum amount of water?",
+        "options": [
+            "Potato",
+            "Tomato",
+            "Cucumber",
+            "Carrot"
+        ],
+        "answer": 2,
+        "explanation": "Cucumber (Cucumis sativus) contains about 96% water, making it the vegetable with the highest water content.",
+        "difficulty": "easy",
+        "topic": "olericulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "OLE_041",
+        "question": "Club root disease of crucifers is caused by:",
+        "options": [
+            "Alternaria brassicae",
+            "Plasmodiophora brassicae",
+            "Sclerotinia sclerotiorum",
+            "Peronospora parasitica"
+        ],
+        "answer": 1,
+        "explanation": "Club root is caused by Plasmodiophora brassicae, a soil-borne obligate parasite causing swollen, club-shaped roots in cabbage and cauliflower.",
+        "difficulty": "hard",
+        "topic": "olericulture",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "OLE_042",
+        "question": "Arka Vikas is a variety of:",
+        "options": [
+            "Onion",
+            "Tomato",
+            "Brinjal",
+            "Pea"
+        ],
+        "answer": 1,
+        "explanation": "Arka Vikas is a popular semi-determinate tomato variety developed by IIHR Bangalore, suitable for fresh market and processing.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "OLE_043",
+        "question": "Sprouting in onion during storage is inhibited by:",
+        "options": [
+            "Ethylene",
+            "Maleic hydrazide (MH)",
+            "GA3",
+            "IAA"
+        ],
+        "answer": 1,
+        "explanation": "Maleic hydrazide (MH) sprayed at 2500-3000 ppm 15 days before harvest inhibits sprouting during storage by suppressing cell division.",
+        "difficulty": "hard",
+        "topic": "olericulture",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "OLE_044",
+        "question": "Which vegetable crop is an obligate cross-pollinated crop?",
+        "options": [
+            "Tomato",
+            "Pea",
+            "Cabbage",
+            "Lettuce"
+        ],
+        "answer": 2,
+        "explanation": "Cabbage (Brassica oleracea var. capitata) is an obligate cross-pollinated crop due to self-incompatibility mechanisms.",
+        "difficulty": "hard",
+        "topic": "olericulture",
+        "source": "AFO"
+    },
+    {
+        "id": "OLE_045",
+        "question": "The colour of capsicum fruit at maturity is due to:",
+        "options": [
+            "Chlorophyll",
+            "Capsanthin",
+            "Lycopene",
+            "Xanthophyll"
+        ],
+        "answer": 1,
+        "explanation": "Capsanthin is the red carotenoid pigment responsible for the colour of ripe red capsicum (bell pepper) fruits.",
+        "difficulty": "hard",
+        "topic": "olericulture",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "OLE_046",
+        "question": "Which is the most important cucurbitaceous vegetable crop in India?",
+        "options": [
+            "Watermelon",
+            "Cucumber",
+            "Bottle gourd",
+            "Pumpkin"
+        ],
+        "answer": 2,
+        "explanation": "Bottle gourd (Lagenaria siceraria) is the most widely cultivated cucurbit in India, used as vegetable and for making sweets.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "OLE_047",
+        "question": "Splitting of cabbage heads is mainly due to:",
+        "options": [
+            "Nitrogen deficiency",
+            "Delayed harvesting and excess water",
+            "Boron toxicity",
+            "High temperature"
+        ],
+        "answer": 1,
+        "explanation": "Splitting occurs when mature heads absorb excess water after rain/irrigation, causing internal pressure to burst the head.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "HAU_HP"
+    },
+    {
+        "id": "OLE_048",
+        "question": "Pusa Sawani is a popular variety of:",
+        "options": [
+            "Brinjal",
+            "Okra",
+            "Tomato",
+            "Chilli"
+        ],
+        "answer": 1,
+        "explanation": "Pusa Sawani is the most widely grown okra (bhindi) variety in India, developed by IARI, resistant to Yellow Vein Mosaic Virus.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "OLE_049",
+        "question": "The optimum temperature for tomato fruit setting is:",
+        "options": [
+            "15-20°C",
+            "21-24°C",
+            "30-35°C",
+            "10-12°C"
+        ],
+        "answer": 1,
+        "explanation": "Tomato fruit setting is optimum at 21-24°C night temperature. Above 30°C, pollen viability decreases causing poor fruit set.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "OLE_050",
+        "question": "Anthocyanin pigment in brinjal gives it:",
+        "options": [
+            "Green colour",
+            "Purple colour",
+            "Yellow colour",
+            "White colour"
+        ],
+        "answer": 1,
+        "explanation": "Anthocyanin is the flavonoid pigment responsible for the characteristic purple/violet colour in brinjal fruit skin.",
+        "difficulty": "easy",
+        "topic": "olericulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "OLE_051",
+        "question": "Which is the most common method of raising cabbage seedlings?",
+        "options": [
+            "Direct seeding",
+            "Transplanting from nursery beds",
+            "Cutting",
+            "Tissue culture"
+        ],
+        "answer": 1,
+        "explanation": "Cabbage is raised in nursery beds first and then transplanted to main field at 4-5 leaf stage (25-30 days old seedlings).",
+        "difficulty": "easy",
+        "topic": "olericulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "OLE_052",
+        "question": "YVMV (Yellow Vein Mosaic Virus) in okra is transmitted by:",
+        "options": [
+            "Aphids",
+            "Thrips",
+            "Whitefly",
+            "Nematodes"
+        ],
+        "answer": 2,
+        "explanation": "YVMV in okra is transmitted by the whitefly Bemisia tabaci. Resistant varieties like Pusa Sawani and Arka Anamika are important.",
+        "difficulty": "hard",
+        "topic": "olericulture",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "OLE_053",
+        "question": "Which vegetable is the largest produced vegetable globally?",
+        "options": [
+            "Onion",
+            "Tomato",
+            "Potato",
+            "Cabbage"
+        ],
+        "answer": 2,
+        "explanation": "Potato is the largest produced vegetable globally with over 370 million tonnes annual production, followed by tomato.",
+        "difficulty": "easy",
+        "topic": "olericulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "OLE_054",
+        "question": "Black leg of cabbage and cauliflower is caused by:",
+        "options": [
+            "Phoma lingam",
+            "Fusarium sp.",
+            "Pythium sp.",
+            "Sclerotinia sp."
+        ],
+        "answer": 0,
+        "explanation": "Black leg disease is caused by Phoma lingam (Leptosphaeria maculans), producing dark lesions on stem base of brassica crops.",
+        "difficulty": "hard",
+        "topic": "olericulture",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "OLE_055",
+        "question": "The optimum spacing for potato in hills of HP is:",
+        "options": [
+            "60 × 20 cm",
+            "75 × 15 cm",
+            "45 × 30 cm",
+            "90 × 30 cm"
+        ],
+        "answer": 0,
+        "explanation": "In hills, potato is planted at 60 × 20 cm spacing. In plains, wider spacing of 60 × 25 cm or 75 × 20 cm is used.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "HAU_HP"
+    },
+    {
+        "id": "OLE_056",
+        "question": "Knol-khol is a variety of:",
+        "options": [
+            "Brassica oleracea var. gongylodes",
+            "Brassica oleracea var. capitata",
+            "Brassica oleracea var. botrytis",
+            "Brassica rapa"
+        ],
+        "answer": 0,
+        "explanation": "Knol-khol (Kohlrabi) is Brassica oleracea var. gongylodes. Its edible part is the swollen stem (knob).",
+        "difficulty": "hard",
+        "topic": "olericulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "OLE_057",
+        "question": "Leaf curl disease of chilli is transmitted by:",
+        "options": [
+            "Aphids",
+            "Thrips",
+            "Whitefly",
+            "Hoppers"
+        ],
+        "answer": 2,
+        "explanation": "Chilli leaf curl virus (ChiLCV) is transmitted by the whitefly Bemisia tabaci, causing upward curling and puckering of leaves.",
+        "difficulty": "hard",
+        "topic": "olericulture",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "OLE_058",
+        "question": "Parthenocarpy in cucumber is induced by:",
+        "options": [
+            "2,4-D",
+            "GA3",
+            "NAA",
+            "Ethephon"
+        ],
+        "answer": 1,
+        "explanation": "GA3 (Gibberellic acid) application induces parthenocarpy (seedless fruit development) in cucumber and other cucurbits.",
+        "difficulty": "hard",
+        "topic": "olericulture",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "OLE_059",
+        "question": "The edible part of broccoli is:",
+        "options": [
+            "Head (modified flower buds)",
+            "Leaves",
+            "Stem",
+            "Root"
+        ],
+        "answer": 0,
+        "explanation": "The edible part of broccoli (Brassica oleracea var. italica) is the head consisting of immature green flower buds and fleshy stalk.",
+        "difficulty": "easy",
+        "topic": "olericulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "OLE_060",
+        "question": "Tipburn in lettuce is due to deficiency of:",
+        "options": [
+            "Nitrogen",
+            "Phosphorus",
+            "Calcium",
+            "Potassium"
+        ],
+        "answer": 2,
+        "explanation": "Tipburn in lettuce and cabbage is a calcium deficiency disorder causing browning/necrosis of leaf edges.",
+        "difficulty": "hard",
+        "topic": "olericulture",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "OLE_061",
+        "question": "Which onion variety is suitable for kharif season in India?",
+        "options": [
+            "Pusa Red",
+            "Agrifound Dark Red",
+            "N-53",
+            "Arka Kalyan"
+        ],
+        "answer": 2,
+        "explanation": "N-53 is a popular kharif season onion variety suitable for late kharif sowing in India, especially in Maharashtra.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "OLE_062",
+        "question": "Bitter gourd (Momordica charantia) contains a bitter compound called:",
+        "options": [
+            "Capsaicin",
+            "Momordicine",
+            "Solanine",
+            "Cucurbitacin"
+        ],
+        "answer": 1,
+        "explanation": "Momordicine is the bitter principle found in bitter gourd. It has medicinal properties and is used in traditional diabetes treatment.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "OLE_063",
+        "question": "Fruit fly in cucurbits is best controlled by:",
+        "options": [
+            "Soil drenching",
+            "Methyl eugenol traps + insecticide baits",
+            "Dusting sulphur",
+            "Neem seed extract only"
+        ],
+        "answer": 1,
+        "explanation": "Methyl eugenol traps with malathion bait is the most effective IPM strategy for fruit fly control in cucurbits and mango.",
+        "difficulty": "hard",
+        "topic": "olericulture",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "OLE_064",
+        "question": "Double cropping in potato refers to:",
+        "options": [
+            "Growing two potato crops in one year",
+            "Growing potato with another crop",
+            "Planting two varieties together",
+            "Harvesting tubers twice"
+        ],
+        "answer": 0,
+        "explanation": "Double cropping in potato means taking two crops of potato in one year - autumn crop (October-January) and spring crop (January-April).",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "HAU_HP"
+    },
+    {
+        "id": "OLE_065",
+        "question": "Which vegetable crop is a member of Chenopodiaceae family?",
+        "options": [
+            "Tomato",
+            "Spinach",
+            "Okra",
+            "Pea"
+        ],
+        "answer": 1,
+        "explanation": "Spinach (Spinacia oleracea) belongs to family Chenopodiaceae (now reclassified under Amaranthaceae).",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "OLE_066",
+        "question": "Mosaic disease of pea is transmitted by:",
+        "options": [
+            "Whitefly",
+            "Aphid",
+            "Thrips",
+            "Jassid"
+        ],
+        "answer": 1,
+        "explanation": "Pea Mosaic Virus (PMV) is transmitted by aphids (primarily Acyrthosiphon pisum and Myzus persicae) in a non-persistent manner.",
+        "difficulty": "hard",
+        "topic": "olericulture",
+        "source": "HAU_HP"
+    },
+    {
+        "id": "OLE_067",
+        "question": "Browning of cauliflower curd is due to deficiency of:",
+        "options": [
+            "Calcium",
+            "Boron",
+            "Zinc",
+            "Iron"
+        ],
+        "answer": 1,
+        "explanation": "Boron deficiency causes browning and hollow stem in cauliflower curd. Borax at 10-15 kg/ha corrects this disorder.",
+        "difficulty": "hard",
+        "topic": "olericulture",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "OLE_068",
+        "question": "Asparagus belongs to which family?",
+        "options": [
+            "Solanaceae",
+            "Liliaceae",
+            "Cucurbitaceae",
+            "Leguminosae"
+        ],
+        "answer": 1,
+        "explanation": "Asparagus (Asparagus officinalis) belongs to family Liliaceae (now Asparagaceae). Its edible parts are young tender shoots (spears).",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "OLE_069",
+        "question": "French bean is classified as:",
+        "options": [
+            "Root vegetable",
+            "Leguminous vegetable",
+            "Solanaceous vegetable",
+            "Cole crop"
+        ],
+        "answer": 1,
+        "explanation": "French bean (Phaseolus vulgaris) is a leguminous vegetable belonging to Fabaceae/Leguminosae family, valued for edible pods.",
+        "difficulty": "easy",
+        "topic": "olericulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "OLE_070",
+        "question": "Seed rate for direct sowing of tomato is approximately:",
+        "options": [
+            "100-200 g/ha",
+            "400-500 g/ha",
+            "1-2 kg/ha",
+            "5-10 kg/ha"
+        ],
+        "answer": 1,
+        "explanation": "For transplanted tomato, 300-500 g/ha seed is needed for nursery. For direct seeding, higher seed rates of 800-1000 g/ha are used.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "HAU_HP"
+    },
+    {
+        "id": "OLE_071",
+        "question": "Which vegetable is known as 'Tree tomato'?",
+        "options": [
+            "Cherry tomato",
+            "Tamarillo",
+            "Cape gooseberry",
+            "Brinjal"
+        ],
+        "answer": 1,
+        "explanation": "Tamarillo (Solanum betaceum) is known as tree tomato. It is a small tree bearing egg-shaped edible fruits.",
+        "difficulty": "hard",
+        "topic": "olericulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "OLE_072",
+        "question": "Intercropping is most suitable with which long-duration vegetable?",
+        "options": [
+            "Radish",
+            "Tomato",
+            "Turmeric",
+            "Spinach"
+        ],
+        "answer": 2,
+        "explanation": "Turmeric (8-9 months duration) is highly suitable for intercropping with short-duration crops like radish, coriander, or spinach.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "HAU_HP"
+    },
+    {
+        "id": "OLE_073",
+        "question": "Which solanaceous crop is self-pollinated?",
+        "options": [
+            "Brinjal",
+            "Chilli",
+            "Tomato",
+            "All of above"
+        ],
+        "answer": 3,
+        "explanation": "Tomato, brinjal, and chilli are all predominantly self-pollinated crops, though some cross-pollination occurs via insects.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "AFO"
+    },
+    {
+        "id": "OLE_074",
+        "question": "Purple blotch of onion is caused by:",
+        "options": [
+            "Alternaria porri",
+            "Stemphylium vesicarium",
+            "Peronospora destructor",
+            "Colletotrichum sp."
+        ],
+        "answer": 0,
+        "explanation": "Purple blotch is caused by Alternaria porri, producing purple lesions with concentric rings on onion leaves.",
+        "difficulty": "hard",
+        "topic": "olericulture",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "OLE_075",
+        "question": "Which is the most widely consumed spice vegetable in India?",
+        "options": [
+            "Garlic",
+            "Ginger",
+            "Chilli",
+            "Turmeric"
+        ],
+        "answer": 2,
+        "explanation": "Chilli (Capsicum annuum) is the most widely consumed spice vegetable in India, used both fresh and dried in daily cooking.",
+        "difficulty": "easy",
+        "topic": "olericulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "OLE_076",
+        "question": "Protected cultivation of vegetables is done under:",
+        "options": [
+            "Open field only",
+            "Polyhouse/greenhouse",
+            "Dense forest shade",
+            "Underground tunnels"
+        ],
+        "answer": 1,
+        "explanation": "Protected cultivation uses polyhouses/greenhouses, net houses, and plastic tunnels to control environmental conditions for off-season vegetable production.",
+        "difficulty": "easy",
+        "topic": "olericulture",
+        "source": "HAU_HP"
+    },
+    {
+        "id": "OLE_077",
+        "question": "Sclerotinia rot of pea is caused by:",
+        "options": [
+            "Sclerotinia sclerotiorum",
+            "Fusarium oxysporum",
+            "Rhizoctonia solani",
+            "Phytophthora sp."
+        ],
+        "answer": 0,
+        "explanation": "White mold/Sclerotinia rot caused by Sclerotinia sclerotiorum is an important disease of pea, especially under cool humid conditions.",
+        "difficulty": "hard",
+        "topic": "olericulture",
+        "source": "HAU_HP"
+    },
+    {
+        "id": "OLE_078",
+        "question": "India ranks which position in vegetable production globally?",
+        "options": [
+            "First",
+            "Second",
+            "Third",
+            "Fourth"
+        ],
+        "answer": 1,
+        "explanation": "India is the second largest vegetable producer in the world after China, producing about 190 million tonnes annually.",
+        "difficulty": "easy",
+        "topic": "olericulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "OLE_079",
+        "question": "Which nutrient is most important for tuber development in potato?",
+        "options": [
+            "Nitrogen",
+            "Phosphorus",
+            "Potassium",
+            "Sulphur"
+        ],
+        "answer": 2,
+        "explanation": "Potassium is crucial for tuber bulking and starch synthesis in potato. It also improves disease resistance and storage quality.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "HAU_HP"
+    },
+    {
+        "id": "OLE_080",
+        "question": "Powdery mildew of pea is caused by:",
+        "options": [
+            "Erysiphe pisi",
+            "Sphaerotheca fuliginea",
+            "Oidium sp.",
+            "Leveillula taurica"
+        ],
+        "answer": 0,
+        "explanation": "Powdery mildew of pea is caused by Erysiphe pisi, producing white powdery growth on leaves, stems, and pods.",
+        "difficulty": "hard",
+        "topic": "olericulture",
+        "source": "HAU_HP"
+    },
+    {
+        "id": "OLE_081",
+        "question": "Priming of vegetable seeds is done to:",
+        "options": [
+            "Increase seed colour",
+            "Improve germination speed and uniformity",
+            "Kill seed-borne pathogens",
+            "Reduce seed weight"
+        ],
+        "answer": 1,
+        "explanation": "Seed priming (hydro-priming or osmo-priming) improves germination speed, uniformity, and seedling vigour, especially under stress conditions.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "RHEO_MP"
+    },
+    {
+        "id": "OLE_082",
+        "question": "The origin of onion is:",
+        "options": [
+            "India",
+            "Central Asia",
+            "South America",
+            "Africa"
+        ],
+        "answer": 1,
+        "explanation": "Onion (Allium cepa) originated in Central Asia (Afghanistan-Iran region). India is the second largest onion producer after China.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "OLE_083",
+        "question": "Which vegetable is known as 'Wonder crop' due to its anti-diabetic properties?",
+        "options": [
+            "Bottle gourd",
+            "Bitter gourd",
+            "Spine gourd",
+            "Snake gourd"
+        ],
+        "answer": 1,
+        "explanation": "Bitter gourd is called 'wonder crop' for its anti-diabetic properties. It contains charantin and polypeptide-p which reduce blood sugar.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "HEO_HP"
+    },
+    {
+        "id": "OLE_084",
+        "question": "Staking in tomato is done for:",
+        "options": [
+            "Reducing fruit rot and improving quality",
+            "Decreasing yield",
+            "Increasing pest attack",
+            "Reducing plant height"
+        ],
+        "answer": 0,
+        "explanation": "Staking keeps fruits off the ground, reducing fruit rot, improving air circulation, making spraying easier, and producing cleaner fruits.",
+        "difficulty": "easy",
+        "topic": "olericulture",
+        "source": "HAU_HP"
+    },
+    {
+        "id": "OLE_085",
+        "question": "Kufri Bahar is a potato variety suitable for:",
+        "options": [
+            "Only hills",
+            "Plains (autumn crop)",
+            "Only processing",
+            "Export only"
+        ],
+        "answer": 1,
+        "explanation": "Kufri Bahar is an early maturing potato variety developed by CPRI, suitable for autumn (early) crop in the Indo-Gangetic plains.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "HAU_HP"
+    },
+    {
+        "id": "OLE_086",
+        "question": "Nematode problem in vegetable fields is controlled by:",
+        "options": [
+            "Carbofuran application",
+            "Only hand picking",
+            "Foliar spray of urea",
+            "Excess irrigation"
+        ],
+        "answer": 0,
+        "explanation": "Root-knot nematode (Meloidogyne) in vegetables is controlled by Carbofuran 3G (1kg a.i./ha) soil application and crop rotation.",
+        "difficulty": "hard",
+        "topic": "olericulture",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "OLE_087",
+        "question": "Lettuce belongs to family:",
+        "options": [
+            "Solanaceae",
+            "Asteraceae",
+            "Cucurbitaceae",
+            "Chenopodiaceae"
+        ],
+        "answer": 1,
+        "explanation": "Lettuce (Lactuca sativa) belongs to Asteraceae (Compositae). It is an important salad crop grown in cool season.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "OLE_088",
+        "question": "Gynoecious lines in cucumber are useful for:",
+        "options": [
+            "Rootstock production",
+            "F1 hybrid seed production",
+            "Processing only",
+            "Organic farming only"
+        ],
+        "answer": 1,
+        "explanation": "Gynoecious (all female flowers) lines serve as female parent for F1 hybrid cucumber seed production, eliminating emasculation.",
+        "difficulty": "hard",
+        "topic": "olericulture",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "OLE_089",
+        "question": "Which element causes blossom-end rot in tomato?",
+        "options": [
+            "Nitrogen deficiency",
+            "Calcium deficiency",
+            "Iron excess",
+            "Boron toxicity"
+        ],
+        "answer": 1,
+        "explanation": "Blossom-end rot in tomato is caused by calcium deficiency in developing fruits, often triggered by irregular irrigation.",
+        "difficulty": "hard",
+        "topic": "olericulture",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "OLE_090",
+        "question": "Pusa Purple Long is a variety of:",
+        "options": [
+            "Chilli",
+            "Brinjal",
+            "Okra",
+            "Capsicum"
+        ],
+        "answer": 1,
+        "explanation": "Pusa Purple Long is a popular long-fruited brinjal variety developed by IARI, suitable for north Indian conditions.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "OLE_091",
+        "question": "Seed production of cabbage and cauliflower requires:",
+        "options": [
+            "Tropical conditions",
+            "Low temperature for vernalization",
+            "Day-neutral conditions",
+            "High temperature"
+        ],
+        "answer": 1,
+        "explanation": "Cole crops need vernalization (4-10°C for 4-6 weeks) for bolting and seed production. Seed crops are raised in hills.",
+        "difficulty": "hard",
+        "topic": "olericulture",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "OLE_092",
+        "question": "Vegetable forcing refers to:",
+        "options": [
+            "Forcing plants to grow in fields",
+            "Growing vegetables out of season under controlled conditions",
+            "Forcing seeds to germinate",
+            "Mechanical harvesting"
+        ],
+        "answer": 1,
+        "explanation": "Forcing is production of vegetables outside their normal season using protected structures, heating, or artificial lighting.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "OLE_093",
+        "question": "Turmeric belongs to family:",
+        "options": [
+            "Solanaceae",
+            "Zingiberaceae",
+            "Liliaceae",
+            "Amaranthaceae"
+        ],
+        "answer": 1,
+        "explanation": "Turmeric (Curcuma longa) belongs to Zingiberaceae (ginger family). Curcumin is its principal yellow pigment and bioactive compound.",
+        "difficulty": "easy",
+        "topic": "olericulture",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "OLE_094",
+        "question": "Tinda (Indian round gourd) is also known as:",
+        "options": [
+            "Apple gourd",
+            "Snake gourd",
+            "Ash gourd",
+            "Sponge gourd"
+        ],
+        "answer": 0,
+        "explanation": "Tinda (Praecitrullus fistulosus) is called Indian apple gourd or round gourd, popular in north Indian cuisine.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "OLE_095",
+        "question": "Seed treatment with Trichoderma is done for:",
+        "options": [
+            "Growth promotion only",
+            "Biological control of soil-borne fungal diseases",
+            "Weed control",
+            "Insect control"
+        ],
+        "answer": 1,
+        "explanation": "Trichoderma viride/harzianum is a bio-control agent effective against soil-borne pathogens (Pythium, Fusarium, Rhizoctonia).",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "OLE_096",
+        "question": "The optimum temperature for pea cultivation is:",
+        "options": [
+            "10-18°C",
+            "25-35°C",
+            "30-40°C",
+            "5-8°C"
+        ],
+        "answer": 0,
+        "explanation": "Pea is a cool-season crop with optimum growth temperature of 10-18°C. Above 25°C, yield declines sharply.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "OLE_097",
+        "question": "Ridge gourd belongs to genus:",
+        "options": [
+            "Cucumis",
+            "Luffa",
+            "Citrullus",
+            "Momordica"
+        ],
+        "answer": 1,
+        "explanation": "Ridge gourd is Luffa acutangula and sponge gourd is Luffa cylindrica/aegyptiaca, both belonging to Cucurbitaceae.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "OLE_098",
+        "question": "Sunscald in chilli fruits is caused by:",
+        "options": [
+            "Fungal infection",
+            "Direct sun exposure on immature fruits",
+            "Excess nitrogen",
+            "Cold temperature"
+        ],
+        "answer": 1,
+        "explanation": "Sunscald/sunburn produces white bleached patches on chilli and capsicum fruits exposed to direct intense sunlight.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "OLE_099",
+        "question": "Garlic is propagated through:",
+        "options": [
+            "Seeds",
+            "Cloves",
+            "Stem cuttings",
+            "Runners"
+        ],
+        "answer": 1,
+        "explanation": "Garlic (Allium sativum) is vegetatively propagated exclusively through cloves. It rarely produces seeds (bolts only in some varieties).",
+        "difficulty": "easy",
+        "topic": "olericulture",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "OLE_100",
+        "question": "The most critical stage of water requirement in onion is:",
+        "options": [
+            "Vegetative growth",
+            "Bulb development",
+            "Maturity",
+            "After harvest"
+        ],
+        "answer": 1,
+        "explanation": "Bulb development (enlargement) stage is most critical for irrigation in onion. Water stress causes splitting and doubles.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "OLE_101",
+        "question": "Ginger is propagated through:",
+        "options": [
+            "Seeds",
+            "Rhizomes",
+            "Cuttings",
+            "Tubers"
+        ],
+        "answer": 1,
+        "explanation": "Ginger (Zingiber officinale) is propagated through rhizome pieces (seed rhizomes) of 2.5-5 cm length with 1-2 buds.",
+        "difficulty": "easy",
+        "topic": "olericulture",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "OLE_102",
+        "question": "Black rot of crucifers is caused by:",
+        "options": [
+            "Xanthomonas campestris pv. campestris",
+            "Alternaria brassicae",
+            "Fusarium sp.",
+            "Pythium sp."
+        ],
+        "answer": 0,
+        "explanation": "Black rot is caused by Xanthomonas campestris, producing V-shaped yellow/brown lesions from leaf margins with black veins.",
+        "difficulty": "hard",
+        "topic": "olericulture",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "OLE_103",
+        "question": "Mulch film commonly used in vegetable production is:",
+        "options": [
+            "White only",
+            "Black polyethylene",
+            "Glass",
+            "Aluminum"
+        ],
+        "answer": 1,
+        "explanation": "Black polyethylene mulch (25-30 micron) is most common, suppressing weeds, conserving moisture, and moderating soil temperature.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "OLE_104",
+        "question": "Pusa Padmini is a variety of:",
+        "options": [
+            "Tomato",
+            "Onion",
+            "Cucumber",
+            "Carrot"
+        ],
+        "answer": 1,
+        "explanation": "Pusa Padmini (AFLR) is a popular onion variety developed by IARI, suitable for rabi season cultivation.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "OLE_105",
+        "question": "Green manuring in vegetable cultivation improves:",
+        "options": [
+            "Soil structure and nitrogen content",
+            "Pest resistance",
+            "Seed germination only",
+            "Fruit colour"
+        ],
+        "answer": 0,
+        "explanation": "Green manuring with Sesbania/Crotalaria improves soil organic matter, nitrogen (through fixation), and physical properties.",
+        "difficulty": "easy",
+        "topic": "olericulture",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "OLE_106",
+        "question": "Hardening of vegetable seedlings before transplanting involves:",
+        "options": [
+            "Heavy watering",
+            "Gradually reducing water and exposing to outdoor conditions",
+            "Deep planting",
+            "Heavy fertilization"
+        ],
+        "answer": 1,
+        "explanation": "Hardening acclimatizes seedlings to field conditions by gradually reducing water and increasing sun exposure for 7-10 days.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "OLE_107",
+        "question": "Fruit and shoot borer is a major pest of:",
+        "options": [
+            "Tomato",
+            "Brinjal",
+            "Okra",
+            "Cabbage"
+        ],
+        "answer": 1,
+        "explanation": "Brinjal fruit and shoot borer (Leucinodes orbonalis) is the most damaging pest of brinjal, boring into shoots and fruits.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "OLE_108",
+        "question": "Determinate tomato varieties are preferred for:",
+        "options": [
+            "Staking",
+            "Machine harvesting and processing",
+            "Home gardens only",
+            "Greenhouse only"
+        ],
+        "answer": 1,
+        "explanation": "Determinate varieties (bush type) ripen fruits simultaneously, suitable for mechanical harvesting and processing industry.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "ICAR_JRF"
+    },
+    {
+        "id": "OLE_109",
+        "question": "Early blight of potato and tomato is caused by:",
+        "options": [
+            "Phytophthora infestans",
+            "Alternaria solani",
+            "Fusarium sp.",
+            "Rhizoctonia sp."
+        ],
+        "answer": 1,
+        "explanation": "Early blight caused by Alternaria solani produces concentric ring-pattern (target board) lesions on leaves of tomato and potato.",
+        "difficulty": "hard",
+        "topic": "olericulture",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "OLE_110",
+        "question": "Raising vegetables on raised beds is beneficial in:",
+        "options": [
+            "Dry regions only",
+            "Waterlogged and heavy rainfall areas",
+            "Desert areas",
+            "Cold desert"
+        ],
+        "answer": 1,
+        "explanation": "Raised beds improve drainage, aeration, and root development in waterlogged or heavy-rainfall areas for vegetable cultivation.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "HPSSC_HEO_2017"
+    }
+]

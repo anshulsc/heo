@@ -1,0 +1,227 @@
+[
+    {
+        "id": "RSN_001",
+        "question": "अगर COMPUTER को RFNUZYVI लिखा जाता है, तो MACHINE को कैसे लिखेंगे?",
+        "options": [
+            "NFXMRQJ",
+            "NFXMSOH",
+            "NFXMROI",
+            "NFXMSRI"
+        ],
+        "answer": 0,
+        "explanation": "Each letter is replaced by the letter that comes after it with a gap (+5, -1, +5, -1 pattern). C+5=R, O-1=N, M+5=R... Following the same pattern for MACHINE.",
+        "difficulty": "hard",
+        "topic": "reasoning",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "RSN_002",
+        "question": "श्रृंखला 2, 6, 12, 20, 30, ? में अगला पद क्या होगा?",
+        "options": [
+            "40",
+            "42",
+            "44",
+            "48"
+        ],
+        "answer": 1,
+        "explanation": "अंतर: 4, 6, 8, 10, 12 (consecutive even numbers). So 30 + 12 = 42.",
+        "difficulty": "medium",
+        "topic": "reasoning",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "RSN_003",
+        "question": "If A is the brother of B, B is the sister of C, and C is the father of D, how is A related to D?",
+        "options": [
+            "Uncle",
+            "Father",
+            "Grandfather",
+            "Brother"
+        ],
+        "answer": 0,
+        "explanation": "A is brother of B. B is sister of C. So A and C are siblings. C is father of D. Therefore A is uncle of D.",
+        "difficulty": "medium",
+        "topic": "reasoning",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "RSN_004",
+        "question": "एक घड़ी में 3:15 बजे हैं। घंटे और मिनट की सुई के बीच का कोण क्या है?",
+        "options": [
+            "0°",
+            "7.5°",
+            "15°",
+            "22.5°"
+        ],
+        "answer": 1,
+        "explanation": "At 3:15, minute hand is at 90° (pointing 3). Hour hand moves 0.5° per minute, so it's at 90° + 7.5° = 97.5°. Angle = 97.5° - 90° = 7.5°.",
+        "difficulty": "hard",
+        "topic": "reasoning",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "RSN_005",
+        "question": "Which number will replace the question mark: 3, 9, 27, 81, ?",
+        "options": [
+            "162",
+            "216",
+            "243",
+            "324"
+        ],
+        "answer": 2,
+        "explanation": "Each number is multiplied by 3: 3×3=9, 9×3=27, 27×3=81, 81×3=243.",
+        "difficulty": "easy",
+        "topic": "reasoning",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "RSN_006",
+        "question": "यदि + का अर्थ ×, - का अर्थ ÷, × का अर्थ + और ÷ का अर्थ - है, तो 8 + 6 - 2 × 4 ÷ 3 = ?",
+        "options": [
+            "25",
+            "31",
+            "37",
+            "45"
+        ],
+        "answer": 0,
+        "explanation": "Replacing operators: 8 × 6 ÷ 2 + 4 - 3 = 48 ÷ 2 + 4 - 3 = 24 + 4 - 3 = 25.",
+        "difficulty": "medium",
+        "topic": "reasoning",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "RSN_007",
+        "question": "Find the odd one out: 2, 5, 10, 17, 26, 37, 50, 64",
+        "options": [
+            "17",
+            "37",
+            "50",
+            "64"
+        ],
+        "answer": 3,
+        "explanation": "Pattern: n² + 1 → 1²+1=2, 2²+1=5, 3²+1=10, 4²+1=17, 5²+1=26, 6²+1=37, 7²+1=50. So 64 should be 8²+1=65.",
+        "difficulty": "hard",
+        "topic": "reasoning",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "RSN_008",
+        "question": "A man walks 5 km North, turns right and walks 3 km, then turns right again and walks 5 km. In which direction is he from the starting point?",
+        "options": [
+            "North",
+            "South",
+            "East",
+            "West"
+        ],
+        "answer": 2,
+        "explanation": "Starting → 5 km North → turns right (East) → 3 km East → turns right (South) → 5 km South. He is 3 km East of starting point.",
+        "difficulty": "medium",
+        "topic": "reasoning",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "RSN_009",
+        "question": "श्रृंखला A, C, F, J, O, ? में अगला अक्षर क्या होगा?",
+        "options": [
+            "T",
+            "U",
+            "V",
+            "S"
+        ],
+        "answer": 1,
+        "explanation": "Differences: +2, +3, +4, +5, +6. A(1)+2=C(3)+3=F(6)+4=J(10)+5=O(15)+6=U(21).",
+        "difficulty": "medium",
+        "topic": "reasoning",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "RSN_010",
+        "question": "In a row of 40 students, R is 10th from the left end and S is 20th from the right end. How many students are between R and S?",
+        "options": [
+            "9",
+            "10",
+            "11",
+            "12"
+        ],
+        "answer": 1,
+        "explanation": "R is 10th from left. S is 20th from right = 40-20+1 = 21st from left. Students between them: 21-10-1 = 10.",
+        "difficulty": "medium",
+        "topic": "reasoning",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "RSN_011",
+        "question": "Select the Venn diagram that shows the relationship: Flowers, Rose, Lotus",
+        "options": [
+            "Rose and Lotus are subsets of Flowers, with no overlap between Rose and Lotus",
+            "All three overlap completely",
+            "Flowers contains Rose which contains Lotus",
+            "None of these"
+        ],
+        "answer": 0,
+        "explanation": "Rose and Lotus are both types of Flowers (subsets) but they are different from each other (no overlap between Rose and Lotus).",
+        "difficulty": "easy",
+        "topic": "reasoning",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "RSN_012",
+        "question": "If in a certain code, PAINT is coded as 74126 and EXCEL is coded as 93305, then EXPLAIN is coded as:",
+        "options": [
+            "9374412",
+            "93744126",
+            "9374126",
+            "93741260"
+        ],
+        "answer": 2,
+        "explanation": "P=7, A=4, I=1, N=2, T=6, E=9, X=3, C=0, L=5. EXPLAIN: E=9, X=3, P=7, L=5(→4?), A=4, I=1, N=2, = 9374126.",
+        "difficulty": "hard",
+        "topic": "reasoning",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "RSN_013",
+        "question": "How many triangles are there in the given figure of a triangle divided into 4 equal parts?",
+        "options": [
+            "4",
+            "5",
+            "6",
+            "8"
+        ],
+        "answer": 3,
+        "explanation": "A triangle divided into 4 small triangles has: 4 small triangles + 3 medium (2 small combined) + 1 large (whole) = 8 triangles total.",
+        "difficulty": "hard",
+        "topic": "reasoning",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "RSN_014",
+        "question": "DOCTOR : PATIENT :: LAWYER : ?",
+        "options": [
+            "Judge",
+            "Client",
+            "Court",
+            "Law"
+        ],
+        "answer": 1,
+        "explanation": "A doctor treats a patient. Similarly, a lawyer represents a client. The relationship is professional-to-served.",
+        "difficulty": "easy",
+        "topic": "reasoning",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "RSN_015",
+        "question": "यदि परसों शुक्रवार था, तो आज से तीसरा दिन क्या होगा?",
+        "options": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+        ],
+        "answer": 2,
+        "explanation": "Day before yesterday (परसों) = Friday. Yesterday = Saturday. Today = Sunday. Third day from today = Wednesday.",
+        "difficulty": "easy",
+        "topic": "reasoning",
+        "source": "TGT_HP"
+    }
+]

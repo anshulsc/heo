@@ -1,0 +1,677 @@
+[
+    {
+        "id": "HPGK_001",
+        "question": "हिमाचल प्रदेश को पूर्ण राज्य का दर्जा कब मिला?",
+        "options": [
+            "15 अगस्त 1947",
+            "1 नवंबर 1956",
+            "25 जनवरी 1971",
+            "26 जनवरी 1950"
+        ],
+        "answer": 2,
+        "explanation": "हिमाचल प्रदेश 25 जनवरी 1971 को भारत का 18वाँ राज्य बना। इसे 1948 में मुख्यायुक्त प्रांत और 1956 में केंद्रशासित प्रदेश का दर्जा मिला था।",
+        "difficulty": "easy",
+        "topic": "hp_gk",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "HPGK_002",
+        "question": "हिमाचल प्रदेश की राजधानी कौन सी है?",
+        "options": [
+            "मनाली",
+            "शिमला (ग्रीष्मकालीन) और धर्मशाला (शीतकालीन)",
+            "कुल्लू",
+            "मंडी"
+        ],
+        "answer": 1,
+        "explanation": "शिमला हिमाचल प्रदेश की ग्रीष्मकालीन राजधानी है। 2017 से धर्मशाला (कांगड़ा) को शीतकालीन राजधानी घोषित किया गया।",
+        "difficulty": "easy",
+        "topic": "hp_gk",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "HPGK_003",
+        "question": "हिमाचल प्रदेश का राजकीय पक्षी कौन सा है?",
+        "options": [
+            "मोर",
+            "पश्चिमी ट्रैगोपान (जुजुराना)",
+            "गिद्ध",
+            "बाज़"
+        ],
+        "answer": 1,
+        "explanation": "पश्चिमी ट्रैगोपान (Western Tragopan/जुजुराना) हिमाचल प्रदेश का राजकीय पक्षी है। यह एक दुर्लभ हिमालयी पक्षी है।",
+        "difficulty": "easy",
+        "topic": "hp_gk",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "HPGK_004",
+        "question": "हिमाचल प्रदेश में कुल कितने जिले हैं?",
+        "options": [
+            "10",
+            "12",
+            "14",
+            "16"
+        ],
+        "answer": 1,
+        "explanation": "हिमाचल प्रदेश में कुल 12 जिले हैं: बिलासपुर, चंबा, हमीरपुर, कांगड़ा, किन्नौर, कुल्लू, लाहौल-स्पीति, मंडी, शिमला, सिरमौर, सोलन, ऊना।",
+        "difficulty": "easy",
+        "topic": "hp_gk",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "HPGK_005",
+        "question": "हिमाचल प्रदेश का सबसे बड़ा जिला (क्षेत्रफल) कौन सा है?",
+        "options": [
+            "कांगड़ा",
+            "कुल्लू",
+            "लाहौल-स्पिती",
+            "शिमला"
+        ],
+        "answer": 2,
+        "explanation": "लाहौल-स्पिती हिमाचल प्रदेश का सबसे बड़ा जिला (13,835 वर्ग किमी) है, लेकिन जनसंख्या में सबसे कम।",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "HPGK_006",
+        "question": "हिमाचल प्रदेश के प्रथम मुख्यमंत्री कौन थे?",
+        "options": [
+            "डॉ. यशवंत सिंह परमार",
+            "शांता कुमार",
+            "प्रेम कुमार धूमल",
+            "वीरभद्र सिंह"
+        ],
+        "answer": 0,
+        "explanation": "डॉ. यशवंत सिंह परमार हिमाचल प्रदेश के प्रथम मुख्यमंत्री थे। उन्हें 'हिमाचल प्रदेश के निर्माता' कहा जाता है।",
+        "difficulty": "easy",
+        "topic": "hp_gk",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "HPGK_007",
+        "question": "हिमाचल प्रदेश की सबसे ऊँची चोटी कौन सी है?",
+        "options": [
+            "रिओ पुर्ग्यिल (6,816 मीटर)",
+            "शिल्ला (7,025 मीटर)",
+            "इंद्रासन (6,220 मीटर)",
+            "हनुमान टिब्बा (5,932 मीटर)"
+        ],
+        "answer": 1,
+        "explanation": "शिल्ला (Shilla Peak) 7,025 मीटर ऊँची है और किन्नौर जिले में स्थित है। यह HP की सबसे ऊँची चोटी है।",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "HPGK_008",
+        "question": "The Great Himalayan National Park (UNESCO World Heritage Site) is located in which district?",
+        "options": [
+            "Shimla",
+            "Kullu",
+            "Chamba",
+            "Kinnaur"
+        ],
+        "answer": 1,
+        "explanation": "GHNP is in Kullu district, established in 1984 and declared a UNESCO World Heritage Site in 2014. It covers 754.4 sq km.",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "HPGK_009",
+        "question": "हिमाचल प्रदेश का राजकीय फूल कौन सा है?",
+        "options": [
+            "गुलाब",
+            "गुलदाउदी",
+            "रोडोडेंड्रॉन (बुरांश)",
+            "कमल"
+        ],
+        "answer": 2,
+        "explanation": "रोडोडेंड्रॉन (बुरांश/Rhododendron) हिमाचल प्रदेश का राजकीय फूल है। यह गुलाबी-लाल रंग का होता है।",
+        "difficulty": "easy",
+        "topic": "hp_gk",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "HPGK_010",
+        "question": "हिमाचल प्रदेश में कितनी विधानसभा सीटें हैं?",
+        "options": [
+            "60",
+            "65",
+            "68",
+            "72"
+        ],
+        "answer": 2,
+        "explanation": "हिमाचल प्रदेश विधानसभा में 68 सीटें हैं। राज्य में एकसदनीय विधायिका है (केवल विधानसभा)।",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "HPGK_011",
+        "question": "Rohtang Pass connects which two valleys?",
+        "options": [
+            "Kullu and Lahaul",
+            "Shimla and Kinnaur",
+            "Kangra and Chamba",
+            "Mandi and Bilaspur"
+        ],
+        "answer": 0,
+        "explanation": "Rohtang Pass (3,978 m) connects the Kullu Valley with the Lahaul Valley in Himachal Pradesh. The Atal Tunnel (2020) provides year-round connectivity below it.",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "HPGK_012",
+        "question": "अटल टनल (रोहतांग) की लंबाई कितनी है?",
+        "options": [
+            "5.2 किमी",
+            "7.5 किमी",
+            "9.02 किमी",
+            "11.5 किमी"
+        ],
+        "answer": 2,
+        "explanation": "अटल टनल 9.02 किमी लंबी है, जो 10,000 फीट (3,000 मीटर) की ऊँचाई पर दुनिया की सबसे लंबी राजमार्ग सुरंग है। इसका उद्घाटन 3 अक्टूबर 2020 को हुआ।",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "HPGK_013",
+        "question": "हिमाचल प्रदेश की प्रमुख नदियाँ कौन सी हैं?",
+        "options": [
+            "गंगा, यमुना, नर्मदा",
+            "सतलुज, ब्यास, रावी, चिनाब, यमुना",
+            "कावेरी, कृष्णा, गोदावरी",
+            "ब्रह्मपुत्र, महानदी"
+        ],
+        "answer": 1,
+        "explanation": "हिमाचल प्रदेश की 5 प्रमुख नदियाँ: सतलुज (सबसे लंबी), ब्यास, रावी, चिनाब और यमुना हैं। ये सभी हिमालय से निकलती हैं।",
+        "difficulty": "easy",
+        "topic": "hp_gk",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "HPGK_014",
+        "question": "Bhakra Dam is built on which river?",
+        "options": [
+            "Beas",
+            "Ravi",
+            "Sutlej",
+            "Chenab"
+        ],
+        "answer": 2,
+        "explanation": "Bhakra Dam is built on Sutlej river in Bilaspur district of HP. It is one of the highest gravity dams in the world (226 m). Gobind Sagar Lake is its reservoir.",
+        "difficulty": "easy",
+        "topic": "hp_gk",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "HPGK_015",
+        "question": "हिमाचल प्रदेश का सबसे छोटा जिला (क्षेत्रफल) कौन सा है?",
+        "options": [
+            "ऊना",
+            "हमीरपुर",
+            "बिलासपुर",
+            "सोलन"
+        ],
+        "answer": 1,
+        "explanation": "हमीरपुर हिमाचल प्रदेश का सबसे छोटा जिला (1,118 वर्ग किमी) है लेकिन जनसंख्या घनत्व में अधिक है।",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "HPGK_016",
+        "question": "Kangra Fort is one of the oldest forts in India, located in which district?",
+        "options": [
+            "Mandi",
+            "Kangra",
+            "Chamba",
+            "Shimla"
+        ],
+        "answer": 1,
+        "explanation": "Kangra Fort (Nagarkot) is in Kangra district, one of the oldest and largest forts in the Himalayas, dating back to the Katoch dynasty.",
+        "difficulty": "easy",
+        "topic": "hp_gk",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "HPGK_017",
+        "question": "हिमाचल प्रदेश का राजकीय पशु कौन सा है?",
+        "options": [
+            "शेर",
+            "हिम तेंदुआ (Snow Leopard)",
+            "हाथी",
+            "काला भालू"
+        ],
+        "answer": 1,
+        "explanation": "हिम तेंदुआ (Snow Leopard/Panthera uncia) हिमाचल प्रदेश का राजकीय पशु है। यह ऊँचे पहाड़ों में पाया जाता है।",
+        "difficulty": "easy",
+        "topic": "hp_gk",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "HPGK_018",
+        "question": "The famous Dussehra festival in Kullu starts on:",
+        "options": [
+            "Navami",
+            "Dashami (Vijayadashami)",
+            "Diwali",
+            "Holi"
+        ],
+        "answer": 1,
+        "explanation": "Kullu Dussehra is unique because it starts on Vijayadashami when other celebrations end, and continues for 7 days. It is an international-level festival.",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "HPGK_019",
+        "question": "YSPUHF (Dr. YS Parmar University of Horticulture and Forestry) is located at:",
+        "options": [
+            "Shimla",
+            "Nauni, Solan",
+            "Palampur",
+            "Hamirpur"
+        ],
+        "answer": 1,
+        "explanation": "YSPUHF is located at Nauni, Solan, established in 1985. It is dedicated to horticulture and forestry education and research in HP.",
+        "difficulty": "easy",
+        "topic": "hp_gk",
+        "source": "HAU_HP"
+    },
+    {
+        "id": "HPGK_020",
+        "question": "हिमाचल प्रदेश में सेब उत्पादन का प्रमुख जिला कौन सा है?",
+        "options": [
+            "कांगड़ा",
+            "शिमला",
+            "सोलन",
+            "ऊना"
+        ],
+        "answer": 1,
+        "explanation": "शिमला जिला हिमाचल प्रदेश में सेब उत्पादन का सबसे बड़ा जिला है, जो कुल उत्पादन का लगभग 60% है। इसके बाद कुल्लू और किन्नौर हैं।",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "HAU_HP"
+    },
+    {
+        "id": "HPGK_021",
+        "question": "The Kangra School of Painting belongs to which style?",
+        "options": [
+            "Mughal miniature",
+            "Pahari miniature painting",
+            "Rajasthani painting",
+            "Bengal school"
+        ],
+        "answer": 1,
+        "explanation": "Kangra School of Painting is a sub-school of Pahari painting, known for delicate brushwork, soft colors, and themes of Radha-Krishna love.",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "HPGK_022",
+        "question": "Pin Valley National Park is located in:",
+        "options": [
+            "Kullu",
+            "Lahaul-Spiti",
+            "Kinnaur",
+            "Chamba"
+        ],
+        "answer": 1,
+        "explanation": "Pin Valley National Park is in Lahaul-Spiti district, established in 1987. It is a cold desert biosphere home to snow leopard, ibex, and bharal.",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "HPGK_023",
+        "question": "HPRCA (Himachal Pradesh Rajya Chayan Aayog) was formerly known as:",
+        "options": [
+            "HPSC",
+            "HPSSC (HP Staff Selection Commission)",
+            "HPPSC",
+            "HPMC"
+        ],
+        "answer": 1,
+        "explanation": "HPRCA was formerly HPSSC (Himachal Pradesh Staff Selection Commission). It conducts recruitment exams for various Group C and D posts including TGT, HEO etc.",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "HPGK_024",
+        "question": "हिमाचल प्रदेश का कुल क्षेत्रफल कितना है?",
+        "options": [
+            "35,673 वर्ग किमी",
+            "45,673 वर्ग किमी",
+            "55,673 वर्ग किमी",
+            "65,673 वर्ग किमी"
+        ],
+        "answer": 2,
+        "explanation": "हिमाचल प्रदेश का कुल क्षेत्रफल 55,673 वर्ग किमी है, जो भारत के कुल क्षेत्रफल का लगभग 1.7% है।",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "HPGK_025",
+        "question": "Renuka Lake, the largest natural lake in HP, is located in:",
+        "options": [
+            "Shimla",
+            "Sirmour",
+            "Kullu",
+            "Bilaspur"
+        ],
+        "answer": 1,
+        "explanation": "Renuka Lake is in Sirmour district. It is the largest natural lake in HP and is shaped like a sleeping woman (Goddess Renuka). It has a small zoo nearby.",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "HPGK_026",
+        "question": "Shimla Agreement between India and Pakistan was signed in:",
+        "options": [
+            "1965",
+            "1971",
+            "1972",
+            "1975"
+        ],
+        "answer": 2,
+        "explanation": "Shimla Agreement was signed on 2 July 1972 between Indira Gandhi and Zulfikar Ali Bhutto after the 1971 Indo-Pak war.",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "HPGK_027",
+        "question": "CSKHPKV (Chaudhary Sarwan Kumar HP Krishi Vishvavidyalaya) is located at:",
+        "options": [
+            "Nauni",
+            "Palampur",
+            "Shimla",
+            "Kullu"
+        ],
+        "answer": 1,
+        "explanation": "CSKHPKV is located at Palampur, Kangra district. It is the state agricultural university established in 1978.",
+        "difficulty": "easy",
+        "topic": "hp_gk",
+        "source": "HAU_HP"
+    },
+    {
+        "id": "HPGK_028",
+        "question": "Which pass connects Kullu and Spiti valleys?",
+        "options": [
+            "Rohtang Pass",
+            "Kunzum Pass",
+            "Jalori Pass",
+            "Baralacha La"
+        ],
+        "answer": 1,
+        "explanation": "Kunzum Pass (4,590 m) connects Kullu (via Lahaul) to Spiti Valley. It opens only during summer months (June-October).",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "HPGK_029",
+        "question": "Gobind Sagar Lake is formed by which dam?",
+        "options": [
+            "Pandoh Dam",
+            "Bhakra Dam",
+            "Pong Dam",
+            "Chamera Dam"
+        ],
+        "answer": 1,
+        "explanation": "Gobind Sagar Lake is the reservoir formed behind Bhakra Dam on Sutlej river in Bilaspur district. It is the largest man-made reservoir in HP.",
+        "difficulty": "easy",
+        "topic": "hp_gk",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "HPGK_030",
+        "question": "हिमाचल प्रदेश का राजकीय वृक्ष कौन सा है?",
+        "options": [
+            "चीड़ (Pine)",
+            "देवदार (Deodar)",
+            "चिनार",
+            "बांज (Oak)"
+        ],
+        "answer": 1,
+        "explanation": "देवदार (Cedrus deodara) हिमाचल प्रदेश का राजकीय वृक्ष है। यह हिमालयी क्षेत्र का प्रमुख शंकुधारी वृक्ष है।",
+        "difficulty": "easy",
+        "topic": "hp_gk",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "HPGK_031",
+        "question": "Spiti Valley is known as:",
+        "options": [
+            "Valley of Gods",
+            "The Middle Land",
+            "Land of Lamas",
+            "Mini Tibet"
+        ],
+        "answer": 1,
+        "explanation": "Spiti (Tibetan: 'The Middle Land') is a cold desert valley between Tibet and India, part of Lahaul-Spiti district.",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "HPGK_032",
+        "question": "Which HP district has the highest literacy rate?",
+        "options": [
+            "Shimla",
+            "Hamirpur",
+            "Kangra",
+            "Solan"
+        ],
+        "answer": 1,
+        "explanation": "Hamirpur has the highest literacy rate (~89%) in Himachal Pradesh. HP as a whole has ~83% literacy, among the highest in India.",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "HPGK_033",
+        "question": "Pong Dam (Maharana Pratap Sagar) is built on which river?",
+        "options": [
+            "Sutlej",
+            "Ravi",
+            "Beas",
+            "Chenab"
+        ],
+        "answer": 2,
+        "explanation": "Pong Dam is built on Beas river in Kangra district. The reservoir (Maharana Pratap Sagar) is a Ramsar wetland site.",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "HPGK_034",
+        "question": "Chamba Rumal is famous for:",
+        "options": [
+            "Woolen shawls",
+            "Hand-embroidered textiles",
+            "Pottery",
+            "Wood carving"
+        ],
+        "answer": 1,
+        "explanation": "Chamba Rumal is a traditional hand-embroidered textile art from Chamba district, known for double-sided embroidery depicting mythological scenes.",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "HPGK_035",
+        "question": "हिमाचल प्रदेश में लोकसभा की कितनी सीटें हैं?",
+        "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "answer": 1,
+        "explanation": "हिमाचल प्रदेश में लोकसभा की 4 सीटें हैं: शिमला, मंडी, कांगड़ा और हमीरपुर।",
+        "difficulty": "easy",
+        "topic": "hp_gk",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "HPGK_036",
+        "question": "The Shimla-Kalka Railway is a UNESCO World Heritage Site built in:",
+        "options": [
+            "1898",
+            "1903",
+            "1910",
+            "1920"
+        ],
+        "answer": 1,
+        "explanation": "Shimla-Kalka Railway (96.6 km, 102 tunnels, 806 bridges) was completed in 1903 and declared UNESCO Heritage in 2008.",
+        "difficulty": "hard",
+        "topic": "hp_gk",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "HPGK_037",
+        "question": "Which district of HP is known as the 'Mushroom City of India'?",
+        "options": [
+            "Shimla",
+            "Solan",
+            "Kangra",
+            "Kullu"
+        ],
+        "answer": 1,
+        "explanation": "Solan is called the 'Mushroom City of India' due to its large-scale commercial mushroom production and the presence of DMR (Directorate of Mushroom Research).",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "HPGK_038",
+        "question": "Kinnauri apple is a GI-tagged product from which area?",
+        "options": [
+            "Shimla",
+            "Kinnaur",
+            "Kullu",
+            "Mandi"
+        ],
+        "answer": 1,
+        "explanation": "Kinnauri apple from Kinnaur district received GI (Geographical Indication) tag for its distinctive quality grown at high altitudes (2,500-3,500m).",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "HAU_HP"
+    },
+    {
+        "id": "HPGK_039",
+        "question": "Which festival in HP celebrates the sowing of wheat?",
+        "options": [
+            "Lohri",
+            "Sairi",
+            "Faguli",
+            "Halda"
+        ],
+        "answer": 3,
+        "explanation": "Halda is a traditional harvest festival celebrating wheat sowing, observed mainly in the Shimla hills region of HP.",
+        "difficulty": "hard",
+        "topic": "hp_gk",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "HPGK_040",
+        "question": "Indian Institute of Advanced Study (IIAS) is housed in:",
+        "options": [
+            "Raj Bhawan",
+            "Viceregal Lodge, Shimla",
+            "Peterhoff Hotel",
+            "Barnes Court"
+        ],
+        "answer": 1,
+        "explanation": "IIAS is housed in the Viceregal Lodge (Rashtrapati Niwas) atop Observatory Hill in Shimla, built in 1888 in British Jacobethan style.",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "HPGK_041",
+        "question": "हिमाचल प्रदेश की सबसे लंबी नदी कौन सी है?",
+        "options": [
+            "ब्यास",
+            "रावी",
+            "सतलुज",
+            "चिनाब"
+        ],
+        "answer": 2,
+        "explanation": "सतलुज हिमाचल प्रदेश की सबसे लंबी नदी है (320 किमी HP में)। यह मानसरोवर (तिब्बत) से निकलती है।",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "HPGK_042",
+        "question": "Key Monastery (Ki Gompa) is located in:",
+        "options": [
+            "Dharamshala",
+            "Kullu",
+            "Spiti Valley",
+            "Kinnaur"
+        ],
+        "answer": 2,
+        "explanation": "Key Monastery is the largest and oldest monastery in Spiti Valley (Lahaul-Spiti), at 4,166 meters altitude, belonging to the Gelugpa sect.",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "HPGK_043",
+        "question": "HP's economy is primarily based on:",
+        "options": [
+            "Heavy industry",
+            "Agriculture and horticulture",
+            "Mining",
+            "Fishing"
+        ],
+        "answer": 1,
+        "explanation": "HP's economy is predominantly agriculture and horticulture based, with apple being the most important cash crop, followed by hydropower and tourism.",
+        "difficulty": "easy",
+        "topic": "hp_gk",
+        "source": "HAU_HP"
+    },
+    {
+        "id": "HPGK_044",
+        "question": "Bhuri Singh Museum is located in:",
+        "options": [
+            "Shimla",
+            "Kangra",
+            "Chamba",
+            "Mandi"
+        ],
+        "answer": 2,
+        "explanation": "Bhuri Singh Museum is in Chamba, established in 1908 by Raja Bhuri Singh. It houses Pahari miniature paintings, Chamba Rumals, and artifacts.",
+        "difficulty": "hard",
+        "topic": "hp_gk",
+        "source": "TGT_HP"
+    },
+    {
+        "id": "HPGK_045",
+        "question": "HPMC (Himachal Pradesh Horticultural Produce Marketing and Processing Corporation) headquarters is at:",
+        "options": [
+            "Solan",
+            "Shimla",
+            "Palampur",
+            "Kangra"
+        ],
+        "answer": 1,
+        "explanation": "HPMC is headquartered in Shimla. It processes and markets horticultural produce like apple juice, concentrates and jams from HP.",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "HAU_HP"
+    }
+]
