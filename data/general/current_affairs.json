@@ -598,5 +598,455 @@
         "difficulty": "easy",
         "topic": "current_affairs",
         "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "CA_041",
+        "question": "Union Budget 2026-27 projects India's GDP growth in FY26 at:",
+        "options": [
+            "6.5%",
+            "7.0%",
+            "7.4%",
+            "8.0%"
+        ],
+        "answer": 2,
+        "explanation": "Union Budget 2026-27 projected India's economic growth at 7.4% in FY26 and 6.8-7.2% in FY27.",
+        "difficulty": "medium",
+        "topic": "current_affairs",
+        "source": "Union_Budget_2026"
+    },
+    {
+        "id": "CA_042",
+        "question": "PM Dhan-Dhaanya Krishi Yojana launched in 2025 covers how many districts?",
+        "options": [
+            "50",
+            "75",
+            "100",
+            "150"
+        ],
+        "answer": 2,
+        "explanation": "PM Dhan-Dhaanya Krishi Yojana (PM DDKY) launched in October 2025 covers 100 districts to enhance agricultural productivity and crop diversification.",
+        "difficulty": "medium",
+        "topic": "current_affairs",
+        "source": "Union_Budget_2025"
+    },
+    {
+        "id": "CA_043",
+        "question": "How many Padma Awards were conferred in 2026?",
+        "options": [
+            "100",
+            "115",
+            "131",
+            "150"
+        ],
+        "answer": 2,
+        "explanation": "President approved 131 Padma Awards for 2026: 5 Padma Vibhushan, 13 Padma Bhushan, and 113 Padma Shri.",
+        "difficulty": "medium",
+        "topic": "current_affairs",
+        "source": "GOI_2026"
+    },
+    {
+        "id": "CA_044",
+        "question": "The total expenditure in Union Budget 2025-26 is approximately:",
+        "options": [
+            "₹40.65 lakh crore",
+            "₹45.65 lakh crore",
+            "₹50.65 lakh crore",
+            "₹55.65 lakh crore"
+        ],
+        "answer": 2,
+        "explanation": "Total expenditure in Union Budget 2025-26 is ₹50.65 lakh crore with total receipts (excluding borrowings) at ₹34.96 lakh crore.",
+        "difficulty": "hard",
+        "topic": "current_affairs",
+        "source": "Union_Budget_2025"
+    },
+    {
+        "id": "CA_045",
+        "question": "The fiscal deficit target for FY 2025-26 is:",
+        "options": [
+            "3.5% of GDP",
+            "4.0% of GDP",
+            "4.4% of GDP",
+            "5.0% of GDP"
+        ],
+        "answer": 2,
+        "explanation": "Fiscal deficit for 2025-26 is estimated at 4.4% of GDP.",
+        "difficulty": "hard",
+        "topic": "current_affairs",
+        "source": "Union_Budget_2025"
+    },
+    {
+        "id": "CA_046",
+        "question": "National Education Policy (NEP) introduces which school structure?",
+        "options": [
+            "10+2 system",
+            "8+4 system",
+            "5+3+3+4 system",
+            "6+3+3 system"
+        ],
+        "answer": 2,
+        "explanation": "NEP introduces 5+3+3+4 (Foundational+Preparatory+Middle+Secondary) replacing the older 10+2 system.",
+        "difficulty": "easy",
+        "topic": "current_affairs",
+        "source": "NEP_2025"
+    },
+    {
+        "id": "CA_047",
+        "question": "Urban Challenge Fund announced in Budget 2025-26 has an outlay of:",
+        "options": [
+            "₹50,000 crore",
+            "₹75,000 crore",
+            "₹1 lakh crore",
+            "₹1.5 lakh crore"
+        ],
+        "answer": 2,
+        "explanation": "Urban Challenge Fund of ₹1 lakh crore was announced for 'Cities as Growth Hubs' with ₹10,000 crore allocated for 2025-26.",
+        "difficulty": "hard",
+        "topic": "current_affairs",
+        "source": "Union_Budget_2025"
+    },
+    {
+        "id": "CA_048",
+        "question": "Capital expenditure earmarked for FY 2025-26 is:",
+        "options": [
+            "₹9.21 lakh crore",
+            "₹10.21 lakh crore",
+            "₹11.21 lakh crore",
+            "₹12.21 lakh crore"
+        ],
+        "answer": 2,
+        "explanation": "Capital expenditure of ₹11.21 lakh crore (3.1% of GDP) was earmarked for FY2025-26.",
+        "difficulty": "hard",
+        "topic": "current_affairs",
+        "source": "Union_Budget_2025"
+    },
+    {
+        "id": "CA_049",
+        "question": "Makhana Board was proposed to be established in which state?",
+        "options": [
+            "West Bengal",
+            "Odisha",
+            "Bihar",
+            "Assam"
+        ],
+        "answer": 2,
+        "explanation": "Government proposed to establish a Makhana Board in Bihar to boost makhana (fox nut) production and marketing.",
+        "difficulty": "medium",
+        "topic": "current_affairs",
+        "source": "Union_Budget_2025"
+    },
+    {
+        "id": "CA_050",
+        "question": "Wings India 2026, Asia's largest civil aviation event, was held at:",
+        "options": [
+            "Delhi",
+            "Mumbai",
+            "Hyderabad",
+            "Bengaluru"
+        ],
+        "answer": 2,
+        "explanation": "Wings India 2026 was held at Begumpet Airport, Hyderabad from January 28-31, 2026.",
+        "difficulty": "medium",
+        "topic": "current_affairs",
+        "source": "Events_2026"
+    },
+    {
+        "id": "CA_051",
+        "question": "India Energy Week 2026 was held in:",
+        "options": [
+            "Delhi",
+            "Mumbai",
+            "Goa",
+            "Chennai"
+        ],
+        "answer": 2,
+        "explanation": "India Energy Week 2026, focusing on sustainable global energy transition, took place from Jan 27-30, 2026, in Goa.",
+        "difficulty": "medium",
+        "topic": "current_affairs",
+        "source": "Events_2026"
+    },
+    {
+        "id": "CA_052",
+        "question": "India's total horticulture production in 2024-25 is estimated at:",
+        "options": [
+            "320 MT",
+            "345 MT",
+            "369 MT",
+            "390 MT"
+        ],
+        "answer": 2,
+        "explanation": "India's horticulture production for 2024-25 is estimated at 369.05 million tonnes, a 4% increase from the previous year.",
+        "difficulty": "medium",
+        "topic": "current_affairs",
+        "source": "Horticulture_2025"
+    },
+    {
+        "id": "CA_053",
+        "question": "'Bharatiya Bhasha Pustak Scheme' aims at:",
+        "options": [
+            "Building roads",
+            "Promoting books in Indian languages",
+            "Import of foreign books",
+            "Digital payments"
+        ],
+        "answer": 1,
+        "explanation": "Bharatiya Bhasha Pustak Scheme was proposed in Union Budget 2025-26 to promote publishing in Indian languages.",
+        "difficulty": "easy",
+        "topic": "current_affairs",
+        "source": "Union_Budget_2025"
+    },
+    {
+        "id": "CA_054",
+        "question": "How many new labour codes came into effect in India?",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "answer": 2,
+        "explanation": "Four new labour codes covering wages, social security, industrial relations, and occupational safety replaced old laws.",
+        "difficulty": "medium",
+        "topic": "current_affairs",
+        "source": "Labour_Reform_2025"
+    },
+    {
+        "id": "CA_055",
+        "question": "'Aatmanirbharta in Pulses' scheme focuses on:",
+        "options": [
+            "Wheat production",
+            "Self-sufficiency in pulses like tur, urad, masoor",
+            "Sugarcane cultivation",
+            "Rice export"
+        ],
+        "answer": 1,
+        "explanation": "Aatmanirbharta in Pulses scheme focuses on achieving self-sufficiency in specific legumes like tur (arhar), urad, and masoor.",
+        "difficulty": "medium",
+        "topic": "current_affairs",
+        "source": "Union_Budget_2025"
+    },
+    {
+        "id": "CA_056",
+        "question": "India's fruit production in 2024-25 is projected to grow by:",
+        "options": [
+            "2.5%",
+            "3.8%",
+            "5.12%",
+            "7.5%"
+        ],
+        "answer": 2,
+        "explanation": "Fruit production projected to grow by 5.12% to 118.76 million tonnes in 2024-25.",
+        "difficulty": "hard",
+        "topic": "current_affairs",
+        "source": "Horticulture_2025"
+    },
+    {
+        "id": "CA_057",
+        "question": "Clean Plant Programme under horticulture aims at:",
+        "options": [
+            "Cleaning nurseries",
+            "Providing disease-free quality planting material",
+            "Pest control only",
+            "Organic certification"
+        ],
+        "answer": 1,
+        "explanation": "Clean Plant Programme is a central sector scheme focused on providing high-quality, disease-free planting material.",
+        "difficulty": "medium",
+        "topic": "current_affairs",
+        "source": "MIDH_2025"
+    },
+    {
+        "id": "CA_058",
+        "question": "MIDH was restructured in 2025 with revised guidelines. What is a key change?",
+        "options": [
+            "Coverage reduced to 10 states",
+            "Cost norms unchanged",
+            "Extended coverage to all districts, enhanced cost norms",
+            "Only for North-East states"
+        ],
+        "answer": 2,
+        "explanation": "MIDH 2025 restructuring extends coverage to all districts, enhances cost norms, and promotes high-value and exotic crops.",
+        "difficulty": "hard",
+        "topic": "current_affairs",
+        "source": "MIDH_2025"
+    },
+    {
+        "id": "CA_059",
+        "question": "Horticulture Cluster Development Programme (CDP) promotes:",
+        "options": [
+            "Single-crop farming",
+            "Integrated and market-led cluster development",
+            "Deforestation",
+            "Chemical farming only"
+        ],
+        "answer": 1,
+        "explanation": "CDP aims at integrated and market-led development of horticulture clusters including logistics, branding, and post-harvest management.",
+        "difficulty": "medium",
+        "topic": "current_affairs",
+        "source": "MIDH_2025"
+    },
+    {
+        "id": "CA_060",
+        "question": "CHAMAN programme uses which technology for horticulture assessment?",
+        "options": [
+            "X-ray imaging",
+            "Geo-informatics and remote sensing",
+            "Radio waves",
+            "Manual counting"
+        ],
+        "answer": 1,
+        "explanation": "CHAMAN (Coordinated Programme on Horticulture Assessment and Management using Geo-informatics) uses remote sensing for digital inventory.",
+        "difficulty": "medium",
+        "topic": "current_affairs",
+        "source": "MIDH_2025"
+    },
+    {
+        "id": "CA_061",
+        "question": "Market Intervention Scheme (MIS) in 2025 added which new component?",
+        "options": [
+            "Export ban",
+            "Price Differential Payment (PDP)",
+            "Import subsidy",
+            "Free seeds"
+        ],
+        "answer": 1,
+        "explanation": "MIS 2025 added Price Differential Payment (PDP) and reimbursement for transport/storage of Tomato, Onion, Potato (TOP) crops.",
+        "difficulty": "hard",
+        "topic": "current_affairs",
+        "source": "MIDH_2025"
+    },
+    {
+        "id": "CA_062",
+        "question": "India's vegetable production in 2024-25 is expected to increase by:",
+        "options": [
+            "2.0%",
+            "4.09%",
+            "6.5%",
+            "8.0%"
+        ],
+        "answer": 1,
+        "explanation": "Vegetable output expected to increase by 4.09% to 215.68 million tonnes in 2024-25.",
+        "difficulty": "hard",
+        "topic": "current_affairs",
+        "source": "Horticulture_2025"
+    },
+    {
+        "id": "CA_063",
+        "question": "Under MIDH, what is the Central share for North-Eastern & Himalayan states?",
+        "options": [
+            "50%",
+            "60%",
+            "75%",
+            "90%"
+        ],
+        "answer": 3,
+        "explanation": "For NE and Himalayan states, Government of India contributes 90% of MIDH outlay; for others, 60% centre and 40% state.",
+        "difficulty": "medium",
+        "topic": "current_affairs",
+        "source": "MIDH_2025"
+    },
+    {
+        "id": "CA_064",
+        "question": "Saksham Anganwadi and Poshan 2.0 programme provides nutritional support to:",
+        "options": [
+            "Only children",
+            "Only senior citizens",
+            "Children, lactating mothers, pregnant women, and adolescent girls",
+            "Only farmers"
+        ],
+        "answer": 2,
+        "explanation": "Saksham Anganwadi and Poshan 2.0 provides nutritional support to children, lactating mothers, pregnant women, and adolescent girls.",
+        "difficulty": "easy",
+        "topic": "current_affairs",
+        "source": "Union_Budget_2025"
+    },
+    {
+        "id": "CA_065",
+        "question": "'Rural Prosperity and Resilience Programme' initially covers how many agri-districts?",
+        "options": [
+            "50",
+            "75",
+            "100",
+            "200"
+        ],
+        "answer": 2,
+        "explanation": "Rural Prosperity and Resilience Programme initially covers 100 agri-districts to address under-employment through skilling and investment.",
+        "difficulty": "medium",
+        "topic": "current_affairs",
+        "source": "Union_Budget_2025"
+    },
+    {
+        "id": "CA_066",
+        "question": "India's rank in vegetable production globally is:",
+        "options": [
+            "1st",
+            "2nd",
+            "3rd",
+            "4th"
+        ],
+        "answer": 1,
+        "explanation": "India is the 2nd largest vegetable producer globally after China.",
+        "difficulty": "easy",
+        "topic": "current_affairs",
+        "source": "Horticulture_2025"
+    },
+    {
+        "id": "CA_067",
+        "question": "Which award recognizes states for best performance in horticulture at the Agriculture Leadership Conclave?",
+        "options": [
+            "Padma Award",
+            "Agriculture Leadership Award",
+            "Bharat Ratna",
+            "National Horticulture Award"
+        ],
+        "answer": 1,
+        "explanation": "Agriculture Leadership Award was given to Nagaland as best state in horticulture at the 15th Agriculture Leadership Conclave 2024.",
+        "difficulty": "medium",
+        "topic": "current_affairs",
+        "source": "Awards_2024"
+    },
+    {
+        "id": "CA_068",
+        "question": "Horticulture's contribution to agricultural GVA is approximately:",
+        "options": [
+            "10%",
+            "20%",
+            "33% (one-third)",
+            "50%"
+        ],
+        "answer": 2,
+        "explanation": "Horticulture contributes nearly one-third (33%) of India's agricultural Gross Value Added (GVA).",
+        "difficulty": "medium",
+        "topic": "current_affairs",
+        "source": "Horticulture_2025"
+    },
+    {
+        "id": "CA_069",
+        "question": "Union Budget 2026-27 was presented on:",
+        "options": [
+            "1 January 2026",
+            "1 February 2026",
+            "15 March 2026",
+            "1 April 2026"
+        ],
+        "answer": 1,
+        "explanation": "Union Budget 2026-27 was presented on 1 February 2026 by the Finance Minister.",
+        "difficulty": "easy",
+        "topic": "current_affairs",
+        "source": "Union_Budget_2026"
+    },
+    {
+        "id": "CA_070",
+        "question": "'Scheme for First-time Entrepreneurs' was proposed in which Budget?",
+        "options": [
+            "2023-24",
+            "2024-25",
+            "2025-26",
+            "2026-27"
+        ],
+        "answer": 2,
+        "explanation": "Scheme for First-time Entrepreneurs was proposed in Union Budget 2025-26 to support new business owners.",
+        "difficulty": "medium",
+        "topic": "current_affairs",
+        "source": "Union_Budget_2025"
     }
 ]

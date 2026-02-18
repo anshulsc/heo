@@ -898,5 +898,155 @@
         "difficulty": "hard",
         "topic": "post_harvest",
         "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "PHT_061",
+        "question": "APEDA promotes export of which category of products?",
+        "options": [
+            "Only cereals",
+            "Agricultural and processed food products",
+            "Only textiles",
+            "Only minerals"
+        ],
+        "answer": 1,
+        "explanation": "APEDA promotes export of agricultural and processed food products including fruits, vegetables, meat, dairy, etc.",
+        "difficulty": "easy",
+        "topic": "post_harvest",
+        "source": "APEDA_2025"
+    },
+    {
+        "id": "PHT_062",
+        "question": "Cold chain infrastructure in India for horticulture products is strengthened under:",
+        "options": [
+            "Digital India",
+            "MIDH and PMKSY",
+            "Swachh Bharat",
+            "Make in India"
+        ],
+        "answer": 1,
+        "explanation": "Cold chain infrastructure is supported under MIDH and Pradhan Mantri Kisan Sampada Yojana (PMKSY) for post-harvest management.",
+        "difficulty": "medium",
+        "topic": "post_harvest",
+        "source": "MIDH_2025"
+    },
+    {
+        "id": "PHT_063",
+        "question": "PLI scheme for food processing was launched to:",
+        "options": [
+            "Reduce food production",
+            "Boost domestic food processing manufacturing and export",
+            "Import more food",
+            "Close small units"
+        ],
+        "answer": 1,
+        "explanation": "PLI scheme provides incentives to boost domestic food processing manufacturing and exports.",
+        "difficulty": "easy",
+        "topic": "post_harvest",
+        "source": "PLI_2025"
+    },
+    {
+        "id": "PHT_064",
+        "question": "GI tag for agricultural products protects:",
+        "options": [
+            "Patents of companies",
+            "Products with specific geographical origin having unique qualities",
+            "Individual trademarks",
+            "International brands"
+        ],
+        "answer": 1,
+        "explanation": "GI tag indicates products originating from a specific geographical region with qualities attributable to that origin.",
+        "difficulty": "easy",
+        "topic": "post_harvest",
+        "source": "GI_Tag"
+    },
+    {
+        "id": "PHT_065",
+        "question": "Under MIS 2025, PDP (Price Differential Payment) was introduced for:",
+        "options": [
+            "Only wheat",
+            "TOP crops (Tomato, Onion, Potato)",
+            "Only rice",
+            "Only sugarcane"
+        ],
+        "answer": 1,
+        "explanation": "MIS 2025 added PDP for TOP crops to protect farmers from price crashes during bumper harvests.",
+        "difficulty": "medium",
+        "topic": "post_harvest",
+        "source": "MIS_2025"
+    },
+    {
+        "id": "PHT_066",
+        "question": "Mega Food Parks scheme aims to provide:",
+        "options": [
+            "Free food to all",
+            "Modern food processing infrastructure in clusters",
+            "Eliminate small food businesses",
+            "Import processed food"
+        ],
+        "answer": 1,
+        "explanation": "Mega Food Parks provide modern infrastructure for food processing with collection, processing, and distribution facilities.",
+        "difficulty": "easy",
+        "topic": "post_harvest",
+        "source": "Food_Processing_2025"
+    },
+    {
+        "id": "PHT_067",
+        "question": "India aims to increase food processing sector to what % of agricultural output by 2025-26?",
+        "options": [
+            "15%",
+            "25%",
+            "35%",
+            "50%"
+        ],
+        "answer": 1,
+        "explanation": "India aims to increase the level of food processing from ~10% to 25% and double agricultural exports through various schemes.",
+        "difficulty": "medium",
+        "topic": "post_harvest",
+        "source": "Food_Processing_2025"
+    },
+    {
+        "id": "PHT_068",
+        "question": "'One District One Product' helps in post-harvest value addition by:",
+        "options": [
+            "Ignoring local products",
+            "Promoting district-specific products for processing and marketing",
+            "Centralizing all production",
+            "Banning exports"
+        ],
+        "answer": 1,
+        "explanation": "ODOP identifies unique products from each district for processing, marketing, and export promotion including post-harvest value addition.",
+        "difficulty": "easy",
+        "topic": "post_harvest",
+        "source": "ODOP_2025"
+    },
+    {
+        "id": "PHT_069",
+        "question": "Drone technology in agriculture is used for which post-harvest activity?",
+        "options": [
+            "Only entertainment",
+            "Crop monitoring, yield estimation, and precision spraying",
+            "Mining only",
+            "Construction"
+        ],
+        "answer": 1,
+        "explanation": "Drones are used for crop monitoring, mapping, yield estimation, precision spraying, and soil analysis in agriculture.",
+        "difficulty": "easy",
+        "topic": "post_harvest",
+        "source": "Agri_Tech_2025"
+    },
+    {
+        "id": "PHT_070",
+        "question": "FPOs help in post-harvest management by:",
+        "options": [
+            "Reducing farmer connections",
+            "Collectivizing farmers for better bargaining, market access, and reducing input costs",
+            "Eliminating small farmers",
+            "Only growing crops"
+        ],
+        "answer": 1,
+        "explanation": "Farmer Producer Organizations improve bargaining power, market access, and reduce input costs for small/marginal farmers.",
+        "difficulty": "easy",
+        "topic": "post_harvest",
+        "source": "FPO_2025"
     }
 ]

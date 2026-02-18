@@ -598,5 +598,155 @@
         "difficulty": "easy",
         "topic": "political_science",
         "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "POL_041",
+        "question": "Which Constitutional Amendment introduced GST in India?",
+        "options": [
+            "99th Amendment",
+            "100th Amendment",
+            "101st Amendment",
+            "102nd Amendment"
+        ],
+        "answer": 2,
+        "explanation": "101st Constitutional Amendment Act 2016 introduced GST, which was launched on 1 July 2017.",
+        "difficulty": "medium",
+        "topic": "political_science",
+        "source": "Indian_Constitution"
+    },
+    {
+        "id": "POL_042",
+        "question": "The 106th Constitutional Amendment Act 2023 relates to:",
+        "options": [
+            "GST reform",
+            "Women's reservation in Parliament and State legislatures",
+            "Farm laws repeal",
+            "Education reform"
+        ],
+        "answer": 1,
+        "explanation": "106th Amendment Act (Nari Shakti Vandan Adhiniyam) 2023 provides 33% reservation for women in Lok Sabha and State Assemblies.",
+        "difficulty": "hard",
+        "topic": "political_science",
+        "source": "Indian_Constitution"
+    },
+    {
+        "id": "POL_043",
+        "question": "India is currently following which Five-Year Plan?",
+        "options": [
+            "12th Five-Year Plan",
+            "13th Five-Year Plan",
+            "Five-Year Plans discontinued, NITI Aayog replaced Planning Commission",
+            "14th Five-Year Plan"
+        ],
+        "answer": 2,
+        "explanation": "Five-Year Plans were discontinued after the 12th plan (2012-17). NITI Aayog replaced Planning Commission in 2015.",
+        "difficulty": "medium",
+        "topic": "political_science",
+        "source": "Indian_Polity"
+    },
+    {
+        "id": "POL_044",
+        "question": "16th Finance Commission was constituted under the chairmanship of:",
+        "options": [
+            "Y.V. Reddy",
+            "N.K. Singh",
+            "Arvind Panagariya",
+            "Urjit Patel"
+        ],
+        "answer": 2,
+        "explanation": "16th Finance Commission was constituted in 2024 under the chairmanship of Dr. Arvind Panagariya for the period 2026-31.",
+        "difficulty": "hard",
+        "topic": "political_science",
+        "source": "Finance_Commission_2024"
+    },
+    {
+        "id": "POL_045",
+        "question": "One Nation One Election Bill was passed in Lok Sabha in:",
+        "options": [
+            "2023",
+            "2024",
+            "2025",
+            "Not passed yet"
+        ],
+        "answer": 2,
+        "explanation": "The Constitution (129th Amendment) Bill for simultaneous elections was passed in Lok Sabha in 2025 and referred to a JPC.",
+        "difficulty": "hard",
+        "topic": "political_science",
+        "source": "Indian_Polity_2025"
+    },
+    {
+        "id": "POL_046",
+        "question": "The total number of states in India as of 2026 is:",
+        "options": [
+            "28",
+            "29",
+            "30",
+            "31"
+        ],
+        "answer": 0,
+        "explanation": "India has 28 states and 8 Union Territories as of 2026.",
+        "difficulty": "easy",
+        "topic": "political_science",
+        "source": "Indian_Polity"
+    },
+    {
+        "id": "POL_047",
+        "question": "Which Schedule of the Constitution deals with allocation of seats in Rajya Sabha?",
+        "options": [
+            "Third Schedule",
+            "Fourth Schedule",
+            "Fifth Schedule",
+            "Sixth Schedule"
+        ],
+        "answer": 1,
+        "explanation": "Fourth Schedule deals with allocation of seats in Rajya Sabha to states and UTs.",
+        "difficulty": "hard",
+        "topic": "political_science",
+        "source": "Indian_Constitution"
+    },
+    {
+        "id": "POL_048",
+        "question": "CAA (Citizenship Amendment Act) was enacted in:",
+        "options": [
+            "2017",
+            "2019",
+            "2021",
+            "2023"
+        ],
+        "answer": 1,
+        "explanation": "CAA was enacted on 12 December 2019. Its rules were notified on 11 March 2024 making it operational.",
+        "difficulty": "medium",
+        "topic": "political_science",
+        "source": "Indian_Polity"
+    },
+    {
+        "id": "POL_049",
+        "question": "Under Article 370, special status was earlier given to:",
+        "options": [
+            "Punjab",
+            "Himachal Pradesh",
+            "Jammu & Kashmir",
+            "Rajasthan"
+        ],
+        "answer": 2,
+        "explanation": "Article 370 gave special status to J&K. It was abrogated on 5 August 2019 and J&K was reorganized into two UTs.",
+        "difficulty": "easy",
+        "topic": "political_science",
+        "source": "Indian_Constitution"
+    },
+    {
+        "id": "POL_050",
+        "question": "The Competition Commission of India (CCI) was established under which Act?",
+        "options": [
+            "Companies Act 2013",
+            "FEMA 1999",
+            "Competition Act 2002",
+            "Consumer Protection Act 2019"
+        ],
+        "answer": 2,
+        "explanation": "CCI was established under the Competition Act 2002 to prevent anti-competitive practices in the market.",
+        "difficulty": "medium",
+        "topic": "political_science",
+        "source": "Indian_Law"
     }
 ]

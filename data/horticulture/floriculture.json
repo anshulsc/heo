@@ -1048,5 +1048,80 @@
         "difficulty": "easy",
         "topic": "floriculture",
         "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "FLO_071",
+        "question": "India's global rank in floriculture area is:",
+        "options": [
+            "1st",
+            "2nd",
+            "3rd",
+            "5th"
+        ],
+        "answer": 1,
+        "explanation": "India ranks 2nd globally in floriculture area after China, covering approximately 3.16 lakh hectares.",
+        "difficulty": "medium",
+        "topic": "floriculture",
+        "source": "Floriculture_2025"
+    },
+    {
+        "id": "FLO_072",
+        "question": "Protected cultivation of flowers in India is highest in:",
+        "options": [
+            "Tamil Nadu and Karnataka",
+            "Maharashtra and HP",
+            "Rajasthan",
+            "Gujarat"
+        ],
+        "answer": 0,
+        "explanation": "Protected cultivation of flowers (polyhouse roses, gerbera, carnations) is most extensive in Tamil Nadu and Karnataka.",
+        "difficulty": "medium",
+        "topic": "floriculture",
+        "source": "Floriculture_2025"
+    },
+    {
+        "id": "FLO_073",
+        "question": "India's flower export potential is primarily in:",
+        "options": [
+            "Only marigold",
+            "Rose, orchid, gladiolus, tuberose, and cut flowers",
+            "Only jasmine",
+            "Only chrysanthemum"
+        ],
+        "answer": 1,
+        "explanation": "India exports mainly roses, orchids, gladiolus, tuberose, and various cut flowers to international markets.",
+        "difficulty": "easy",
+        "topic": "floriculture",
+        "source": "Floriculture_2025"
+    },
+    {
+        "id": "FLO_074",
+        "question": "E-NAM integration with flower auctions helps in:",
+        "options": [
+            "Reducing flower production",
+            "Transparent price discovery and wider market access for flower growers",
+            "Only local selling",
+            "Closing markets"
+        ],
+        "answer": 1,
+        "explanation": "e-NAM integration enables transparent price discovery, wider market access, and reduces middlemen for flower growers.",
+        "difficulty": "medium",
+        "topic": "floriculture",
+        "source": "e-NAM_2025"
+    },
+    {
+        "id": "FLO_075",
+        "question": "Which flower is being promoted for its essential oil and aromatic properties under MIDH?",
+        "options": [
+            "Rose and lavender",
+            "Only marigold",
+            "Only sunflower",
+            "Only lotus"
+        ],
+        "answer": 0,
+        "explanation": "Rose and lavender are promoted for essential oil extraction under MIDH's aromatic plants component alongside traditional flowers.",
+        "difficulty": "medium",
+        "topic": "floriculture",
+        "source": "MIDH_2025"
     }
 ]

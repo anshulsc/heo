@@ -1873,5 +1873,155 @@
         "difficulty": "hard",
         "topic": "pomology",
         "source": "ICAR_JRF"
+    },
+    {
+        "id": "POM_126",
+        "question": "Which apple variety has been introduced for low-chilling areas (subtropical) in India?",
+        "options": [
+            "Red Delicious",
+            "Anna",
+            "Royal Gala",
+            "Fuji"
+        ],
+        "answer": 1,
+        "explanation": "Anna apple requires very low chilling (200-300 hrs) and is suitable for subtropical conditions and low-altitude areas.",
+        "difficulty": "hard",
+        "topic": "pomology",
+        "source": "Pomology_2025"
+    },
+    {
+        "id": "POM_127",
+        "question": "HP SHIVA Project specifically targets which type of horticulture?",
+        "options": [
+            "Only temperate",
+            "Subtropical horticulture",
+            "Only tropical",
+            "Desert horticulture"
+        ],
+        "answer": 1,
+        "explanation": "HP SHIVA Project (Subtropical Horticulture, Irrigation and Value Addition) targets subtropical horticulture in seven districts.",
+        "difficulty": "medium",
+        "topic": "pomology",
+        "source": "HP_Scheme_2025"
+    },
+    {
+        "id": "POM_128",
+        "question": "High Density Planting (HDP) in apple aims at:",
+        "options": [
+            "Reducing tree number",
+            "Increasing trees per hectare for early and higher yield",
+            "Only ornamental purpose",
+            "Reducing fruit quality"
+        ],
+        "answer": 1,
+        "explanation": "HDP involves planting 1500-3000 trees/ha (vs 200-500 in traditional) for early bearing and higher yield per unit area.",
+        "difficulty": "medium",
+        "topic": "pomology",
+        "source": "Pomology_2025"
+    },
+    {
+        "id": "POM_129",
+        "question": "India's apple production is primarily concentrated in:",
+        "options": [
+            "Tamil Nadu and Kerala",
+            "J&K and Himachal Pradesh",
+            "Gujarat and Rajasthan",
+            "Maharashtra and Karnataka"
+        ],
+        "answer": 1,
+        "explanation": "J&K and HP together contribute over 95% of India's apple production, with J&K being the largest producer.",
+        "difficulty": "easy",
+        "topic": "pomology",
+        "source": "Pomology_2025"
+    },
+    {
+        "id": "POM_130",
+        "question": "GALA group of apple (Royal Gala, Gala Must) is known for:",
+        "options": [
+            "Very sour taste",
+            "Attractive red color, sweet flavor, early season maturity",
+            "Cooking only",
+            "Very late maturity"
+        ],
+        "answer": 1,
+        "explanation": "Gala apples are known for sweet flavor, attractive bicolor appearance, and early season maturity (August-September).",
+        "difficulty": "medium",
+        "topic": "pomology",
+        "source": "Pomology_2025"
+    },
+    {
+        "id": "POM_131",
+        "question": "Kiwifruit cultivation in India is expanding primarily in:",
+        "options": [
+            "Rajasthan",
+            "Himachal Pradesh, Arunachal Pradesh, Meghalaya",
+            "Gujarat",
+            "Tamil Nadu"
+        ],
+        "answer": 1,
+        "explanation": "Kiwifruit grows well in temperate/sub-temperate regions and is expanding in HP, Arunachal, Meghalaya, Nagaland, and Mizoram.",
+        "difficulty": "medium",
+        "topic": "pomology",
+        "source": "Pomology_2025"
+    },
+    {
+        "id": "POM_132",
+        "question": "Avocado cultivation in India is gaining momentum in which regions?",
+        "options": [
+            "Desert areas only",
+            "Humid tropics and parts of NE India, Tamil Nadu, and Karnataka",
+            "Arctic regions",
+            "Only Himachal Pradesh"
+        ],
+        "answer": 1,
+        "explanation": "Avocado is being recently promoted in humid tropics — parts of NE India, Tamil Nadu, Karnataka, and Kerala.",
+        "difficulty": "medium",
+        "topic": "pomology",
+        "source": "Pomology_2025"
+    },
+    {
+        "id": "POM_133",
+        "question": "Super-intensive planting system in apple uses rootstock:",
+        "options": [
+            "Seedling rootstock",
+            "M9, M9T337 or their clones",
+            "MM106",
+            "MM111"
+        ],
+        "answer": 1,
+        "explanation": "Super-intensive (HDP) apple orchards use dwarfing rootstocks like M9, M9T337 for high density and early production.",
+        "difficulty": "hard",
+        "topic": "pomology",
+        "source": "Pomology_2025"
+    },
+    {
+        "id": "POM_134",
+        "question": "Dragon fruit (Pitaya) cultivation is being promoted in India under:",
+        "options": [
+            "Only private initiatives",
+            "MIDH and state horticulture missions",
+            "No government support",
+            "Only research stations"
+        ],
+        "answer": 1,
+        "explanation": "Dragon fruit cultivation is promoted under MIDH with area expansion subsidies given the growing demand and export potential.",
+        "difficulty": "medium",
+        "topic": "pomology",
+        "source": "MIDH_2025"
+    },
+    {
+        "id": "POM_135",
+        "question": "Net Income Mission for Apple Orchards in HP focuses on:",
+        "options": [
+            "Reducing apple production",
+            "Replacing old orchards with high-density plantations",
+            "Only exporting apples",
+            "Stopping horticulture"
+        ],
+        "answer": 1,
+        "explanation": "The mission focuses on replacing old, unproductive orchards with high-density plantations using modern rootstocks for higher returns.",
+        "difficulty": "medium",
+        "topic": "pomology",
+        "source": "HP_Scheme_2025"
     }
 ]

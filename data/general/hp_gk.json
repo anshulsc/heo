@@ -673,5 +673,455 @@
         "difficulty": "medium",
         "topic": "hp_gk",
         "source": "HAU_HP"
+    },
+    {
+        "id": "HPGK_046",
+        "question": "HP Budget 2025-26 total outlay presented by CM Sukhvinder Singh Sukhu is:",
+        "options": [
+            "₹45,000 crore",
+            "₹52,000 crore",
+            "₹58,514 crore",
+            "₹65,000 crore"
+        ],
+        "answer": 2,
+        "explanation": "CM Sukhu presented a tax-free HP Budget 2025-26 with total outlay of ₹58,514 crore on 17 March 2025.",
+        "difficulty": "hard",
+        "topic": "hp_gk",
+        "source": "HP_Budget_2025"
+    },
+    {
+        "id": "HPGK_047",
+        "question": "HP's projected GSDP for 2025-26 is approximately:",
+        "options": [
+            "₹1,80,000 crore",
+            "₹2,20,000 crore",
+            "₹2,55,636 crore",
+            "₹3,00,000 crore"
+        ],
+        "answer": 2,
+        "explanation": "HP's projected GSDP for 2025-26 is ₹2,55,636 crore, a 10% growth over 2024-25.",
+        "difficulty": "hard",
+        "topic": "hp_gk",
+        "source": "HP_Budget_2025"
+    },
+    {
+        "id": "HPGK_048",
+        "question": "HP Shiva Project (Subtropical Horticulture, Irrigation and Value Addition Project) outlay is:",
+        "options": [
+            "₹500 crore",
+            "₹800 crore",
+            "₹1,292 crore",
+            "₹1,500 crore"
+        ],
+        "answer": 2,
+        "explanation": "HP SHIVA Project with ₹1,292 crore outlay aims to enhance horticulture across seven districts.",
+        "difficulty": "hard",
+        "topic": "hp_gk",
+        "source": "HP_Scheme_2025"
+    },
+    {
+        "id": "HPGK_049",
+        "question": "HP SHIVA Project covers how many districts?",
+        "options": [
+            "3",
+            "5",
+            "7",
+            "10"
+        ],
+        "answer": 2,
+        "explanation": "HP SHIVA Project covers seven districts for subtropical horticulture, irrigation and value addition.",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "HP_Scheme_2025"
+    },
+    {
+        "id": "HPGK_050",
+        "question": "Him Bhog Atta Initiative in HP sources maize flour from:",
+        "options": [
+            "Chemical farming",
+            "Imported grain",
+            "Organic maize through natural farming",
+            "Hybrid wheat"
+        ],
+        "answer": 2,
+        "explanation": "Him Bhog Atta Initiative supports natural farming by sourcing maize flour from organically grown maize.",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "HP_Scheme_2025"
+    },
+    {
+        "id": "HPGK_051",
+        "question": "The World Bank approved how much funding for HP in 2026 for disaster management?",
+        "options": [
+            "$100 million",
+            "$150 million",
+            "$245 million",
+            "$300 million"
+        ],
+        "answer": 2,
+        "explanation": "On 10 Feb 2026, World Bank approved $245 million for HP to manage extreme weather events and rebuild resilient infrastructure.",
+        "difficulty": "hard",
+        "topic": "hp_gk",
+        "source": "HP_2026"
+    },
+    {
+        "id": "HPGK_052",
+        "question": "Rajiv Gandhi Prakritik Kheti Start-up Yojana in HP promotes:",
+        "options": [
+            "Chemical farming",
+            "Natural farming practices",
+            "Fish farming",
+            "Poultry farming"
+        ],
+        "answer": 1,
+        "explanation": "This scheme promotes natural farming practices in Himachal Pradesh.",
+        "difficulty": "easy",
+        "topic": "hp_gk",
+        "source": "HP_Scheme_2025"
+    },
+    {
+        "id": "HPGK_053",
+        "question": "HP Organic Compost Scheme purchases organic/vermicompost at:",
+        "options": [
+            "₹100/quintal",
+            "₹200/quintal",
+            "₹300/quintal",
+            "₹500/quintal"
+        ],
+        "answer": 2,
+        "explanation": "HP Organic Compost Scheme purchases organic and vermicompost at ₹300 per quintal to aid small farmers.",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "HP_Scheme_2025"
+    },
+    {
+        "id": "HPGK_054",
+        "question": "HP Budget 2025-26 plans to bring how many additional farmers under natural farming?",
+        "options": [
+            "25,000",
+            "50,000",
+            "1 lakh",
+            "2 lakh"
+        ],
+        "answer": 2,
+        "explanation": "HP Budget 2025-26 plans to bring an additional 1 lakh farmers under natural farming practices.",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "HP_Budget_2025"
+    },
+    {
+        "id": "HPGK_055",
+        "question": "Spice Park announced in HP Budget 2025-26 will be established in:",
+        "options": [
+            "Shimla",
+            "Mandi",
+            "Hamirpur",
+            "Kullu"
+        ],
+        "answer": 2,
+        "explanation": "A Spice Park in Hamirpur was announced in HP Budget 2025-26 for spice processing and value addition.",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "HP_Budget_2025"
+    },
+    {
+        "id": "HPGK_056",
+        "question": "The Chief Minister Tourism Start-Up Scheme in HP has an outlay of:",
+        "options": [
+            "₹20 crore",
+            "₹35 crore",
+            "₹50 crore",
+            "₹75 crore"
+        ],
+        "answer": 2,
+        "explanation": "CM Tourism Start-Up Scheme offers interest subvention of 4-5% on loans for homestays/hotels with ₹50 crore outlay.",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "HP_Scheme_2025"
+    },
+    {
+        "id": "HPGK_057",
+        "question": "Indira Gandhi Sukh Suraksha Yojana deposits how much when a girl child is born in BPL family?",
+        "options": [
+            "₹10,000",
+            "₹15,000",
+            "₹25,000",
+            "₹50,000"
+        ],
+        "answer": 2,
+        "explanation": "₹25,000 is deposited in an insurance company when a girl child is born in a BPL family under this scheme.",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "HP_Scheme_2025"
+    },
+    {
+        "id": "HPGK_058",
+        "question": "HP Sahara Yojana provides monthly assistance of how much to patients with serious diseases?",
+        "options": [
+            "₹1,000",
+            "₹2,000",
+            "₹3,000",
+            "₹5,000"
+        ],
+        "answer": 2,
+        "explanation": "HP Sahara Yojana provides ₹3,000/month to economically weaker patients suffering from cancer, Parkinson's, paralysis etc.",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "HP_Scheme_2025"
+    },
+    {
+        "id": "HPGK_059",
+        "question": "Under Him Unnati Yojana, the focus is on:",
+        "options": [
+            "Mining development",
+            "Overall agriculture development",
+            "Tourism only",
+            "Industrial growth only"
+        ],
+        "answer": 1,
+        "explanation": "Him Unnati Yojana (also called Him Krishi Yojana) is for overall development of agriculture in HP.",
+        "difficulty": "easy",
+        "topic": "hp_gk",
+        "source": "HP_Scheme_2025"
+    },
+    {
+        "id": "HPGK_060",
+        "question": "In HP Budget 2025-26, cow milk price was increased from ₹45 to:",
+        "options": [
+            "₹48/litre",
+            "₹50/litre",
+            "₹51/litre",
+            "₹55/litre"
+        ],
+        "answer": 2,
+        "explanation": "Cow milk price increased from ₹45 to ₹51/litre and buffalo milk from ₹55 to ₹61/litre in HP Budget 2025-26.",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "HP_Budget_2025"
+    },
+    {
+        "id": "HPGK_061",
+        "question": "HP Budget 2025-26 planned procurement of how many new electric buses?",
+        "options": [
+            "100",
+            "250",
+            "500",
+            "1000"
+        ],
+        "answer": 2,
+        "explanation": "HP Budget 2025-26 plans procurement of 500 new electric buses.",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "HP_Budget_2025"
+    },
+    {
+        "id": "HPGK_062",
+        "question": "Who is the current CM of Himachal Pradesh (2025-26)?",
+        "options": [
+            "Jai Ram Thakur",
+            "Virbhadra Singh",
+            "Sukhvinder Singh Sukhu",
+            "Pratibha Singh"
+        ],
+        "answer": 2,
+        "explanation": "Sukhvinder Singh Sukhu has been CM of HP since 11 December 2022.",
+        "difficulty": "easy",
+        "topic": "hp_gk",
+        "source": "HP_2025"
+    },
+    {
+        "id": "HPGK_063",
+        "question": "The HP Special Relief Package for Disaster-Hit Families provides housing aid up to:",
+        "options": [
+            "₹3 lakh",
+            "₹5 lakh",
+            "₹7 lakh",
+            "₹10 lakh"
+        ],
+        "answer": 2,
+        "explanation": "HP Special Relief Package (approved July 28, 2025) provides financial support ranging from ₹50,000 to ₹7 lakh for damaged houses.",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "HP_Scheme_2025"
+    },
+    {
+        "id": "HPGK_064",
+        "question": "HP Agriculture Loan Interest Subvention Scheme covers loans up to:",
+        "options": [
+            "₹1 lakh",
+            "₹2 lakh",
+            "₹3 lakh",
+            "₹5 lakh"
+        ],
+        "answer": 2,
+        "explanation": "State bears 50% of accrued interest for agricultural loans up to ₹3 lakh under this one-time settlement scheme.",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "HP_Scheme_2025"
+    },
+    {
+        "id": "HPGK_065",
+        "question": "HP Dev Bhoomi Darshan Yojana provides how much bus fare discount for citizens aged 70-80?",
+        "options": [
+            "25%",
+            "50%",
+            "75%",
+            "100%"
+        ],
+        "answer": 1,
+        "explanation": "50% discount for 70-80 years and 100% discount for above 80 years on bus fares to holy places.",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "HP_Scheme_2025"
+    },
+    {
+        "id": "HPGK_066",
+        "question": "Who is the current Governor of Himachal Pradesh (2025-26)?",
+        "options": [
+            "Bandaru Dattatreya",
+            "Rajendra Arlekar",
+            "Shiv Pratap Shukla",
+            "Kalraj Mishra"
+        ],
+        "answer": 2,
+        "explanation": "Shiv Pratap Shukla serves as the Governor of HP in 2025-26 and conferred Teachers' Day Awards in 2025.",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "HP_2025"
+    },
+    {
+        "id": "HPGK_067",
+        "question": "Krishak Bakri Palan Yojana in HP aims at:",
+        "options": [
+            "Fish farming",
+            "Goat rearing for income generation and meat production",
+            "Cattle breeding",
+            "Poultry farming"
+        ],
+        "answer": 1,
+        "explanation": "Krishak Bakri Palan Yojana boosts income for economically weaker segments through goat rearing and meat production.",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "HP_Scheme_2025"
+    },
+    {
+        "id": "HPGK_068",
+        "question": "Kullu Dussehra 2025 was celebrated from:",
+        "options": [
+            "1-7 October",
+            "10-16 October",
+            "15-21 October",
+            "20-27 October"
+        ],
+        "answer": 0,
+        "explanation": "Kullu Dussehra 2025 was celebrated from October 1-7, 2025.",
+        "difficulty": "easy",
+        "topic": "hp_gk",
+        "source": "HP_Events_2025"
+    },
+    {
+        "id": "HPGK_069",
+        "question": "HP Mukhyamantri Awas Yojana (HPBOCWWB) provides housing aid of:",
+        "options": [
+            "₹50,000",
+            "₹1,00,000",
+            "₹1,50,000",
+            "₹2,00,000"
+        ],
+        "answer": 2,
+        "explanation": "₹1,50,000 financial assistance for housing is provided to registered building and construction workers.",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "HP_Scheme_2025"
+    },
+    {
+        "id": "HPGK_070",
+        "question": "HP fiscal deficit target for 2025-26 is what percentage of GSDP?",
+        "options": [
+            "3%",
+            "3.5%",
+            "4%",
+            "4.5%"
+        ],
+        "answer": 2,
+        "explanation": "HP targeted fiscal deficit of 4% of GSDP, amounting to ₹10,338 crore for 2025-26.",
+        "difficulty": "hard",
+        "topic": "hp_gk",
+        "source": "HP_Budget_2025"
+    },
+    {
+        "id": "HPGK_071",
+        "question": "Indira Gandhi Pyari Behna Sukh-Samman Nidhi Yojana provides:",
+        "options": [
+            "Free education",
+            "Monthly assistance to women",
+            "Free housing",
+            "Crop insurance"
+        ],
+        "answer": 1,
+        "explanation": "This HP scheme provides monthly financial assistance to women in the state.",
+        "difficulty": "easy",
+        "topic": "hp_gk",
+        "source": "HP_Scheme_2025"
+    },
+    {
+        "id": "HPGK_072",
+        "question": "HP Electric Taxi Subsidy Programme under Rajiv Gandhi Self-Employment Start-up Scheme provides:",
+        "options": [
+            "25% subsidy",
+            "40% subsidy",
+            "50% subsidy",
+            "75% subsidy"
+        ],
+        "answer": 2,
+        "explanation": "50% subsidy is provided for purchasing e-taxis under this programme (from FY 2023).",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "HP_Scheme_2023"
+    },
+    {
+        "id": "HPGK_073",
+        "question": "Swami Vivekananda Utkrisht Chhatravriti Yojna in HP provides scholarship of:",
+        "options": [
+            "₹10,000/year",
+            "₹15,000/year",
+            "₹18,000/year",
+            "₹25,000/year"
+        ],
+        "answer": 2,
+        "explanation": "₹18,000/year scholarship for general category students after matriculation in HP.",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "HP_Scheme_2025"
+    },
+    {
+        "id": "HPGK_074",
+        "question": "Himachal Pradesh Assembly in Feb 2026 extended the term of mayor/deputy mayor to:",
+        "options": [
+            "3 years",
+            "4 years",
+            "5 years",
+            "6 years"
+        ],
+        "answer": 2,
+        "explanation": "HP Municipal Corporation Amendment Bill 2025 extends the term of office for mayor and deputy mayor to five years.",
+        "difficulty": "medium",
+        "topic": "hp_gk",
+        "source": "HP_2026"
+    },
+    {
+        "id": "HPGK_075",
+        "question": "Mandi Shivratri 2026 is planned for:",
+        "options": [
+            "25 Feb - 2 Mar",
+            "15-21 February",
+            "1-7 March",
+            "10-16 March"
+        ],
+        "answer": 1,
+        "explanation": "Mandi Shivratri 2026 is planned for February 15-21, 2026.",
+        "difficulty": "easy",
+        "topic": "hp_gk",
+        "source": "HP_Events_2026"
     }
 ]

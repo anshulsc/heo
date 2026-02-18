@@ -1648,5 +1648,80 @@
         "difficulty": "medium",
         "topic": "olericulture",
         "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "OLE_111",
+        "question": "India's vegetable production in 2024-25 is approximately:",
+        "options": [
+            "180 MT",
+            "195 MT",
+            "215.68 MT",
+            "230 MT"
+        ],
+        "answer": 2,
+        "explanation": "India's vegetable output estimated at 215.68 million tonnes in 2024-25, growing by 4.09%.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "Horticulture_2025"
+    },
+    {
+        "id": "OLE_112",
+        "question": "Protected cultivation of vegetables (polyhouse/shade net) is promoted under:",
+        "options": [
+            "Only private investment",
+            "MIDH with subsidy support",
+            "No government scheme",
+            "Only MGNREGA"
+        ],
+        "answer": 1,
+        "explanation": "MIDH provides subsidy support for protected cultivation structures like polyhouses and shade net houses for vegetables.",
+        "difficulty": "easy",
+        "topic": "olericulture",
+        "source": "MIDH_2025"
+    },
+    {
+        "id": "OLE_113",
+        "question": "TOP (Tomato, Onion, Potato) scheme under MIS 2025 focuses on:",
+        "options": [
+            "Exporting all production",
+            "Price stabilization through Market Intervention and PDP",
+            "Banning cultivation",
+            "Only research"
+        ],
+        "answer": 1,
+        "explanation": "TOP scheme stabilizes prices of tomato, onion, potato through market intervention and new Price Differential Payment mechanism.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "MIS_2025"
+    },
+    {
+        "id": "OLE_114",
+        "question": "Vertical farming and soilless cultivation for vegetables is categorized under:",
+        "options": [
+            "Traditional farming only",
+            "Precision/modern horticulture under MIDH",
+            "Animal husbandry",
+            "Forestry"
+        ],
+        "answer": 1,
+        "explanation": "Vertical/soilless cultivation (hydroponics, aeroponics) is promoted under modern horticulture initiatives within MIDH.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "MIDH_2025"
+    },
+    {
+        "id": "OLE_115",
+        "question": "Biofortified vegetable varieties (iron/zinc enriched) are developed by:",
+        "options": [
+            "Private companies only",
+            "ICAR institutes like IIVR Varanasi",
+            "Foreign agencies only",
+            "No one develops them"
+        ],
+        "answer": 1,
+        "explanation": "ICAR-IIVR Varanasi and other ICAR institutes develop biofortified vegetable varieties enriched with iron, zinc, and vitamins.",
+        "difficulty": "medium",
+        "topic": "olericulture",
+        "source": "ICAR_2025"
     }
 ]
