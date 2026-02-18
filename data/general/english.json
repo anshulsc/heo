@@ -223,5 +223,380 @@
         "difficulty": "easy",
         "topic": "english",
         "source": "TGT_HP"
+    },
+    {
+        "id": "ENG_016",
+        "question": "Choose the correctly spelled word:",
+        "options": [
+            "Accomodation",
+            "Accommodation",
+            "Acomodation",
+            "Acommodation"
+        ],
+        "answer": 1,
+        "explanation": "'Accommodation' has two c's and two m's. It is one of the most commonly misspelled words.",
+        "difficulty": "easy",
+        "topic": "english",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "ENG_017",
+        "question": "The synonym of 'Abundant' is:",
+        "options": [
+            "Scarce",
+            "Plentiful",
+            "Rare",
+            "Limited"
+        ],
+        "answer": 1,
+        "explanation": "Abundant means existing in large quantities; plentiful. Synonym: Plentiful, Ample. Antonym: Scarce.",
+        "difficulty": "easy",
+        "topic": "english",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "ENG_018",
+        "question": "Fill in the blank: He has been working here _____ 2015.",
+        "options": [
+            "for",
+            "since",
+            "from",
+            "at"
+        ],
+        "answer": 1,
+        "explanation": "'Since' is used with a point in time (2015). 'For' is used with duration (e.g., for 5 years).",
+        "difficulty": "easy",
+        "topic": "english",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "ENG_019",
+        "question": "The antonym of 'Benevolent' is:",
+        "options": [
+            "Kind",
+            "Generous",
+            "Malevolent",
+            "Charitable"
+        ],
+        "answer": 2,
+        "explanation": "Benevolent means well-meaning, kind. Malevolent means having evil intentions. They are antonyms.",
+        "difficulty": "medium",
+        "topic": "english",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "ENG_020",
+        "question": "Choose the correct passive voice: 'She writes a letter.'",
+        "options": [
+            "A letter is written by her",
+            "A letter was written by her",
+            "A letter has been written by her",
+            "A letter is being written by her"
+        ],
+        "answer": 0,
+        "explanation": "Simple present active → Simple present passive: Subject + is/am/are + V3 + by + agent.",
+        "difficulty": "medium",
+        "topic": "english",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "ENG_021",
+        "question": "The idiom 'Break the ice' means:",
+        "options": [
+            "Break something frozen",
+            "Start a conversation in a social setting",
+            "Create problems",
+            "Stop working"
+        ],
+        "answer": 1,
+        "explanation": "'Break the ice' means to initiate conversation or ease tension in a social situation.",
+        "difficulty": "easy",
+        "topic": "english",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "ENG_022",
+        "question": "Identify the part of speech of the underlined word: 'She sings beautifully.'",
+        "options": [
+            "Adjective",
+            "Adverb",
+            "Noun",
+            "Verb"
+        ],
+        "answer": 1,
+        "explanation": "'Beautifully' is an adverb modifying the verb 'sings', telling how she sings.",
+        "difficulty": "easy",
+        "topic": "english",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "ENG_023",
+        "question": "Choose the correct sentence:",
+        "options": [
+            "He don't know the answer",
+            "He doesn't know the answer",
+            "He does not knows the answer",
+            "He didn't knew the answer"
+        ],
+        "answer": 1,
+        "explanation": "Third person singular uses 'doesn't' (does not) + base form of verb.",
+        "difficulty": "easy",
+        "topic": "english",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "ENG_024",
+        "question": "The plural of 'criterion' is:",
+        "options": [
+            "Criterions",
+            "Criteria",
+            "Criterias",
+            "Criterium"
+        ],
+        "answer": 1,
+        "explanation": "'Criterion' (Greek origin) has the plural 'criteria'. It's an irregular plural.",
+        "difficulty": "medium",
+        "topic": "english",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "ENG_025",
+        "question": "One word for 'a person who loves books':",
+        "options": [
+            "Bibliophile",
+            "Bibliophobe",
+            "Biographer",
+            "Botanist"
+        ],
+        "answer": 0,
+        "explanation": "Bibliophile (biblio = book, phile = lover) is a person who loves or collects books.",
+        "difficulty": "medium",
+        "topic": "english",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "ENG_026",
+        "question": "Fill in the blank: 'Neither Ram _____ Shyam was present.'",
+        "options": [
+            "or",
+            "nor",
+            "and",
+            "but"
+        ],
+        "answer": 1,
+        "explanation": "'Neither...nor' is a correlative conjunction pair. 'Neither Ram nor Shyam' is correct.",
+        "difficulty": "easy",
+        "topic": "english",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "ENG_027",
+        "question": "The meaning of 'Ubiquitous' is:",
+        "options": [
+            "Rare",
+            "Present everywhere",
+            "Unknown",
+            "Unique"
+        ],
+        "answer": 1,
+        "explanation": "Ubiquitous means present, appearing, or found everywhere. E.g., 'Mobile phones are ubiquitous today.'",
+        "difficulty": "hard",
+        "topic": "english",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "ENG_028",
+        "question": "Choose the correct indirect speech: He said, 'I am happy.'",
+        "options": [
+            "He said that he is happy",
+            "He said that he was happy",
+            "He said that I am happy",
+            "He told that he was happy"
+        ],
+        "answer": 1,
+        "explanation": "Direct to indirect: Present tense → Past tense. 'I am' → 'he was'. 'Said that' (not 'told that').",
+        "difficulty": "medium",
+        "topic": "english",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "ENG_029",
+        "question": "An 'autobiography' is:",
+        "options": [
+            "A biography written by someone else",
+            "The story of one's own life written by oneself",
+            "A fictional story",
+            "A history book"
+        ],
+        "answer": 1,
+        "explanation": "Auto (self) + biography (life story) = a self-written account of one's own life.",
+        "difficulty": "easy",
+        "topic": "english",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "ENG_030",
+        "question": "'To turn over a new leaf' means:",
+        "options": [
+            "To read a book",
+            "To make a fresh start",
+            "To plant a tree",
+            "To fall down"
+        ],
+        "answer": 1,
+        "explanation": "'Turn over a new leaf' means to make a fresh start, to reform one's behavior.",
+        "difficulty": "easy",
+        "topic": "english",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "ENG_031",
+        "question": "Find the error: 'Each of the students have completed their assignment.'",
+        "options": [
+            "Each of",
+            "have completed",
+            "their",
+            "No error"
+        ],
+        "answer": 1,
+        "explanation": "'Each' takes singular verb. Correct: 'Each of the students has completed his/her assignment.'",
+        "difficulty": "hard",
+        "topic": "english",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "ENG_032",
+        "question": "The synonym of 'Diligent' is:",
+        "options": [
+            "Lazy",
+            "Hardworking",
+            "Careless",
+            "Slow"
+        ],
+        "answer": 1,
+        "explanation": "Diligent means showing care and effort; hardworking. Antonym: lazy, careless.",
+        "difficulty": "easy",
+        "topic": "english",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "ENG_033",
+        "question": "Which is a compound sentence?",
+        "options": [
+            "I went to the market",
+            "I went to the market and bought vegetables",
+            "Going to the market, I bought vegetables",
+            "The market vegetables"
+        ],
+        "answer": 1,
+        "explanation": "A compound sentence has two independent clauses joined by a conjunction (and, but, or).",
+        "difficulty": "medium",
+        "topic": "english",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "ENG_034",
+        "question": "'Honesty is the best policy.' The underlined word is:",
+        "options": [
+            "Concrete noun",
+            "Abstract noun",
+            "Proper noun",
+            "Collective noun"
+        ],
+        "answer": 1,
+        "explanation": "'Honesty' is an abstract noun representing a quality/concept that cannot be perceived by the five senses.",
+        "difficulty": "medium",
+        "topic": "english",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "ENG_035",
+        "question": "Fill in the blank: 'If I _____ rich, I would help the poor.'",
+        "options": [
+            "am",
+            "was",
+            "were",
+            "will be"
+        ],
+        "answer": 2,
+        "explanation": "Subjunctive mood uses 'were' for all persons in hypothetical/unreal conditions. 'If I were rich...'",
+        "difficulty": "hard",
+        "topic": "english",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "ENG_036",
+        "question": "'Contemporaries' means:",
+        "options": [
+            "People of different eras",
+            "People living at the same time",
+            "Elderly people",
+            "Young people"
+        ],
+        "answer": 1,
+        "explanation": "Contemporaries are people or things existing at the same time period or era.",
+        "difficulty": "medium",
+        "topic": "english",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "ENG_037",
+        "question": "The collective noun for 'fish' is:",
+        "options": [
+            "Flock",
+            "Herd",
+            "School",
+            "Pack"
+        ],
+        "answer": 2,
+        "explanation": "A group of fish is called a 'school' or 'shoal' of fish.",
+        "difficulty": "easy",
+        "topic": "english",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "ENG_038",
+        "question": "Choose the correct preposition: 'She is good _____ mathematics.'",
+        "options": [
+            "in",
+            "at",
+            "on",
+            "for"
+        ],
+        "answer": 1,
+        "explanation": "'Good at' is the correct collocation. 'She is good at mathematics.'",
+        "difficulty": "easy",
+        "topic": "english",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "ENG_039",
+        "question": "'To let the cat out of the bag' means:",
+        "options": [
+            "Free a cat",
+            "Reveal a secret",
+            "Catch a cat",
+            "Buy a bag"
+        ],
+        "answer": 1,
+        "explanation": "'Let the cat out of the bag' means to accidentally reveal a secret or surprise.",
+        "difficulty": "easy",
+        "topic": "english",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "ENG_040",
+        "question": "The prefix 'anti-' means:",
+        "options": [
+            "Before",
+            "After",
+            "Against",
+            "With"
+        ],
+        "answer": 2,
+        "explanation": "'Anti-' is a prefix meaning 'against' or 'opposite to', e.g., antibacterial, antisocial.",
+        "difficulty": "easy",
+        "topic": "english",
+        "source": "HPSSC_HEO_2017"
     }
 ]

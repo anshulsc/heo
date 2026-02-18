@@ -223,5 +223,380 @@
         "difficulty": "medium",
         "topic": "current_affairs",
         "source": "TGT_HP"
+    },
+    {
+        "id": "CA_016",
+        "question": "National Agriculture Market (e-NAM) was launched in:",
+        "options": [
+            "2014",
+            "2016",
+            "2018",
+            "2020"
+        ],
+        "answer": 1,
+        "explanation": "e-NAM was launched on 14 April 2016 as an online trading platform for agricultural commodities across India.",
+        "difficulty": "medium",
+        "topic": "current_affairs",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "CA_017",
+        "question": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN) provides:",
+        "options": [
+            "Free seeds",
+            "₹6,000/year to farmer families",
+            "Free tractors",
+            "Loan waiver"
+        ],
+        "answer": 1,
+        "explanation": "PM-KISAN provides ₹6,000/year in three installments of ₹2,000 each to small and marginal farmer families.",
+        "difficulty": "easy",
+        "topic": "current_affairs",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "CA_018",
+        "question": "India's rank in fruit production globally is:",
+        "options": [
+            "1st",
+            "2nd",
+            "3rd",
+            "4th"
+        ],
+        "answer": 1,
+        "explanation": "India is the 2nd largest fruit producer globally after China, producing ~100 million tonnes annually.",
+        "difficulty": "medium",
+        "topic": "current_affairs",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "CA_019",
+        "question": "One District One Product (ODOP) scheme aims at:",
+        "options": [
+            "Banning imports",
+            "Promoting district-specific products",
+            "Reducing production",
+            "Centralizing agriculture"
+        ],
+        "answer": 1,
+        "explanation": "ODOP identifies and promotes one unique product from each district for processing, marketing, and export promotion.",
+        "difficulty": "medium",
+        "topic": "current_affairs",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "CA_020",
+        "question": "Soil Health Card scheme was launched in:",
+        "options": [
+            "2010",
+            "2015",
+            "2018",
+            "2020"
+        ],
+        "answer": 1,
+        "explanation": "Soil Health Card scheme was launched on 19 February 2015 to provide soil nutrient status and fertilizer recommendations to farmers.",
+        "difficulty": "medium",
+        "topic": "current_affairs",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "CA_021",
+        "question": "APEDA stands for:",
+        "options": [
+            "Agricultural Products Export Development Authority",
+            "Agricultural and Processed Food Products Export Development Authority",
+            "Asian Pacific Economic Development Agency",
+            "Agriculture Production and Export Department of Asia"
+        ],
+        "answer": 1,
+        "explanation": "APEDA (under Ministry of Commerce) promotes export of agricultural and processed food products from India.",
+        "difficulty": "medium",
+        "topic": "current_affairs",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "CA_022",
+        "question": "Natural Farming is being promoted under which scheme?",
+        "options": [
+            "PM-KISAN",
+            "Bharatiya Prakritik Krishi Paddhati (BPKP)",
+            "MGNREGA",
+            "Digital India"
+        ],
+        "answer": 1,
+        "explanation": "BPKP under Paramparagat Krishi Vikas Yojana promotes natural farming using cow dung-based inputs (Jeevamrit, Beejamrit).",
+        "difficulty": "hard",
+        "topic": "current_affairs",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "CA_023",
+        "question": "FPO stands for:",
+        "options": [
+            "Food Processing Order",
+            "Farmer Producer Organization",
+            "Fruit Packaging Office",
+            "Farm Products Outlet"
+        ],
+        "answer": 1,
+        "explanation": "FPOs are collectivization of farmers to improve bargaining power, market access, and input costs for small/marginal farmers.",
+        "difficulty": "easy",
+        "topic": "current_affairs",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "CA_024",
+        "question": "Swachh Bharat Mission was launched on:",
+        "options": [
+            "15 August 2014",
+            "2 October 2014",
+            "26 January 2015",
+            "14 November 2014"
+        ],
+        "answer": 1,
+        "explanation": "Swachh Bharat Mission was launched on 2 October 2014 (Gandhi Jayanti) for clean India through sanitation and waste management.",
+        "difficulty": "easy",
+        "topic": "current_affairs",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "CA_025",
+        "question": "Which organization provides Minimum Support Price (MSP) for crops?",
+        "options": [
+            "NABARD",
+            "CACP/CCEA",
+            "RBI",
+            "SEBI"
+        ],
+        "answer": 1,
+        "explanation": "CACP (Commission for Agricultural Costs and Prices) recommends MSP, which is approved by CCEA (Cabinet Committee on Economic Affairs).",
+        "difficulty": "hard",
+        "topic": "current_affairs",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "CA_026",
+        "question": "Digital India programme was launched in:",
+        "options": [
+            "2014",
+            "2015",
+            "2016",
+            "2017"
+        ],
+        "answer": 1,
+        "explanation": "Digital India was launched on 1 July 2015 to transform India into a digitally empowered society and knowledge economy.",
+        "difficulty": "easy",
+        "topic": "current_affairs",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "CA_027",
+        "question": "Kisan Credit Card (KCC) scheme provides:",
+        "options": [
+            "Free land",
+            "Short-term credit to farmers",
+            "Free seeds",
+            "Employment guarantee"
+        ],
+        "answer": 1,
+        "explanation": "KCC provides timely and adequate credit support to farmers for agriculture, allied activities, and consumption needs.",
+        "difficulty": "easy",
+        "topic": "current_affairs",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "CA_028",
+        "question": "PMFBY stands for:",
+        "options": [
+            "Pradhan Mantri Fasal Bima Yojana",
+            "Pradhan Mantri Farm Benefit Yojana",
+            "Prime Minister's Food & Beverage Yojana",
+            "PM Farmer Building Yojana"
+        ],
+        "answer": 0,
+        "explanation": "PMFBY provides comprehensive crop insurance against natural calamities and pests at affordable premiums for farmers.",
+        "difficulty": "easy",
+        "topic": "current_affairs",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "CA_029",
+        "question": "Make in India initiative focuses on:",
+        "options": [
+            "Import promotion",
+            "Manufacturing and production in India",
+            "Reducing agriculture",
+            "Stopping exports"
+        ],
+        "answer": 1,
+        "explanation": "Make in India (launched Sept 2014) promotes manufacturing, foreign investment, and production within India across 25 sectors.",
+        "difficulty": "easy",
+        "topic": "current_affairs",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "CA_030",
+        "question": "Cluster-based approach in horticulture is promoted under:",
+        "options": [
+            "MIDH",
+            "MGNREGA",
+            "Digital India",
+            "Swachh Bharat"
+        ],
+        "answer": 0,
+        "explanation": "MIDH promotes cluster-based development of horticulture, creating production clusters for focused development and marketing.",
+        "difficulty": "medium",
+        "topic": "current_affairs",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "CA_031",
+        "question": "NABARD full form is:",
+        "options": [
+            "National Association of Banks for Agriculture and Rural Development",
+            "National Bank for Agriculture and Rural Development",
+            "New Agriculture Bank for Agri-Rural Development",
+            "National Bureau of Agriculture and Rural Demand"
+        ],
+        "answer": 1,
+        "explanation": "NABARD (est. 1982) is the apex development financial institution for agriculture and rural development in India.",
+        "difficulty": "easy",
+        "topic": "current_affairs",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "CA_032",
+        "question": "Drone technology in agriculture is used for:",
+        "options": [
+            "Spraying pesticides and monitoring crops",
+            "Only entertainment",
+            "Mining",
+            "Fishing"
+        ],
+        "answer": 0,
+        "explanation": "Agricultural drones are used for precision spraying, crop monitoring, mapping, soil analysis, and yield estimation.",
+        "difficulty": "easy",
+        "topic": "current_affairs",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "CA_033",
+        "question": "GI (Geographical Indication) tag protects:",
+        "options": [
+            "Individual patents",
+            "Products originating from a specific geographical region",
+            "Company trademarks",
+            "International imports"
+        ],
+        "answer": 1,
+        "explanation": "GI tag indicates products with specific geographical origin having qualities/reputation attributable to that origin (e.g., Darjeeling Tea).",
+        "difficulty": "medium",
+        "topic": "current_affairs",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "CA_034",
+        "question": "Jal Jeevan Mission aims at:",
+        "options": [
+            "Flood control only",
+            "Providing tap water to every rural household",
+            "Dam construction",
+            "River linking"
+        ],
+        "answer": 1,
+        "explanation": "Jal Jeevan Mission (2019) aims to provide functional household tap connection (Har Ghar Jal) to every rural household by 2024.",
+        "difficulty": "easy",
+        "topic": "current_affairs",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "CA_035",
+        "question": "National Food Security Act was enacted in:",
+        "options": [
+            "2011",
+            "2013",
+            "2015",
+            "2017"
+        ],
+        "answer": 1,
+        "explanation": "NFSA 2013 provides subsidized food grains to approximately two-thirds of India's population through PDS.",
+        "difficulty": "medium",
+        "topic": "current_affairs",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "CA_036",
+        "question": "Atal Innovation Mission (AIM) promotes:",
+        "options": [
+            "Agriculture only",
+            "Innovation and entrepreneurship",
+            "Defence only",
+            "Mining"
+        ],
+        "answer": 1,
+        "explanation": "AIM under NITI Aayog promotes innovation and entrepreneurship through Atal Tinkering Labs and Atal Incubation Centres.",
+        "difficulty": "medium",
+        "topic": "current_affairs",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "CA_037",
+        "question": "PLI (Production Linked Incentive) scheme aims at:",
+        "options": [
+            "Boosting domestic manufacturing",
+            "Reducing imports only",
+            "Tax collection",
+            "Export ban"
+        ],
+        "answer": 0,
+        "explanation": "PLI scheme provides incentives to boost domestic manufacturing and exports across sectors including food processing.",
+        "difficulty": "medium",
+        "topic": "current_affairs",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "CA_038",
+        "question": "National Horticulture Mission (NHM) is a component of:",
+        "options": [
+            "MGNREGA",
+            "MIDH",
+            "Digital India",
+            "Swachh Bharat"
+        ],
+        "answer": 1,
+        "explanation": "NHM is a sub-scheme under MIDH for holistic development of horticulture sector in all states except NE and Himalayan states.",
+        "difficulty": "hard",
+        "topic": "current_affairs",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "CA_039",
+        "question": "Ayushman Bharat scheme provides:",
+        "options": [
+            "Free fertilizers",
+            "Health insurance of ₹5 lakh per family",
+            "Free education",
+            "Housing for all"
+        ],
+        "answer": 1,
+        "explanation": "Ayushman Bharat - PMJAY provides health insurance cover of ₹5 lakh/family/year for secondary and tertiary hospitalization.",
+        "difficulty": "easy",
+        "topic": "current_affairs",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "CA_040",
+        "question": "Start-up India initiative was launched in:",
+        "options": [
+            "2014",
+            "2016",
+            "2018",
+            "2020"
+        ],
+        "answer": 1,
+        "explanation": "Start-up India was launched on 16 January 2016 to build a strong ecosystem for innovation and startups in India.",
+        "difficulty": "easy",
+        "topic": "current_affairs",
+        "source": "HPSSC_HEO_2017"
     }
 ]

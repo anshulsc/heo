@@ -223,5 +223,380 @@
         "difficulty": "medium",
         "topic": "political_science",
         "source": "TGT_HP"
+    },
+    {
+        "id": "POL_016",
+        "question": "The Constitution of India was adopted on:",
+        "options": [
+            "15 August 1947",
+            "26 January 1950",
+            "26 November 1949",
+            "2 October 1950"
+        ],
+        "answer": 2,
+        "explanation": "The Constitution was adopted on 26 November 1949 and came into effect on 26 January 1950 (Republic Day).",
+        "difficulty": "easy",
+        "topic": "political_science",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "POL_017",
+        "question": "Who is known as the 'Father of the Indian Constitution'?",
+        "options": [
+            "Mahatma Gandhi",
+            "Jawaharlal Nehru",
+            "Dr. B.R. Ambedkar",
+            "Sardar Patel"
+        ],
+        "answer": 2,
+        "explanation": "Dr. B.R. Ambedkar was Chairman of the Drafting Committee and is regarded as the chief architect of the Indian Constitution.",
+        "difficulty": "easy",
+        "topic": "political_science",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "POL_018",
+        "question": "The Preamble of the Constitution begins with:",
+        "options": [
+            "We, the citizens of India",
+            "We, the people of India",
+            "The Government of India",
+            "The Parliament of India"
+        ],
+        "answer": 1,
+        "explanation": "The Preamble begins with 'We, the people of India' signifying popular sovereignty.",
+        "difficulty": "easy",
+        "topic": "political_science",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "POL_019",
+        "question": "Fundamental Rights are enshrined in which Part of the Constitution?",
+        "options": [
+            "Part II",
+            "Part III",
+            "Part IV",
+            "Part V"
+        ],
+        "answer": 1,
+        "explanation": "Part III (Articles 12-35) of the Constitution deals with Fundamental Rights guaranteed to citizens.",
+        "difficulty": "medium",
+        "topic": "political_science",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "POL_020",
+        "question": "How many Fundamental Duties are listed in the Constitution?",
+        "options": [
+            "8",
+            "10",
+            "11",
+            "15"
+        ],
+        "answer": 2,
+        "explanation": "There are 11 Fundamental Duties listed in Article 51A (Part IV-A), added by 42nd Amendment (1976), 11th by 86th Amendment (2002).",
+        "difficulty": "medium",
+        "topic": "political_science",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "POL_021",
+        "question": "The President of India is elected by:",
+        "options": [
+            "Direct election by people",
+            "Electoral College",
+            "Parliament only",
+            "Supreme Court"
+        ],
+        "answer": 1,
+        "explanation": "The President is elected indirectly by an Electoral College consisting of elected members of Parliament and State Legislative Assemblies.",
+        "difficulty": "medium",
+        "topic": "political_science",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "POL_022",
+        "question": "Rajya Sabha members are elected for a term of:",
+        "options": [
+            "4 years",
+            "5 years",
+            "6 years",
+            "Permanent"
+        ],
+        "answer": 2,
+        "explanation": "Rajya Sabha members serve 6-year terms, with one-third retiring every 2 years. Maximum strength is 250 members.",
+        "difficulty": "medium",
+        "topic": "political_science",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "POL_023",
+        "question": "Right to Education was added as a Fundamental Right by which amendment?",
+        "options": [
+            "73rd",
+            "86th",
+            "92nd",
+            "44th"
+        ],
+        "answer": 1,
+        "explanation": "86th Amendment (2002) added Article 21A making free and compulsory education for 6-14 age group a Fundamental Right.",
+        "difficulty": "hard",
+        "topic": "political_science",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "POL_024",
+        "question": "The Chief Justice of India is appointed by:",
+        "options": [
+            "Parliament",
+            "President",
+            "Prime Minister",
+            "Vice President"
+        ],
+        "answer": 1,
+        "explanation": "The Chief Justice of India is appointed by the President of India, conventionally the senior-most judge of the Supreme Court.",
+        "difficulty": "medium",
+        "topic": "political_science",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "POL_025",
+        "question": "Directive Principles of State Policy are in which Part?",
+        "options": [
+            "Part III",
+            "Part IV",
+            "Part V",
+            "Part VI"
+        ],
+        "answer": 1,
+        "explanation": "Part IV (Articles 36-51) contains DPSP which are guidelines for governance but not justiciable in courts.",
+        "difficulty": "medium",
+        "topic": "political_science",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "POL_026",
+        "question": "The Panchayati Raj system was constitutionalized by:",
+        "options": [
+            "42nd Amendment",
+            "73rd Amendment",
+            "74th Amendment",
+            "61st Amendment"
+        ],
+        "answer": 1,
+        "explanation": "73rd Amendment (1992) constitutionalized Panchayati Raj, adding Part IX to the Constitution for rural local governance.",
+        "difficulty": "hard",
+        "topic": "political_science",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "POL_027",
+        "question": "Emergency provisions are mentioned under which Articles?",
+        "options": [
+            "Articles 12-35",
+            "Articles 352-360",
+            "Articles 36-51",
+            "Articles 100-120"
+        ],
+        "answer": 1,
+        "explanation": "Articles 352-360 deal with Emergency provisions: National (352), State (356), and Financial (360) emergencies.",
+        "difficulty": "hard",
+        "topic": "political_science",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "POL_028",
+        "question": "Who is the constitutional head of the state in India?",
+        "options": [
+            "Chief Minister",
+            "Governor",
+            "President",
+            "Speaker"
+        ],
+        "answer": 1,
+        "explanation": "The Governor is the constitutional (nominal) head of the state, appointed by the President for a 5-year term.",
+        "difficulty": "easy",
+        "topic": "political_science",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "POL_029",
+        "question": "Right to vote in India is a:",
+        "options": [
+            "Fundamental Right",
+            "Legal Right",
+            "Natural Right",
+            "Moral Right"
+        ],
+        "answer": 1,
+        "explanation": "Right to vote is a legal/statutory right (under Representation of People's Act 1951), not a Fundamental Right.",
+        "difficulty": "hard",
+        "topic": "political_science",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "POL_030",
+        "question": "The concept of 'Secular State' means:",
+        "options": [
+            "State follows one religion",
+            "State has no official religion and treats all equally",
+            "Anti-religious state",
+            "Theocratic state"
+        ],
+        "answer": 1,
+        "explanation": "Secularism (added by 42nd Amendment) means state treats all religions equally and has no state religion.",
+        "difficulty": "medium",
+        "topic": "political_science",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "POL_031",
+        "question": "Money Bill can only be introduced in:",
+        "options": [
+            "Rajya Sabha",
+            "Lok Sabha",
+            "Any house",
+            "State Assembly"
+        ],
+        "answer": 1,
+        "explanation": "Money Bill can only be introduced in Lok Sabha (Article 109). Rajya Sabha can only suggest amendments within 14 days.",
+        "difficulty": "medium",
+        "topic": "political_science",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "POL_032",
+        "question": "National Human Rights Commission was established in:",
+        "options": [
+            "1990",
+            "1993",
+            "1995",
+            "2000"
+        ],
+        "answer": 1,
+        "explanation": "NHRC was established in 1993 under the Protection of Human Rights Act, 1993 to protect civil liberties.",
+        "difficulty": "medium",
+        "topic": "political_science",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "POL_033",
+        "question": "The maximum strength of Lok Sabha is:",
+        "options": [
+            "500",
+            "545",
+            "550",
+            "552"
+        ],
+        "answer": 3,
+        "explanation": "Maximum strength of Lok Sabha is 552 (530 from states + 20 from UTs + 2 Anglo-Indians nominated - now discontinued).",
+        "difficulty": "medium",
+        "topic": "political_science",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "POL_034",
+        "question": "Which Schedule of the Constitution deals with languages?",
+        "options": [
+            "Seventh Schedule",
+            "Eighth Schedule",
+            "Ninth Schedule",
+            "Tenth Schedule"
+        ],
+        "answer": 1,
+        "explanation": "Eighth Schedule lists officially recognized languages (currently 22 languages after additions).",
+        "difficulty": "hard",
+        "topic": "political_science",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "POL_035",
+        "question": "RTI (Right to Information) Act came into force in:",
+        "options": [
+            "2000",
+            "2003",
+            "2005",
+            "2010"
+        ],
+        "answer": 2,
+        "explanation": "RTI Act 2005 came into force on 12 October 2005, empowering citizens to seek information from public authorities.",
+        "difficulty": "easy",
+        "topic": "political_science",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "POL_036",
+        "question": "Who appoints the Election Commission of India?",
+        "options": [
+            "Parliament",
+            "Prime Minister",
+            "President",
+            "Chief Justice"
+        ],
+        "answer": 2,
+        "explanation": "The Chief Election Commissioner and Election Commissioners are appointed by the President of India.",
+        "difficulty": "medium",
+        "topic": "political_science",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "POL_037",
+        "question": "The minimum age to become a member of Lok Sabha is:",
+        "options": [
+            "18 years",
+            "21 years",
+            "25 years",
+            "30 years"
+        ],
+        "answer": 2,
+        "explanation": "Minimum age for Lok Sabha is 25 years and for Rajya Sabha is 30 years (Article 84).",
+        "difficulty": "easy",
+        "topic": "political_science",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "POL_038",
+        "question": "GST was introduced in India from:",
+        "options": [
+            "1 April 2016",
+            "1 July 2017",
+            "1 January 2018",
+            "1 April 2017"
+        ],
+        "answer": 1,
+        "explanation": "GST (Goods and Services Tax) was launched on 1 July 2017 through 101st Constitutional Amendment Act, 2016.",
+        "difficulty": "medium",
+        "topic": "political_science",
+        "source": "HPSSC_HEO_2020"
+    },
+    {
+        "id": "POL_039",
+        "question": "Inter-State Council is mentioned in Article:",
+        "options": [
+            "262",
+            "263",
+            "300",
+            "350"
+        ],
+        "answer": 1,
+        "explanation": "Article 263 provides for establishment of Inter-State Council by the President to promote coordination between states.",
+        "difficulty": "hard",
+        "topic": "political_science",
+        "source": "HPSSC_HEO_2017"
+    },
+    {
+        "id": "POL_040",
+        "question": "NITI Aayog replaced which body?",
+        "options": [
+            "Finance Commission",
+            "Election Commission",
+            "Planning Commission",
+            "Law Commission"
+        ],
+        "answer": 2,
+        "explanation": "NITI Aayog (National Institution for Transforming India) replaced Planning Commission in 2015 as the policy think tank.",
+        "difficulty": "easy",
+        "topic": "political_science",
+        "source": "HPSSC_HEO_2020"
     }
 ]

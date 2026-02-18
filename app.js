@@ -56,6 +56,37 @@ let reviewIndex = 0;
 // ============================================
 // TEST DEFINITIONS
 // ============================================
+// Real HEO exam pattern:
+// Total: 170 questions in 120 minutes (2 hours)
+// Section A — Horticulture (120 questions):
+//   Pomology: 25, Olericulture: 22, Floriculture: 15,
+//   Post-Harvest: 15, Plant Propagation: 13, Plant Breeding: 12,
+//   General Horticulture: 18
+// Section B — General (50 questions):
+//   Reasoning: 10, Hindi: 8, English: 8,
+//   Political Science: 8, HP GK: 10, Current Affairs: 6
+// ============================================
+
+const HEO_EXAM_BLUEPRINT = {
+  horticulture: {
+    pomology: 25,
+    olericulture: 22,
+    floriculture: 15,
+    post_harvest: 15,
+    plant_propagation: 13,
+    plant_breeding: 12,
+    general_horticulture: 18
+  },
+  general: {
+    reasoning: 10,
+    hindi: 8,
+    english: 8,
+    political_science: 8,
+    hp_gk: 10,
+    current_affairs: 6
+  }
+};
+
 function generateTestDefinitions() {
   const tests = [];
 
@@ -77,20 +108,22 @@ function generateTestDefinitions() {
     sections: { horticulture: { count: 30, topics: null } }
   });
 
-  // Daily Overall Test
+  // Daily Overall Test (mini mock — same ratio as real exam)
   tests.push({
     id: `daily_overall_${today.toISOString().slice(0, 10)}`,
     title: `📅 Daily Full Test — ${today.toLocaleDateString('en-IN', { day: 'numeric', month: 'short' })}`,
-    description: 'Daily mixed test. Horticulture + General. New every day!',
+    description: 'Daily exam simulation — same topic ratio as real HEO paper!',
     type: 'daily',
     category: 'overall',
-    questionCount: 40,
-    timeMinutes: 45,
-    difficulty: 'medium',
+    questionCount: 50,
+    timeMinutes: 35,
+    difficulty: 'hard',
     seed: dayNum + 999,
+    useBlueprint: true,
+    blueprintScale: 0.3,
     sections: {
-      horticulture: { count: 28, topics: null },
-      general: { count: 12, topics: null }
+      horticulture: { count: 35, topics: null },
+      general: { count: 15, topics: null }
     }
   });
 
@@ -123,19 +156,21 @@ function generateTestDefinitions() {
     }
   });
 
-  // Mega horticulture tests (10 tests)
+  // Mega horticulture tests (10 tests) — proportional topic distribution
   for (let i = 1; i <= 10; i++) {
     tests.push({
       id: `horti_mega_${i}`,
       title: `🌾 Horticulture Mega Test ${i}`,
-      description: 'All horticulture topics. Competitive exam difficulty.',
+      description: 'All horticulture topics. Same ratio as real HEO Section A.',
       type: 'horticulture',
       category: 'horticulture',
-      questionCount: 50,
+      questionCount: 60,
       timeMinutes: 60,
       difficulty: 'hard',
       seed: 2000 + i * 7,
-      sections: { horticulture: { count: 50, topics: null } }
+      useBlueprint: true,
+      blueprintScale: 0.5,
+      sections: { horticulture: { count: 60, topics: null } }
     });
   }
 
@@ -153,7 +188,7 @@ function generateTestDefinitions() {
     tests.push({
       id: `gen_topic_${t.key}`,
       title: `${t.icon} ${t.name}`,
-      description: `TGT exam pattern. Topic focus: ${t.name}.`,
+      description: `HEO exam pattern. Topic focus: ${t.name}.`,
       type: 'general',
       category: 'general',
       questionCount: t.count,
@@ -164,37 +199,63 @@ function generateTestDefinitions() {
     });
   });
 
-  // General combined tests (5 tests)
+  // General combined tests (5 tests) — proportional distribution
   for (let i = 1; i <= 5; i++) {
     tests.push({
       id: `gen_combined_${i}`,
       title: `📚 General Section Test ${i}`,
-      description: 'Reasoning, Hindi, English, Polity, HP GK, Current Affairs.',
+      description: 'All 6 general topics — same ratio as real HEO Section B.',
       type: 'general',
       category: 'general',
       questionCount: 30,
-      timeMinutes: 30,
+      timeMinutes: 25,
       difficulty: 'medium',
       seed: 4000 + i * 13,
+      useBlueprint: true,
+      blueprintScale: 0.6,
       sections: { general: { count: 30, topics: null } }
     });
   }
 
-  // ---- OVERALL HEO FULL MOCK TESTS (30 tests) ----
+  // ---- HEO FULL MOCK TESTS (30 tests) ----
+  // Exact replica of real HEO exam: 170 Qs, 120 min, topic-wise distribution
   for (let i = 1; i <= 30; i++) {
     tests.push({
       id: `overall_${i}`,
       title: `🏆 HEO Full Mock Test ${i}`,
-      description: `Complete HEO exam simulation. Tougher than previous papers. Set ${i}/30.`,
+      description: `Exact HEO exam simulation — 170 Qs, 2 hrs, real topic distribution. Set ${i}/30.`,
       type: 'overall',
       category: 'overall',
-      questionCount: 70,
-      timeMinutes: 90,
+      questionCount: 170,
+      timeMinutes: 120,
       difficulty: 'hard',
       seed: 5000 + i * 17,
+      useBlueprint: true,
+      blueprintScale: 1.0,
       sections: {
-        horticulture: { count: 50, topics: null },
-        general: { count: 20, topics: null }
+        horticulture: { count: 120, topics: null },
+        general: { count: 50, topics: null }
+      }
+    });
+  }
+
+  // ---- HALF MOCK TESTS (10 tests) — for shorter practice ----
+  for (let i = 1; i <= 10; i++) {
+    tests.push({
+      id: `half_mock_${i}`,
+      title: `⚡ HEO Half Mock ${i}`,
+      description: `Half-length HEO simulation — 85 Qs, 60 min, same ratio. Set ${i}/10.`,
+      type: 'overall',
+      category: 'overall',
+      questionCount: 85,
+      timeMinutes: 60,
+      difficulty: 'hard',
+      seed: 8000 + i * 23,
+      useBlueprint: true,
+      blueprintScale: 0.5,
+      sections: {
+        horticulture: { count: 60, topics: null },
+        general: { count: 25, topics: null }
       }
     });
   }
@@ -255,29 +316,58 @@ async function loadAllQuestions() {
 
 // ============================================
 // BUILD TEST QUESTIONS FROM DEFINITION
+// Uses topic-wise blueprint for realistic distribution
 // ============================================
 function buildTestQuestions(testDef) {
   const questions = [];
 
-  if (testDef.sections.horticulture) {
-    const sec = testDef.sections.horticulture;
-    let pool = sec.topics
-      ? allQuestions.horticulture.filter(q => sec.topics.includes(q.topic))
-      : [...allQuestions.horticulture];
-    pool = shuffleWithSeed(pool, testDef.seed);
-    questions.push(...pool.slice(0, sec.count));
+  // If test uses blueprint (exam-pattern distribution), pick per-topic quotas
+  if (testDef.useBlueprint) {
+    const scale = testDef.blueprintScale || 1.0;
+
+    // HORTICULTURE — pick from each topic proportionally
+    if (testDef.sections.horticulture) {
+      const blueprint = HEO_EXAM_BLUEPRINT.horticulture;
+      for (const [topic, baseCount] of Object.entries(blueprint)) {
+        const needed = Math.max(1, Math.round(baseCount * scale));
+        let pool = allQuestions.horticulture.filter(q => q.topic === topic);
+        pool = shuffleWithSeed(pool, testDef.seed + topic.length * 7);
+        questions.push(...pool.slice(0, needed));
+      }
+    }
+
+    // GENERAL — pick from each topic proportionally
+    if (testDef.sections.general) {
+      const blueprint = HEO_EXAM_BLUEPRINT.general;
+      for (const [topic, baseCount] of Object.entries(blueprint)) {
+        const needed = Math.max(1, Math.round(baseCount * scale));
+        let pool = allQuestions.general.filter(q => q.topic === topic);
+        pool = shuffleWithSeed(pool, testDef.seed + topic.length * 11);
+        questions.push(...pool.slice(0, needed));
+      }
+    }
+  } else {
+    // Simple mode — pick from pool without topic-level distribution
+    if (testDef.sections.horticulture) {
+      const sec = testDef.sections.horticulture;
+      let pool = sec.topics
+        ? allQuestions.horticulture.filter(q => sec.topics.includes(q.topic))
+        : [...allQuestions.horticulture];
+      pool = shuffleWithSeed(pool, testDef.seed);
+      questions.push(...pool.slice(0, sec.count));
+    }
+
+    if (testDef.sections.general) {
+      const sec = testDef.sections.general;
+      let pool = sec.topics
+        ? allQuestions.general.filter(q => sec.topics.includes(q.topic))
+        : [...allQuestions.general];
+      pool = shuffleWithSeed(pool, testDef.seed + 7);
+      questions.push(...pool.slice(0, sec.count));
+    }
   }
 
-  if (testDef.sections.general) {
-    const sec = testDef.sections.general;
-    let pool = sec.topics
-      ? allQuestions.general.filter(q => sec.topics.includes(q.topic))
-      : [...allQuestions.general];
-    pool = shuffleWithSeed(pool, testDef.seed + 7);
-    questions.push(...pool.slice(0, sec.count));
-  }
-
-  // Final shuffle
+  // Final shuffle to mix sections
   return shuffleWithSeed(questions, testDef.seed + 13);
 }
 
