@@ -60,6 +60,7 @@
                 <button class="nav-tab" data-tab="general" onclick="filterTests('general')">📚 General</button>
                 <button class="nav-tab" data-tab="overall" onclick="filterTests('overall')">🏆 Overall</button>
                 <button class="nav-tab" data-tab="daily" onclick="filterTests('daily')">📅 Daily</button>
+                <button class="nav-tab" data-tab="history" onclick="filterTests('history')">📊 History</button>
             </nav>
 
             <!-- Test Cards -->
@@ -185,6 +186,130 @@
                 <button class="quiz-nav-btn primary" onclick="nextReview()">Next →</button>
             </div>
             <div class="question-navigator" id="reviewNavigator"></div>
+        </div>
+
+        <!-- ==========================================
+         HISTORY SCREEN
+         ========================================== -->
+        <div id="historyScreen" class="history-screen">
+            <!-- History Stats -->
+            <div class="history-stats-bar">
+                <div class="stat-card">
+                    <div class="stat-value" id="histTotalTests">0</div>
+                    <div class="stat-label">Tests Given</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="histBestScore">—</div>
+                    <div class="stat-label">Best Score</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="histAvgScore">—</div>
+                    <div class="stat-label">Avg Score</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="histTotalTime">0h</div>
+                    <div class="stat-label">Study Time</div>
+                </div>
+            </div>
+
+            <!-- Overall Performance Dashboard -->
+            <div id="overallDashboard" class="overall-dashboard">
+                <div class="section-title"><span class="icon">🎯</span> Overall Topic Mastery</div>
+                <p class="dashboard-subtitle">Aggregated across all your tests</p>
+                <div id="overallTopics" class="analysis-topics"></div>
+            </div>
+
+            <!-- History List -->
+            <div class="section-title"><span class="icon">📋</span> Past Tests</div>
+            <div id="historyList" class="history-list">
+                <!-- Populated by JS -->
+            </div>
+        </div>
+
+        <!-- ==========================================
+         ANALYSIS SCREEN
+         ========================================== -->
+        <div id="analysisScreen" class="analysis-screen">
+            <!-- Analysis Top Bar -->
+            <div class="analysis-topbar">
+                <button class="quiz-nav-btn" onclick="showHistoryScreen()">← Back to History</button>
+                <button class="quiz-nav-btn danger" id="deleteTestBtn" onclick="deleteCurrentAnalysis()">🗑️
+                    Delete</button>
+            </div>
+
+            <h2 class="analysis-title" id="analysisTitle"></h2>
+            <p class="analysis-date" id="analysisDate"></p>
+
+            <!-- Score Hero -->
+            <div class="results-hero" style="margin-bottom: 24px;">
+                <div class="results-score-circle" id="analysisScoreCircle">
+                    <span class="results-percentage" id="analysisScorePercent">0%</span>
+                    <span class="results-fraction" id="analysisScoreFraction">0/0</span>
+                </div>
+            </div>
+
+            <!-- Breakdown Cards -->
+            <div class="results-breakdown" style="margin-bottom: 24px;">
+                <div class="breakdown-card">
+                    <div class="breakdown-value correct" id="analysisCorrect">0</div>
+                    <div class="breakdown-label">Correct</div>
+                </div>
+                <div class="breakdown-card">
+                    <div class="breakdown-value wrong" id="analysisWrong">0</div>
+                    <div class="breakdown-label">Wrong</div>
+                </div>
+                <div class="breakdown-card">
+                    <div class="breakdown-value skipped" id="analysisSkipped">0</div>
+                    <div class="breakdown-label">Skipped</div>
+                </div>
+                <div class="breakdown-card">
+                    <div class="breakdown-value time" id="analysisTime">00:00</div>
+                    <div class="breakdown-label">Time Taken</div>
+                </div>
+            </div>
+
+            <!-- Recommendation Card -->
+            <div id="recommendationCard" class="recommendation-card">
+                <div class="recommendation-icon">💡</div>
+                <div class="recommendation-content">
+                    <strong id="recommendationTitle">Study Tip</strong>
+                    <p id="recommendationText"></p>
+                </div>
+            </div>
+
+            <!-- Improvement Trend -->
+            <div id="improvementSection" class="improvement-section" style="display:none;">
+                <div class="section-title"><span class="icon">📈</span> Improvement Trend</div>
+                <div id="improvementChart" class="improvement-chart"></div>
+            </div>
+
+            <!-- Topic-wise Performance -->
+            <div class="section-title"><span class="icon">📊</span> Topic-wise Performance</div>
+            <div id="analysisTopics" class="analysis-topics"></div>
+
+            <!-- Per-Question Breakdown -->
+            <div class="analysis-questions-header">
+                <div class="section-title" style="margin-top:24px;margin-bottom:8px;"><span class="icon">📝</span>
+                    Question-by-Question</div>
+                <div class="question-filter-bar" id="questionFilterBar">
+                    <button class="filter-btn active" data-filter="all"
+                        onclick="filterAnalysisQuestions('all')">All</button>
+                    <button class="filter-btn wrong" data-filter="wrong" onclick="filterAnalysisQuestions('wrong')">❌
+                        Wrong</button>
+                    <button class="filter-btn skipped" data-filter="skipped"
+                        onclick="filterAnalysisQuestions('skipped')">⏭ Skipped</button>
+                    <button class="filter-btn correct" data-filter="correct"
+                        onclick="filterAnalysisQuestions('correct')">✅ Correct</button>
+                </div>
+            </div>
+            <div class="question-count-label" id="filteredQuestionCount"></div>
+            <div id="analysisQuestions" class="analysis-questions"></div>
+
+            <!-- Actions -->
+            <div class="results-actions" style="margin-top:24px;">
+                <button class="quiz-nav-btn" onclick="showHistoryScreen()">← Back to History</button>
+                <button class="quiz-nav-btn primary" onclick="goHome()">🏠 Home</button>
+            </div>
         </div>
     </div>
 

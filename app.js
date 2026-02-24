@@ -52,6 +52,7 @@ let timerInterval = null;
 let timeRemaining = 0;
 let totalTestTime = 0;
 let reviewIndex = 0;
+let currentAnalysisIndex = -1;
 
 // ============================================
 // TEST DEFINITIONS
@@ -377,10 +378,21 @@ function buildTestQuestions(testDef) {
 function renderTestCards(tests) {
   const grid = document.getElementById('testGrid');
   grid.innerHTML = '';
+  const history = getTestHistory();
 
   tests.forEach(test => {
     const card = document.createElement('div');
     card.className = 'test-card';
+
+    // Check if this test was previously attempted
+    const attempts = history.filter(h => h.testId === test.id);
+    let attemptBadge = '';
+    if (attempts.length > 0) {
+      const best = Math.max(...attempts.map(a => a.percent));
+      const badgeClass = best >= 70 ? 'good' : best >= 40 ? 'average' : 'poor';
+      attemptBadge = `<div class="test-card-attempt"><span class="attempt-badge ${badgeClass}">✅ Best: ${best}%</span><span class="attempt-count">${attempts.length} attempt${attempts.length > 1 ? 's' : ''}</span></div>`;
+    }
+
     card.innerHTML = `
       <div class="test-card-header">
         <span class="test-card-type ${test.type}">${test.type}</span>
@@ -388,6 +400,7 @@ function renderTestCards(tests) {
       </div>
       <h3 class="test-card-title">${test.title}</h3>
       <p class="test-card-desc">${test.description}</p>
+      ${attemptBadge}
       <div class="test-card-meta">
         <span>📝 ${test.questionCount} Qs</span>
         <span>⏱️ ${test.timeMinutes} min</span>
@@ -408,6 +421,22 @@ function filterTests(category) {
   document.querySelectorAll('.nav-tab').forEach(tab => {
     tab.classList.toggle('active', tab.dataset.tab === category);
   });
+
+  const testGrid = document.getElementById('testGrid');
+  const historyScreen = document.getElementById('historyScreen');
+  const analysisScreen = document.getElementById('analysisScreen');
+
+  if (category === 'history') {
+    testGrid.style.display = 'none';
+    historyScreen.classList.add('active');
+    analysisScreen.classList.remove('active');
+    showHistoryScreen();
+    return;
+  }
+
+  testGrid.style.display = '';
+  historyScreen.classList.remove('active');
+  analysisScreen.classList.remove('active');
 
   let filtered;
   if (category === 'all') {
@@ -809,7 +838,15 @@ function goHome() {
   document.getElementById('quizScreen').classList.remove('active');
   document.getElementById('resultsScreen').classList.remove('active');
   document.getElementById('reviewScreen').classList.remove('active');
+  document.getElementById('historyScreen').classList.remove('active');
+  document.getElementById('analysisScreen').classList.remove('active');
   document.getElementById('homeScreen').classList.remove('hidden');
+  document.getElementById('testGrid').style.display = '';
+  // Reset nav tabs to 'all'
+  document.querySelectorAll('.nav-tab').forEach(tab => {
+    tab.classList.toggle('active', tab.dataset.tab === 'all');
+  });
+  renderTestCards(allTests);
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
@@ -817,6 +854,18 @@ function goHome() {
 // LOCAL STORAGE — History & Stats
 // ============================================
 function saveTestResult(result) {
+  // Also save per-question data for re-analysis
+  if (currentTest) {
+    result.questions = currentTest.questions.map(q => ({
+      question: q.question,
+      options: q.options,
+      answer: q.answer,
+      topic: q.topic,
+      explanation: q.explanation || ''
+    }));
+    result.userAnswers = [...userAnswers];
+  }
+
   const history = JSON.parse(localStorage.getItem('hau_test_history') || '[]');
   history.unshift(result);
   // Keep last 100 results
@@ -838,6 +887,429 @@ function updateHomeStats() {
   } else {
     document.getElementById('avgScore').textContent = '—';
   }
+}
+
+// ============================================
+// RELATIVE DATE HELPER
+// ============================================
+function relativeDate(dateStr) {
+  const d = new Date(dateStr);
+  const now = new Date();
+  const diffMs = now - d;
+  const diffMin = Math.floor(diffMs / 60000);
+  const diffHr = Math.floor(diffMs / 3600000);
+  const diffDay = Math.floor(diffMs / 86400000);
+
+  if (diffMin < 1) return 'Just now';
+  if (diffMin < 60) return `${diffMin}m ago`;
+  if (diffHr < 24) return `${diffHr}h ago`;
+  if (diffDay === 1) return 'Yesterday';
+  if (diffDay < 7) return `${diffDay} days ago`;
+  return d.toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' });
+}
+
+function formatDuration(seconds) {
+  const m = Math.floor(seconds / 60);
+  const s = seconds % 60;
+  return `${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+}
+
+// ============================================
+// HISTORY SCREEN
+// ============================================
+function showHistoryScreen() {
+  // Ensure correct screens are visible
+  document.getElementById('analysisScreen').classList.remove('active');
+  document.getElementById('historyScreen').classList.add('active');
+
+  const history = getTestHistory();
+
+  // Stats
+  document.getElementById('histTotalTests').textContent = history.length;
+
+  if (history.length > 0) {
+    const best = Math.max(...history.map(r => r.percent));
+    const avg = Math.round(history.reduce((s, r) => s + r.percent, 0) / history.length);
+    const totalSecs = history.reduce((s, r) => s + (r.timeTaken || 0), 0);
+    const hrs = Math.floor(totalSecs / 3600);
+    const mins = Math.floor((totalSecs % 3600) / 60);
+
+    document.getElementById('histBestScore').textContent = `${best}%`;
+    document.getElementById('histAvgScore').textContent = `${avg}%`;
+    document.getElementById('histTotalTime').textContent = hrs > 0 ? `${hrs}h ${mins}m` : `${mins}m`;
+  } else {
+    document.getElementById('histBestScore').textContent = '—';
+    document.getElementById('histAvgScore').textContent = '—';
+    document.getElementById('histTotalTime').textContent = '0m';
+  }
+
+  // List
+  const listEl = document.getElementById('historyList');
+  listEl.innerHTML = '';
+
+  if (history.length === 0) {
+    listEl.innerHTML = `
+      <div class="history-empty">
+        <div class="history-empty-icon">📝</div>
+        <h3>No Tests Yet!</h3>
+        <p>Complete a test to see your history and analysis here.</p>
+        <button class="quiz-nav-btn primary" onclick="goHome()" style="margin-top:16px;">🏠 Go to Tests</button>
+      </div>
+    `;
+    return;
+  }
+
+  history.forEach((entry, index) => {
+    const card = document.createElement('div');
+    card.className = 'history-card';
+
+    const scoreClass = entry.percent >= 70 ? 'good' : entry.percent >= 40 ? 'average' : 'poor';
+    const hasQuestions = entry.questions && entry.questions.length > 0;
+
+    card.innerHTML = `
+      <div class="history-card-left">
+        <div class="history-score-badge ${scoreClass}">${entry.percent}%</div>
+      </div>
+      <div class="history-card-center">
+        <div class="history-card-title">${entry.testTitle}</div>
+        <div class="history-card-meta">
+          <span>📝 ${entry.score}/${entry.total}</span>
+          <span>⏱️ ${formatDuration(entry.timeTaken || 0)}</span>
+          <span>📅 ${relativeDate(entry.date)}</span>
+        </div>
+      </div>
+      <div class="history-card-right">
+        ${hasQuestions ? `<button class="history-analyse-btn" onclick="showAnalysis(${index})">📊 Analyse</button>` : `<span class="history-no-data">No details</span>`}
+      </div>
+    `;
+    listEl.appendChild(card);
+  });
+
+  // Build overall performance dashboard
+  buildOverallDashboard();
+}
+
+// ============================================
+// OVERALL PERFORMANCE DASHBOARD
+// ============================================
+function buildOverallDashboard() {
+  const history = getTestHistory();
+  const dashboardEl = document.getElementById('overallDashboard');
+  const topicsEl = document.getElementById('overallTopics');
+
+  if (history.length === 0) {
+    dashboardEl.style.display = 'none';
+    return;
+  }
+
+  dashboardEl.style.display = 'block';
+  topicsEl.innerHTML = '';
+
+  // Aggregate topic stats across ALL tests
+  const aggTopicStats = {};
+
+  history.forEach(entry => {
+    if (!entry.questions || !entry.userAnswers) return;
+    entry.questions.forEach((q, i) => {
+      const topic = q.topic;
+      if (!aggTopicStats[topic]) aggTopicStats[topic] = { correct: 0, wrong: 0, skipped: 0, total: 0 };
+      aggTopicStats[topic].total++;
+      if (entry.userAnswers[i] === -1) aggTopicStats[topic].skipped++;
+      else if (entry.userAnswers[i] === q.answer) aggTopicStats[topic].correct++;
+      else aggTopicStats[topic].wrong++;
+    });
+  });
+
+  // Sort by accuracy (weakest first)
+  const sorted = Object.entries(aggTopicStats).sort((a, b) => {
+    const pctA = a[1].total > 0 ? (a[1].correct / a[1].total) * 100 : 0;
+    const pctB = b[1].total > 0 ? (b[1].correct / b[1].total) * 100 : 0;
+    return pctA - pctB;
+  });
+
+  sorted.forEach(([topic, stats]) => {
+    const pct = stats.total > 0 ? Math.round((stats.correct / stats.total) * 100) : 0;
+    const barClass = pct >= 70 ? 'good' : pct >= 40 ? 'average' : 'poor';
+    const label = TOPIC_LABELS[topic] || topic;
+    const strengthLabel = pct >= 70 ? '💪 Strong' : pct >= 40 ? '📈 Improving' : '⚠️ Needs Focus';
+
+    const row = document.createElement('div');
+    row.className = 'topic-row';
+    row.innerHTML = `
+      <div class="topic-row-header">
+        <span class="topic-name">${label}</span>
+        <span class="topic-strength ${barClass}">${strengthLabel}</span>
+        <span class="topic-score">${stats.correct}/${stats.total} (${pct}%)</span>
+      </div>
+      <div class="topic-bar">
+        <div class="topic-bar-fill ${barClass}" style="width: ${pct}%"></div>
+      </div>
+      <div class="topic-details">
+        <span class="topic-detail correct">✅ ${stats.correct}</span>
+        <span class="topic-detail wrong">❌ ${stats.wrong}</span>
+        <span class="topic-detail skip">⏭ ${stats.skipped}</span>
+      </div>
+    `;
+    topicsEl.appendChild(row);
+  });
+}
+
+// ============================================
+// ANALYSIS SCREEN
+// ============================================
+function showAnalysis(historyIndex) {
+  const history = getTestHistory();
+  if (historyIndex < 0 || historyIndex >= history.length) return;
+
+  const entry = history[historyIndex];
+  if (!entry.questions || !entry.userAnswers) {
+    alert('Detailed data not available for this test (taken before the update).');
+    return;
+  }
+
+  currentAnalysisIndex = historyIndex;
+
+  // Hide history, show analysis
+  document.getElementById('historyScreen').classList.remove('active');
+  document.getElementById('analysisScreen').classList.add('active');
+
+  // Title & date
+  document.getElementById('analysisTitle').textContent = entry.testTitle;
+  document.getElementById('analysisDate').textContent = new Date(entry.date).toLocaleDateString('en-IN', {
+    weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', hour: '2-digit', minute: '2-digit'
+  });
+
+  // Score circle
+  const circle = document.getElementById('analysisScoreCircle');
+  circle.className = 'results-score-circle';
+  if (entry.percent >= 70) circle.classList.add('good');
+  else if (entry.percent >= 40) circle.classList.add('average');
+  else circle.classList.add('poor');
+
+  document.getElementById('analysisScorePercent').textContent = `${entry.percent}%`;
+  document.getElementById('analysisScoreFraction').textContent = `${entry.score}/${entry.total}`;
+
+  // Breakdown
+  let correct = 0, wrong = 0, skipped = 0;
+  const topicStats = {};
+
+  entry.questions.forEach((q, i) => {
+    const topic = q.topic;
+    if (!topicStats[topic]) topicStats[topic] = { correct: 0, wrong: 0, skipped: 0, total: 0 };
+    topicStats[topic].total++;
+
+    if (entry.userAnswers[i] === -1) {
+      skipped++;
+      topicStats[topic].skipped++;
+    } else if (entry.userAnswers[i] === q.answer) {
+      correct++;
+      topicStats[topic].correct++;
+    } else {
+      wrong++;
+      topicStats[topic].wrong++;
+    }
+  });
+
+  document.getElementById('analysisCorrect').textContent = correct;
+  document.getElementById('analysisWrong').textContent = wrong;
+  document.getElementById('analysisSkipped').textContent = skipped;
+  document.getElementById('analysisTime').textContent = formatDuration(entry.timeTaken || 0);
+
+  // Topic-wise performance with progress bars
+  const topicsEl = document.getElementById('analysisTopics');
+  topicsEl.innerHTML = '';
+
+  // Sort topics: weakest first
+  const sortedTopics = Object.entries(topicStats).sort((a, b) => {
+    const pctA = a[1].total > 0 ? (a[1].correct / a[1].total) * 100 : 0;
+    const pctB = b[1].total > 0 ? (b[1].correct / b[1].total) * 100 : 0;
+    return pctA - pctB;
+  });
+
+  sortedTopics.forEach(([topic, stats]) => {
+    const pct = stats.total > 0 ? Math.round((stats.correct / stats.total) * 100) : 0;
+    const barClass = pct >= 70 ? 'good' : pct >= 40 ? 'average' : 'poor';
+    const label = TOPIC_LABELS[topic] || topic;
+    const strengthLabel = pct >= 70 ? '💪 Strong' : pct >= 40 ? '📈 Improving' : '⚠️ Weak';
+
+    const row = document.createElement('div');
+    row.className = 'topic-row';
+    row.innerHTML = `
+      <div class="topic-row-header">
+        <span class="topic-name">${label}</span>
+        <span class="topic-strength ${barClass}">${strengthLabel}</span>
+        <span class="topic-score">${stats.correct}/${stats.total} (${pct}%)</span>
+      </div>
+      <div class="topic-bar">
+        <div class="topic-bar-fill ${barClass}" style="width: ${pct}%"></div>
+      </div>
+    `;
+    topicsEl.appendChild(row);
+  });
+
+  // Per-question breakdown (collapsible)
+  const questionsEl = document.getElementById('analysisQuestions');
+  questionsEl.innerHTML = '';
+
+  const letters = ['A', 'B', 'C', 'D'];
+  entry.questions.forEach((q, i) => {
+    const userAns = entry.userAnswers[i];
+    let status, statusClass;
+    if (userAns === -1) {
+      status = 'Skipped';
+      statusClass = 'skipped';
+    } else if (userAns === q.answer) {
+      status = 'Correct';
+      statusClass = 'correct';
+    } else {
+      status = 'Wrong';
+      statusClass = 'wrong';
+    }
+
+    const item = document.createElement('div');
+    item.className = `question-item ${statusClass}`;
+    item.setAttribute('data-status', statusClass);
+    const isExpanded = statusClass !== 'correct';
+    item.innerHTML = `
+      <div class="question-item-header" onclick="this.parentElement.classList.toggle('collapsed')">
+        <span class="question-item-num">Q${i + 1}</span>
+        <span class="question-item-topic">${TOPIC_LABELS[q.topic] || q.topic}</span>
+        <span class="question-item-status ${statusClass}">${status}</span>
+        <span class="question-item-toggle">▼</span>
+      </div>
+      <div class="question-item-body">
+        <p class="question-item-text">${q.question}</p>
+        <div class="question-item-answers">
+          ${q.options.map((opt, j) => {
+      let cls = '';
+      if (j === q.answer) cls = 'correct-answer';
+      if (userAns === j && j !== q.answer) cls = 'wrong-answer';
+      return `<div class="question-item-option ${cls}"><span class="option-letter">${letters[j]}</span> ${opt}</div>`;
+    }).join('')}
+        </div>
+        ${q.explanation ? `<div class="question-item-explanation">💡 ${q.explanation}</div>` : ''}
+      </div>
+    `;
+    if (!isExpanded) item.classList.add('collapsed');
+    questionsEl.appendChild(item);
+  });
+
+  // Update filter count
+  document.getElementById('filteredQuestionCount').textContent = `Showing all ${entry.questions.length} questions`;
+  document.querySelectorAll('#questionFilterBar .filter-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.filter === 'all');
+  });
+
+  // Generate recommendation
+  generateRecommendation(entry, topicStats, correct, wrong, skipped);
+
+  // Improvement trend — find all attempts of the same test
+  const sameTestAttempts = history.filter(h => h.testId === entry.testId && h.questions).sort((a, b) => new Date(a.date) - new Date(b.date));
+  const improvementSection = document.getElementById('improvementSection');
+
+  if (sameTestAttempts.length > 1) {
+    improvementSection.style.display = 'block';
+    const chartEl = document.getElementById('improvementChart');
+    chartEl.innerHTML = '';
+
+    const maxScore = 100;
+    sameTestAttempts.forEach((attempt, idx) => {
+      const isCurrentAttempt = attempt.date === entry.date;
+      const bar = document.createElement('div');
+      bar.className = `trend-bar ${isCurrentAttempt ? 'current' : ''}`;
+      bar.innerHTML = `
+        <div class="trend-bar-fill" style="height: ${attempt.percent}%"></div>
+        <div class="trend-bar-label">${attempt.percent}%</div>
+        <div class="trend-bar-date">${new Date(attempt.date).toLocaleDateString('en-IN', { day: 'numeric', month: 'short' })}</div>
+      `;
+      chartEl.appendChild(bar);
+    });
+  } else {
+    improvementSection.style.display = 'none';
+  }
+
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function deleteCurrentAnalysis() {
+  if (currentAnalysisIndex < 0) return;
+  if (!confirm('Are you sure you want to delete this test from history?')) return;
+
+  const history = getTestHistory();
+  history.splice(currentAnalysisIndex, 1);
+  localStorage.setItem('hau_test_history', JSON.stringify(history));
+  currentAnalysisIndex = -1;
+
+  updateHomeStats();
+
+  // Go back to history
+  document.getElementById('analysisScreen').classList.remove('active');
+  document.getElementById('historyScreen').classList.add('active');
+  showHistoryScreen();
+}
+
+// ============================================
+// QUESTION FILTER
+// ============================================
+function filterAnalysisQuestions(filter) {
+  document.querySelectorAll('#questionFilterBar .filter-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.filter === filter);
+  });
+
+  const items = document.querySelectorAll('#analysisQuestions .question-item');
+  let visibleCount = 0;
+
+  items.forEach(item => {
+    const status = item.getAttribute('data-status');
+    if (filter === 'all' || status === filter) {
+      item.style.display = '';
+      visibleCount++;
+    } else {
+      item.style.display = 'none';
+    }
+  });
+
+  const filterLabels = { all: 'all', wrong: 'wrong', skipped: 'skipped', correct: 'correct' };
+  document.getElementById('filteredQuestionCount').textContent = `Showing ${visibleCount} ${filterLabels[filter]} question${visibleCount !== 1 ? 's' : ''}`;
+}
+
+// ============================================
+// SMART RECOMMENDATIONS
+// ============================================
+function generateRecommendation(entry, topicStats, correct, wrong, skipped) {
+  const card = document.getElementById('recommendationCard');
+  const titleEl = document.getElementById('recommendationTitle');
+  const textEl = document.getElementById('recommendationText');
+
+  // Find weakest topic
+  let weakestTopic = null;
+  let weakestPct = 100;
+  Object.entries(topicStats).forEach(([topic, stats]) => {
+    const pct = stats.total > 0 ? (stats.correct / stats.total) * 100 : 0;
+    if (pct < weakestPct) {
+      weakestPct = pct;
+      weakestTopic = topic;
+    }
+  });
+
+  const percent = entry.percent;
+  const topicLabel = weakestTopic ? (TOPIC_LABELS[weakestTopic] || weakestTopic) : '';
+
+  if (percent >= 80) {
+    titleEl.textContent = '🌟 Excellent Performance!';
+    textEl.textContent = `You're doing great! ${weakestPct < 70 && weakestTopic ? `Focus a bit more on ${topicLabel} (${Math.round(weakestPct)}%) to push towards perfection.` : 'Keep maintaining this level of preparation. Try tougher tests!'}`;
+  } else if (percent >= 60) {
+    titleEl.textContent = '📈 Good Progress!';
+    textEl.textContent = `Solid attempt! ${weakestTopic ? `Your weakest area is ${topicLabel} (${Math.round(weakestPct)}%). Dedicate extra study time there.` : 'Review your mistakes and try again soon.'} ${skipped > 0 ? `Also, you skipped ${skipped} question${skipped > 1 ? 's' : ''} — try to attempt all next time!` : ''}`;
+  } else if (percent >= 40) {
+    titleEl.textContent = '💪 Keep Practicing!';
+    textEl.textContent = `You're getting there! ${weakestTopic ? `Priority: study ${topicLabel} — you scored only ${Math.round(weakestPct)}% there.` : 'Review all explanations carefully.'} Read the explanations below for wrong answers and make notes.`;
+  } else {
+    titleEl.textContent = '📚 Time to Focus!';
+    textEl.textContent = `Don't worry — every attempt makes you stronger! ${weakestTopic ? `Start with ${topicLabel} basics first.` : 'Go through the study material again.'} Read each explanation below and note down key facts. You've got this! 💪`;
+  }
+
+  card.style.display = 'flex';
 }
 
 // ============================================
